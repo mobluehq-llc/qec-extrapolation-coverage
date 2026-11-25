@@ -1,8 +1,10 @@
 # How often do extrapolated logical error rates contain the truth?
 
-Reproducibility bundle for paper L (arXiv version v7): a coverage benchmark of 95% intervals from extrapolated logical error rates, for a rotated surface-code memory at d=3, 5, 7 under circuit-level depolarising noise with matching decoding. **Staged 24 November 2026; not yet published (no repository URL or DOI yet).**
+Reproducibility bundle for paper L (arXiv version v7): a coverage benchmark of 95% intervals from extrapolated logical error rates, for a rotated surface-code memory at d=3, 5, 7 under circuit-level depolarising noise with matching decoding.
 
 **Author:** Adam Faust, MOBLUEHQ, Inc. See `CITATION.cff`.
+
+**Cite as:** Adam Faust, MOBLUEHQ, Inc. Release v1.0, Zenodo, https://doi.org/10.5281/zenodo.24521483 . Repository: https://github.com/mobluehq-llc/qec-extrapolation-coverage . See `CITATION.cff`.
 
 ## What the paper is
 Resource estimates for fault-tolerant machines rest on logical error rates too small to simulate; they come from fits at high physical error rate p. The paper fixes the truth with reference estimates (fault-stratified importance sampling, exact low-weight enumeration, and a certified d=9 interval from betting-type bounds), fits five registered recipes R1-R5 (free power law, fixed exponent (d+1)/2 per distance, shared curve, smooth prefactor, extrapolation in distance) to 300 replicate data sets on two windows of p, and counts how often the 95% interval contains the reference. Registered, corrective and exploratory results are labelled as in the paper.
