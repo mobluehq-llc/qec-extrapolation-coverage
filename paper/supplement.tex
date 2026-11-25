@@ -22,7 +22,7 @@
 \renewcommand{\thesection}{S\arabic{section}}
 \newif\ifdraftmark
 \IfFileExists{draft.flag}{\draftmarktrue}{\draftmarkfalse}
-\ifdraftmark\AddToShipoutPictureFG{\AtPageUpperLeft{\raisebox{-1.1cm}{\makebox[\paperwidth]{\textsf{\small DRAFT v12, not for distribution}}}}}\fi
+\ifdraftmark\AddToShipoutPictureFG{\AtPageUpperLeft{\raisebox{-1.1cm}{\makebox[\paperwidth]{\textsf{\small DRAFT v14, not for distribution}}}}}\fi
 \sloppy
 \setlength{\textfloatsep}{6pt}\setlength{\floatsep}{6pt}\setlength{\intextsep}{6pt}
 \begin{document}
@@ -36,7 +36,7 @@
 \title{Supplemental Material: Calibration of extrapolated logical error rates: nominal 95\% intervals of constant-prefactor fits showed low empirical coverage}
 \author{Adam Faust}
 \affiliation{MOBLUEHQ, Inc., Long Grove, Illinois, USA}
-\date{\ifdraftmark DRAFT v12, not for distribution. \fi November 2026.}
+\date{\ifdraftmark DRAFT v14, not for distribution. \fi 25 November 2026.}
 \maketitle
 All logical error rates are block rates, per memory experiment of $d$ rounds, unless stated. The \emph{first window} is $p=4\times10^{-3}$ to $1.5\times10^{-2}$ and the \emph{second} is $1.5\times10^{-3}$ to $4\times10^{-3}$. ``Registered'' and ``post hoc'' are used as in Table~\ref{tab:status}. Generated tables label the first window ``registered'' and the second ``below the crossing'', and call post hoc rows ``corrective''.
 

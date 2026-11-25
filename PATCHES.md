@@ -27,3 +27,8 @@ Some files were pinned by SHA-256 prefix in `plans/` before their runs; those pi
 | `code/betting_monotone_check.py` | `07cbd034bb6e090ab2dbfc95c5f0269f3f903e7e5a38abf20f6fa10710da4f7c` | `2ea56d667512233471aff52b3679784248266bdc2bf00eccfed237b64e49bcfb` |
 | `code/zerofault_r2e.py` | `a9dcee59b106320e890b159e68f9cfe82e23b527cc0e8dc0d05f9515bbcc38b4` | `ae903776e0c6eff512b79f510c0c92a4728aff15b0abe16bd2df212b57402a01` |
 | `code/run_cov.py` | `dca715984dd56cf97a0c5813daa26fab3a7e2f96f549c6371794bfdafb0e1139` | `50a4e0028ea55cbff9f708335bab0733f7624273c17bf962aa7edcd3f6f3d2c4` |
+
+## 2026-11-25, after v1.1 (paper text only, no new Zenodo version)
+- paper/main.tex, supplement.tex, xr_*.tex: paper text v14. Sec. I archive link cites release v1.1 (10.5281/zenodo.24543057). No number, table or output changed.
+- paper/ABSTRACT.txt: current (v14) abstract replaces the v8 one.
+- README.md: cite line names the v1.1 DOI.
