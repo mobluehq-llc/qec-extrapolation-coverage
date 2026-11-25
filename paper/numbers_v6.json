@@ -1,0 +1,2657 @@
+{
+ "v6.dist.pr.t3": {
+  "value": "0.98",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round projection of the d=3,5 references to d=7, divided by the d=7 reference"
+ },
+ "v6.dist.blk.t3": {
+  "value": "1.17",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "the same on block rates (registered arithmetic)"
+ },
+ "v6.lam35.t3": {
+  "value": "12.9",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=3 to 5, reference values (3 significant figures)"
+ },
+ "v6.lam57.t3": {
+  "value": "12.6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=5 to 7, reference values"
+ },
+ "v6.lamblk57.t3": {
+  "value": "8.98",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "block-rate ratio p_L(5)/p_L(7), reference values"
+ },
+ "v6.dist.pr.t4": {
+  "value": "1.31",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round projection of the d=3,5 references to d=7, divided by the d=7 reference"
+ },
+ "v6.dist.blk.t4": {
+  "value": "1.56",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "the same on block rates (registered arithmetic)"
+ },
+ "v6.lam35.t4": {
+  "value": "121",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=3 to 5, reference values (3 significant figures)"
+ },
+ "v6.lam57.t4": {
+  "value": "158",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=5 to 7, reference values"
+ },
+ "v6.lamblk57.t4": {
+  "value": "113",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "block-rate ratio p_L(5)/p_L(7), reference values"
+ },
+ "v6.dist.pr.t5": {
+  "value": "1.28",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round projection of the d=3,5 references to d=7, divided by the d=7 reference"
+ },
+ "v6.dist.blk.t5": {
+  "value": "1.53",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "the same on block rates (registered arithmetic)"
+ },
+ "v6.lam35.t5": {
+  "value": "1{,}240",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=3 to 5, reference values (3 significant figures)"
+ },
+ "v6.lam57.t5": {
+  "value": "1{,}590",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=5 to 7, reference values"
+ },
+ "v6.lamblk57.t5": {
+  "value": "1{,}140",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "block-rate ratio p_L(5)/p_L(7), reference values"
+ },
+ "v6.dist.pr.t6": {
+  "value": "1.08",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round projection of the d=3,5 references to d=7, divided by the d=7 reference"
+ },
+ "v6.dist.blk.t6": {
+  "value": "1.29",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "the same on block rates (registered arithmetic)"
+ },
+ "v6.lam35.t6": {
+  "value": "12{,}600",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=3 to 5, reference values (3 significant figures)"
+ },
+ "v6.lam57.t6": {
+  "value": "13{,}600",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda, d=5 to 7, reference values"
+ },
+ "v6.lamblk57.t6": {
+  "value": "9{,}740",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "block-rate ratio p_L(5)/p_L(7), reference values"
+ },
+ "v6.dist.pr.min": {
+  "value": "0.98",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.dist.pr.max": {
+  "value": "1.31",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.dist.sm.t4": {
+  "value": "1.45",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round distance factor against the smooth-curve d=7 reference (post hoc)"
+ },
+ "v6.dist.sm.t5": {
+  "value": "1.16",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round distance factor against the smooth-curve d=7 reference (post hoc)"
+ },
+ "v6.alg": {
+  "value": "25/21",
+  "source": "algebra",
+  "how": "block-rate overshoot of a per-round geometric step from d=3,5 to 7"
+ },
+ "v6.algval": {
+  "value": "1.19",
+  "source": "algebra",
+  "how": ""
+ },
+ "v6.alg9": {
+  "value": "49/45",
+  "source": "algebra",
+  "how": "the same from d=5,7 to 9"
+ },
+ "v6.r5.w1.hits.blk.t3": {
+  "value": "17",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w1.hits.pr.t3": {
+  "value": "44",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w1.cov.blk.t3": {
+  "value": "5.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.cov.pr.t3": {
+  "value": "14.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.rat.blk.t3": {
+  "value": "2.59",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w1.rat.pr.t3": {
+  "value": "2.18",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w1.fit.pr.t3": {
+  "value": "2.23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w1.hits.blk.t4": {
+  "value": "6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w1.hits.pr.t4": {
+  "value": "8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w1.cov.blk.t4": {
+  "value": "2.0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.cov.pr.t4": {
+  "value": "2.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.rat.blk.t4": {
+  "value": "9.75",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w1.rat.pr.t4": {
+  "value": "8.19",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w1.fit.pr.t4": {
+  "value": "6.27",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w1.hits.blk.t5": {
+  "value": "6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w1.hits.pr.t5": {
+  "value": "8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w1.cov.blk.t5": {
+  "value": "2.0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.cov.pr.t5": {
+  "value": "2.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.rat.blk.t5": {
+  "value": "31.5",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w1.rat.pr.t5": {
+  "value": "26.5",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w1.fit.pr.t5": {
+  "value": "20.6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w1.hits.blk.t6": {
+  "value": "8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w1.hits.pr.t6": {
+  "value": "8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w1.cov.blk.t6": {
+  "value": "2.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.cov.pr.t6": {
+  "value": "2.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w1.rat.blk.t6": {
+  "value": "88.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w1.rat.pr.t6": {
+  "value": "74.5",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w1.fit.pr.t6": {
+  "value": "68.9",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w1.shift": {
+  "value": "0.84",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median ratio of per-round to block R5 prediction"
+ },
+ "v6.r5.w2.hits.blk.t3": {
+  "value": "214",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w2.hits.pr.t3": {
+  "value": "281",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w2.cov.blk.t3": {
+  "value": "71.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.cov.pr.t3": {
+  "value": "93.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.rat.blk.t3": {
+  "value": "1.26",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w2.rat.pr.t3": {
+  "value": "1.06",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w2.fit.pr.t3": {
+  "value": "1.08",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w2.hits.blk.t4": {
+  "value": "248",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w2.hits.pr.t4": {
+  "value": "266",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w2.cov.blk.t4": {
+  "value": "82.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.cov.pr.t4": {
+  "value": "88.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.rat.blk.t4": {
+  "value": "1.72",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w2.rat.pr.t4": {
+  "value": "1.44",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w2.fit.pr.t4": {
+  "value": "1.10",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w2.hits.blk.t5": {
+  "value": "265",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w2.hits.pr.t5": {
+  "value": "271",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w2.cov.blk.t5": {
+  "value": "88.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.cov.pr.t5": {
+  "value": "90.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.rat.blk.t5": {
+  "value": "1.92",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w2.rat.pr.t5": {
+  "value": "1.62",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w2.fit.pr.t5": {
+  "value": "1.26",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w2.hits.blk.t6": {
+  "value": "274",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, block-rate projection (registered)"
+ },
+ "v6.r5.w2.hits.pr.t6": {
+  "value": "280",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R5 hits of 300, per-round projection (corrective)"
+ },
+ "v6.r5.w2.cov.blk.t6": {
+  "value": "91.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.cov.pr.t6": {
+  "value": "93.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.r5.w2.rat.blk.t6": {
+  "value": "1.89",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median R5 / d=7 reference, block"
+ },
+ "v6.r5.w2.rat.pr.t6": {
+  "value": "1.59",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per round"
+ },
+ "v6.r5.w2.fit.pr.t6": {
+  "value": "1.47",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 median divided by the per-round reference projection (fit-input factor)"
+ },
+ "v6.r5.w2.shift": {
+  "value": "0.84",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "median ratio of per-round to block R5 prediction"
+ },
+ "v6.r5.w2.far.below90.pr": {
+  "value": "1",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round R5 cells at p<=1e-4 below 90%, second window"
+ },
+ "v6.r5.w2.far.below90.blk": {
+  "value": "2",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.r5.w2.cov.pr.min": {
+  "value": "89",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.r5.w2.cov.pr.max": {
+  "value": "94",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.r5.w2.rat.pr.min": {
+  "value": "1.06",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.r5.w2.rat.pr.max": {
+  "value": "1.62",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.r5.w1.cov.pr.farmax": {
+  "value": "2.7",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.r5.w1.share.t4": {
+  "value": "87",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "share of ln(total per-round R5 error) from the fitted inputs, percent"
+ },
+ "v6.r5.w1.share.t6": {
+  "value": "98",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.ds.truth.lam": {
+  "value": "12.6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.truth.d": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.truth.q": {
+  "value": "882",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.truth.st": {
+  "value": "18{,}522",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.truth.dblk": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R1.lam": {
+  "value": "9.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R1.d": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R1.q": {
+  "value": "1{,}058",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R1.st": {
+  "value": "24{,}334",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R1.dblk": {
+  "value": "25",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R2.lam": {
+  "value": "13.0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R2.d": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R2.q": {
+  "value": "882",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R2.st": {
+  "value": "18{,}522",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R2.dblk": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R3.lam": {
+  "value": "12.1",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R3.d": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R3.q": {
+  "value": "882",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R3.st": {
+  "value": "18{,}522",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R3.dblk": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R4p.lam": {
+  "value": "13.0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R4p.d": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R4p.q": {
+  "value": "882",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R4p.st": {
+  "value": "18{,}522",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R4p.dblk": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R2lin.lam": {
+  "value": "11.5",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R2lin.d": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R2lin.q": {
+  "value": "882",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R2lin.st": {
+  "value": "18{,}522",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R2lin.dblk": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R4.lam": {
+  "value": "13.0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R4.d": {
+  "value": "21",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R4.q": {
+  "value": "882",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R4.st": {
+  "value": "18{,}522",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R4.dblk": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.R5.lam": {
+  "value": "9.4",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "per-round Lambda from d=5 to 7 at p=1e-3 (R5: from R1 at d=3 and 5)"
+ },
+ "v6.ds.R5.d": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest odd d with block rate <= 1e-12 per d-round experiment, per-round continuation"
+ },
+ "v6.ds.R5.q": {
+  "value": "1{,}058",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^2"
+ },
+ "v6.ds.R5.st": {
+  "value": "24{,}334",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "2 d^3"
+ },
+ "v6.ds.R5.dblk": {
+  "value": "27",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d* by the block-rate rule (registered arithmetic)"
+ },
+ "v6.ds.inflation": {
+  "value": "1.31",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "qubit-rounds of R1 and R5 over the reference, per round"
+ },
+ "v6.eq.maxdiff": {
+  "value": "0.8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest |equal-weight / inverse-variance - 1| over the four d=7 cells, percent"
+ },
+ "v6.run.zmax": {
+  "value": "1.2",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest |z| between the two runs of a d=7 cell"
+ },
+ "v6.d7c.ivw.t3": {
+  "value": "6.80",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run1.t3": {
+  "value": "6.89",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run2.t3": {
+  "value": "6.71",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.w1.t3": {
+  "value": "0.50",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "inverse-variance weight of run 1"
+ },
+ "v6.d7c.z.t3": {
+  "value": "+0.41",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "z of run 1 minus run 2"
+ },
+ "v6.d7c.ivw.t4": {
+  "value": "5.72",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run1.t4": {
+  "value": "6.19",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run2.t4": {
+  "value": "5.24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.w1.t4": {
+  "value": "0.50",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "inverse-variance weight of run 1"
+ },
+ "v6.d7c.z.t4": {
+  "value": "+1.19",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "z of run 1 minus run 2"
+ },
+ "v6.d7c.ivw.t5": {
+  "value": "5.65",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run1.t5": {
+  "value": "6.12",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run2.t5": {
+  "value": "5.22",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.w1.t5": {
+  "value": "0.48",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "inverse-variance weight of run 1"
+ },
+ "v6.d7c.z.t5": {
+  "value": "+1.02",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "z of run 1 minus run 2"
+ },
+ "v6.d7c.ivw.t6": {
+  "value": "6.41",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run1.t6": {
+  "value": "6.22",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.run2.t6": {
+  "value": "6.70",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "p_L / p^4 in units of 1e6, d=7"
+ },
+ "v6.d7c.w1.t6": {
+  "value": "0.61",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "inverse-variance weight of run 1"
+ },
+ "v6.d7c.z.t6": {
+  "value": "-0.49",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "z of run 1 minus run 2"
+ },
+ "v6.smooth.chi2": {
+  "value": "6.4",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "A exp(-lambda) on the six runs at p<=1e-4 (post hoc fallback)"
+ },
+ "v6.smooth.dof": {
+  "value": "5",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.smooth.p": {
+  "value": "0.27",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.smooth.A": {
+  "value": "6.38",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "fitted A in units of 1e6"
+ },
+ "v6.smooth.zmax": {
+  "value": "1.8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.smooth.reg.chi2": {
+  "value": "44.3",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "pre-registered model A exp(-lambda)(1+Bp), all 8 runs: failed"
+ },
+ "v6.smooth.reg.dof": {
+  "value": "6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.dip.se.min": {
+  "value": "7",
+  "source": "numbers.json truthse.d7.*",
+  "how": ""
+ },
+ "v6.dip.se.max": {
+  "value": "8",
+  "source": "numbers.json truthse.d7.*",
+  "how": ""
+ },
+ "v6.r2d7.w1.ivw.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.equal.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run1.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run2.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.smoothed.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.min.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w1.max.t3": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w1.ivw.t4": {
+  "value": "14",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.equal.t4": {
+  "value": "14",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run1.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run2.t4": {
+  "value": "92",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.smoothed.t4": {
+  "value": "83",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.min.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w1.max.t4": {
+  "value": "92",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w1.ivw.t5": {
+  "value": "27",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.equal.t5": {
+  "value": "23",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run1.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run2.t5": {
+  "value": "89",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.smoothed.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.min.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w1.max.t5": {
+  "value": "89",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w1.ivw.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.equal.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run1.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.run2.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.smoothed.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w1.min.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w1.max.t6": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w1.rat.min": {
+  "value": "0.85",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 median prediction / reference at 1e-4 and 1e-5, smallest over references"
+ },
+ "v6.r2d7.w1.rat.max": {
+  "value": "1.03",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest"
+ },
+ "v6.r2d7.w2.ivw.t3": {
+  "value": "86",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.equal.t3": {
+  "value": "86",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run1.t3": {
+  "value": "67",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run2.t3": {
+  "value": "95",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.smoothed.t3": {
+  "value": "86",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.min.t3": {
+  "value": "67",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w2.max.t3": {
+  "value": "95",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w2.ivw.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.equal.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run1.t4": {
+  "value": "20",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run2.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.smoothed.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.min.t4": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w2.max.t4": {
+  "value": "20",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w2.ivw.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.equal.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run1.t5": {
+  "value": "8",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run2.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.smoothed.t5": {
+  "value": "35",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.min.t5": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w2.max.t5": {
+  "value": "35",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w2.ivw.t6": {
+  "value": "72",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.equal.t6": {
+  "value": "82",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run1.t6": {
+  "value": "29",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.run2.t6": {
+  "value": "95",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.smoothed.t6": {
+  "value": "60",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 hit fraction (percent of 300) against this reference"
+ },
+ "v6.r2d7.w2.min.t6": {
+  "value": "29",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "smallest over the five references"
+ },
+ "v6.r2d7.w2.max.t6": {
+  "value": "95",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest over the five references"
+ },
+ "v6.r2d7.w2.rat.min": {
+  "value": "1.06",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "R2 d=7 median prediction / reference at 1e-4 and 1e-5, smallest over references"
+ },
+ "v6.r2d7.w2.rat.max": {
+  "value": "1.29",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest"
+ },
+ "v6.r2d7.eq.maxmove": {
+  "value": "31",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest change in hits of 300 from equal weights"
+ },
+ "v6.ref7.cpuh": {
+  "value": "100",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "draws for 1.5% plain se, summed over the four d=7 cells, at the median measured rate: 99.8 CPU-h"
+ },
+ "v6.ref7.cpuh.safe": {
+  "value": "150",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "with the x1.5 safety factor: 149.6 CPU-h"
+ },
+ "v6.ref7.draws": {
+  "value": "6.0\\times10^{9}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "draws with the safety factor"
+ },
+ "v6.ref7.bar": {
+  "value": "1.5",
+  "source": "PLAN.md amendment item 3",
+  "how": "target relative se, percent"
+ },
+ "v6.sweep.cpuh.min": {
+  "value": "6",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "windows at the measured rate: 5.7 CPU-h"
+ },
+ "v6.sweep.cpuh.max": {
+  "value": "35",
+  "source": "PLAN.md addendum (a)",
+  "how": "windows at a third of the rate plus references"
+ },
+ "v6.cross.35": {
+  "value": "7.74",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "crossing of the window means, units of 1e-3"
+ },
+ "v6.cross.med.35": {
+  "value": "7.74",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "crossing of the window medians"
+ },
+ "v6.cross.37": {
+  "value": "8.28",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "crossing of the window means, units of 1e-3"
+ },
+ "v6.cross.med.37": {
+  "value": "8.30",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "crossing of the window medians"
+ },
+ "v6.cross.57": {
+  "value": "8.89",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "crossing of the window means, units of 1e-3"
+ },
+ "v6.cross.med.57": {
+  "value": "8.93",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "crossing of the window medians"
+ },
+ "v6.tail.d9": {
+  "value": "10^{-241}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "Chernoff bound on P(W>=121), d=9, p=1e-4"
+ },
+ "v6.tail.d7": {
+  "value": "10^{-161}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "d=7, p=1e-3 (largest mean number of faults)"
+ },
+ "v6.br.d3.t3.poly": {
+  "value": "4.659\\times10^{-4}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "surrogate polynomial through order 4"
+ },
+ "v6.br.d3.t3.L": {
+  "value": "4.658\\times10^{-4}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified lower end, full surrogate value"
+ },
+ "v6.br.d3.t3.U": {
+  "value": "4.662\\times10^{-4}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified upper end"
+ },
+ "v6.br.d3.t3.known": {
+  "value": "-0.026",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "orders 5-7 of shells <=4 relative to the polynomial, percent"
+ },
+ "v6.br.d3.t3.width": {
+  "value": "0.095",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "bracket width (U-L) over polynomial, always percent"
+ },
+ "v6.br.d3.t3.in": {
+  "value": "24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified replicate intervals (of 24) containing the whole bracket"
+ },
+ "v6.br.d3.t3.n": {
+  "value": "24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.br.d3.t4.poly": {
+  "value": "4.737589\\times10^{-6}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "surrogate polynomial through order 4"
+ },
+ "v6.br.d3.t4.L": {
+  "value": "4.737588\\times10^{-6}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified lower end, full surrogate value"
+ },
+ "v6.br.d3.t4.U": {
+  "value": "4.737592\\times10^{-6}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified upper end"
+ },
+ "v6.br.d3.t4.known": {
+  "value": "-3\\times10^{-5}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "orders 5-7 of shells <=4 relative to the polynomial, percent"
+ },
+ "v6.br.d3.t4.width": {
+  "value": "1.0\\times10^{-4}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "bracket width (U-L) over polynomial, always percent"
+ },
+ "v6.br.d3.t4.in": {
+  "value": "24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified replicate intervals (of 24) containing the whole bracket"
+ },
+ "v6.br.d3.t4.n": {
+  "value": "24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.br.d5.t3.poly": {
+  "value": "6.231\\times10^{-5}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "surrogate polynomial through order 4"
+ },
+ "v6.br.d5.t3.L": {
+  "value": "5.193\\times10^{-5}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified lower end, full surrogate value"
+ },
+ "v6.br.d5.t3.U": {
+  "value": "1.061\\times10^{-3}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified upper end"
+ },
+ "v6.br.d5.t3.known": {
+  "value": "-17",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "orders 5-7 of shells <=4 relative to the polynomial, percent"
+ },
+ "v6.br.d5.t3.width": {
+  "value": "1600",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "bracket width (U-L) over polynomial, always percent"
+ },
+ "v6.br.d5.t3.in": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified replicate intervals (of 24) containing the whole bracket"
+ },
+ "v6.br.d5.t3.n": {
+  "value": "24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.br.d5.t4.poly": {
+  "value": "6.293\\times10^{-8}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "surrogate polynomial through order 4"
+ },
+ "v6.br.d5.t4.L": {
+  "value": "6.277\\times10^{-8}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified lower end, full surrogate value"
+ },
+ "v6.br.d5.t4.U": {
+  "value": "8.018\\times10^{-8}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified upper end"
+ },
+ "v6.br.d5.t4.known": {
+  "value": "-0.25",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "orders 5-7 of shells <=4 relative to the polynomial, percent"
+ },
+ "v6.br.d5.t4.width": {
+  "value": "28",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "bracket width (U-L) over polynomial, always percent"
+ },
+ "v6.br.d5.t4.in": {
+  "value": "0",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "certified replicate intervals (of 24) containing the whole bracket"
+ },
+ "v6.br.d5.t4.n": {
+  "value": "24",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.br.is.touch": {
+  "value": "78",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "IS runs (of 80) whose interval touches the certified bracket"
+ },
+ "v6.br.is.n": {
+  "value": "80",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": ""
+ },
+ "v6.br.d3.width.max": {
+  "value": "0.1",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "bracket width at d=3, p=1e-3, percent"
+ },
+ "v6.br.d5.t4.pct": {
+  "value": "28",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "percent"
+ },
+ "v6.br.d5.t3.lower": {
+  "value": "17",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "known orders 5-7 lower the polynomial by this percent at d=5, p=1e-3"
+ },
+ "v6.grid.lower": {
+  "value": "0.001, 0.00183, 0.00336, 0.00617, 0.0113, 0.0207, 0.038, 0.0697, 0.128, 0.235, 0.43, 0.789, 1.45, 2.65, 4.86, 8.92, 16.4, 30",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "the 18 fixed multipliers g_j (lambda_j = g_j / b_w), lower limit"
+ },
+ "v6.grid.upper": {
+  "value": "0.001, 0.0015, 0.00225, 0.00338, 0.00508, 0.00762, 0.0114, 0.0172, 0.0258, 0.0387, 0.0581, 0.0873, 0.131, 0.197, 0.295, 0.443, 0.665, 0.999",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "the 18 fixed multipliers g_j (lambda_j = g_j / b_w), upper limit"
+ },
+ "v6.grid.lower.full": {
+  "value": "12",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "number of lower-limit multipliers admissible for every trial mean"
+ },
+ "v6.s16.ratio11": {
+  "value": "8\\times10^{-10}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "relative excess of the w=11 upper limit over the zero-data limit"
+ },
+ "v6.s16.f11": {
+  "value": "0.0146",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "upper limit on f_11"
+ },
+ "v6.s16.f12": {
+  "value": "0.0147",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "upper limit on f_12"
+ },
+ "v6.s16.ymax": {
+  "value": "4.0\\times10^{-7}",
+  "source": "results/L_redteam_gemini.json (code/redteam_checks_gemini.py)",
+  "how": "largest score of a failing draw in strata 11 and 12"
+ },
+ "v6.cv.w1.R1.d3.t3": {
+  "value": "60.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d3.t3": {
+  "value": "51--67",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d3.t3": {
+  "value": "93.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d3.t3": {
+  "value": "90--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d3.t4": {
+  "value": "23.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d3.t4": {
+  "value": "19--27",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d3.t4": {
+  "value": "91.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d3.t4": {
+  "value": "90--92",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d3.t5": {
+  "value": "18.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d3.t5": {
+  "value": "16--20",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d3.t5": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d3.t5": {
+  "value": "91--92",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d3.t6": {
+  "value": "14.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d3.t6": {
+  "value": "12--15",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d3.t6": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d3.t6": {
+  "value": "91--91",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d5.t3": {
+  "value": "2.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d5.t3": {
+  "value": "0--3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d5.t3": {
+  "value": "92.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d5.t3": {
+  "value": "85--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d5.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d5.t4": {
+  "value": "93.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d5.t4": {
+  "value": "94--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d5.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d5.t5": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d5.t5": {
+  "value": "93--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d5.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d5.t6": {
+  "value": "92.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d5.t6": {
+  "value": "92--93",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d7.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d7.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d7.t3": {
+  "value": "92.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d7.t3": {
+  "value": "70--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d7.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d7.t4": {
+  "value": "92.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d7.t4": {
+  "value": "85--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d7.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d7.t5": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d7.t5": {
+  "value": "91--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R1.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R1.d7.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R1.d7.t6": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R1.d7.t6": {
+  "value": "93--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d3.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d3.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d3.t3": {
+  "value": "68.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d3.t3": {
+  "value": "27--92",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d3.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d3.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d3.t4": {
+  "value": "83.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d3.t4": {
+  "value": "44--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d3.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d3.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d3.t5": {
+  "value": "35.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d3.t5": {
+  "value": "7--79",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d3.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d3.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d3.t6": {
+  "value": "63.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d3.t6": {
+  "value": "24--92",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d5.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d5.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d5.t3": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d5.t3": {
+  "value": "73--97",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d5.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d5.t4": {
+  "value": "33.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d5.t4": {
+  "value": "7--73",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d5.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d5.t5": {
+  "value": "32.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d5.t5": {
+  "value": "7--73",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d5.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d5.t6": {
+  "value": "79.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d5.t6": {
+  "value": "36--97",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d7.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d7.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d7.t3": {
+  "value": "85.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d7.t3": {
+  "value": "9--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d7.t4": {
+  "value": "13.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d7.t4": {
+  "value": "0--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d7.t4": {
+  "value": "0--86",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d7.t5": {
+  "value": "27.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d7.t5": {
+  "value": "0--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d7.t5": {
+  "value": "0--88",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R2.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R2.d7.t6": {
+  "value": "0--72",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R2.d7.t6": {
+  "value": "72.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R2.d7.t6": {
+  "value": "0--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d3.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d3.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d3.t3": {
+  "value": "96.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d3.t3": {
+  "value": "76--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d3.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d3.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d3.t4": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d3.t4": {
+  "value": "72--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d3.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d3.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d3.t5": {
+  "value": "84.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d3.t5": {
+  "value": "42--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d3.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d3.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d3.t6": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d3.t6": {
+  "value": "70--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d5.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d5.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d5.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d5.t3": {
+  "value": "0--8",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d5.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d5.t4": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d5.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d5.t5": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d5.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d5.t6": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d7.t3": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d7.t3": {
+  "value": "0--0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d7.t3": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d7.t3": {
+  "value": "7--98",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d7.t4": {
+  "value": "37.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d7.t4": {
+  "value": "0--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d7.t4": {
+  "value": "0--34",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d7.t5": {
+  "value": "57.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d7.t5": {
+  "value": "0--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d7.t5": {
+  "value": "0--39",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R3.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R3.d7.t6": {
+  "value": "0--93",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R3.d7.t6": {
+  "value": "12.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R3.d7.t6": {
+  "value": "0--98",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d3.t3": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d3.t3": {
+  "value": "95--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d3.t3": {
+  "value": "96.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d3.t3": {
+  "value": "96--97",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d3.t4": {
+  "value": "95.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d3.t4": {
+  "value": "94--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d3.t4": {
+  "value": "97.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d3.t4": {
+  "value": "97--98",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d3.t5": {
+  "value": "95.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d3.t5": {
+  "value": "95--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d3.t5": {
+  "value": "98.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d3.t5": {
+  "value": "98--98",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d3.t6": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d3.t6": {
+  "value": "95--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d3.t6": {
+  "value": "98.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d3.t6": {
+  "value": "98--98",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d5.t3": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d5.t3": {
+  "value": "94--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d5.t3": {
+  "value": "94.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d5.t3": {
+  "value": "94--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d5.t4": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d5.t4": {
+  "value": "94--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d5.t4": {
+  "value": "96.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d5.t4": {
+  "value": "95--97",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d5.t5": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d5.t5": {
+  "value": "94--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d5.t5": {
+  "value": "96.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d5.t5": {
+  "value": "95--97",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d5.t6": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d5.t6": {
+  "value": "94--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d5.t6": {
+  "value": "96.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d5.t6": {
+  "value": "95--97",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d7.t3": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d7.t3": {
+  "value": "91--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d7.t3": {
+  "value": "93.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d7.t3": {
+  "value": "82--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d7.t4": {
+  "value": "82.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d7.t4": {
+  "value": "53--93",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d7.t4": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d7.t4": {
+  "value": "84--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d7.t5": {
+  "value": "81.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d7.t5": {
+  "value": "47--94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d7.t5": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d7.t5": {
+  "value": "83--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R4p.d7.t6": {
+  "value": "93.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R4p.d7.t6": {
+  "value": "78--95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R4p.d7.t6": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R4p.d7.t6": {
+  "value": "92--96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R5.d7.t3": {
+  "value": "5.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R5.d7.t3": {
+  "value": "3--7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R5.d7.t3": {
+  "value": "71.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R5.d7.t3": {
+  "value": "56--81",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R5.d7.t4": {
+  "value": "2.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R5.d7.t4": {
+  "value": "1--3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R5.d7.t4": {
+  "value": "82.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R5.d7.t4": {
+  "value": "78--88",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R5.d7.t5": {
+  "value": "2.0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R5.d7.t5": {
+  "value": "2--3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R5.d7.t5": {
+  "value": "88.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R5.d7.t5": {
+  "value": "85--90",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w1.R5.d7.t6": {
+  "value": "2.7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w1.R5.d7.t6": {
+  "value": "2--3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.cv.w2.R5.d7.t6": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "coverage at the reference point estimate, percent"
+ },
+ "v6.rg.w2.R5.d7.t6": {
+  "value": "90--93",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest and largest hit fraction as one shared reference moves over estimate +/- 1.96 se, percent"
+ },
+ "v6.fx.w1.pt": {
+  "value": "24",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells (of 24) below 90% at the point estimate"
+ },
+ "v6.fx.w1.robust": {
+  "value": "19",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells (of 24) below 90% at every reference value in the range"
+ },
+ "v6.fx.w1.strad": {
+  "value": "5",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells whose range crosses 90%"
+ },
+ "v6.fx.w1.above": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells at or above 90% over the whole range"
+ },
+ "v6.fx.w1.robust.lowd": {
+  "value": "16",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 16 at d=3,5"
+ },
+ "v6.fx.w1.robust.d7": {
+  "value": "3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 8 at d=7"
+ },
+ "v6.fx.w1.strad.d7": {
+  "value": "5",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 8 at d=7"
+ },
+ "v6.fx.w1.strad.lowd": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 16 at d=3,5"
+ },
+ "v6.R1.w1.robust": {
+  "value": "12",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R1 cells (of 12) below 90% over the whole range"
+ },
+ "v6.R1.w1.above": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R1 cells (of 12) at or above 90% over the whole range"
+ },
+ "v6.R1.w1.strad": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R4p.w1.lowd.strad": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R4' cells at d=3,5 whose range crosses 90%"
+ },
+ "v6.R4p.w1.d7.strad": {
+  "value": "3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R4' cells at d=7 whose range crosses 90%"
+ },
+ "v6.R4p.w1.lowd.rgmin": {
+  "value": "94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest hit fraction in the range, R4' at d=3,5"
+ },
+ "v6.R4p.w1.lowd.rgmax": {
+  "value": "96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "largest"
+ },
+ "v6.R4p.w1.d7.rgmin": {
+  "value": "47",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R4p.w1.d7.rgmax": {
+  "value": "95",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R1.w1.rgmin": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R1.w1.rgmax": {
+  "value": "67",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R5.w1.rgmin": {
+  "value": "1",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "registered (block-rate) R5"
+ },
+ "v6.R5.w1.rgmax": {
+  "value": "7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.fx.w2.pt": {
+  "value": "19",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells (of 24) below 90% at the point estimate"
+ },
+ "v6.fx.w2.robust": {
+  "value": "11",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells (of 24) below 90% at every reference value in the range"
+ },
+ "v6.fx.w2.strad": {
+  "value": "13",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells whose range crosses 90%"
+ },
+ "v6.fx.w2.above": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R2+R3 cells at or above 90% over the whole range"
+ },
+ "v6.fx.w2.robust.lowd": {
+  "value": "7",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 16 at d=3,5"
+ },
+ "v6.fx.w2.robust.d7": {
+  "value": "4",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 8 at d=7"
+ },
+ "v6.fx.w2.strad.d7": {
+  "value": "4",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 8 at d=7"
+ },
+ "v6.fx.w2.strad.lowd": {
+  "value": "9",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "of 16 at d=3,5"
+ },
+ "v6.R1.w2.robust": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R1 cells (of 12) below 90% over the whole range"
+ },
+ "v6.R1.w2.above": {
+  "value": "9",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R1 cells (of 12) at or above 90% over the whole range"
+ },
+ "v6.R1.w2.strad": {
+  "value": "3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R4p.w2.lowd.strad": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R4' cells at d=3,5 whose range crosses 90%"
+ },
+ "v6.R4p.w2.d7.strad": {
+  "value": "3",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "R4' cells at d=7 whose range crosses 90%"
+ },
+ "v6.R4p.w2.lowd.rgmin": {
+  "value": "94",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "smallest hit fraction in the range, R4' at d=3,5"
+ },
+ "v6.R4p.w2.lowd.rgmax": {
+  "value": "98",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "largest"
+ },
+ "v6.R4p.w2.d7.rgmin": {
+  "value": "82",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R4p.w2.d7.rgmax": {
+  "value": "96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R1.w2.rgmin": {
+  "value": "70",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R1.w2.rgmax": {
+  "value": "96",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ },
+ "v6.R5.w2.rgmin": {
+  "value": "56",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": "registered (block-rate) R5"
+ },
+ "v6.R5.w2.rgmax": {
+  "value": "93",
+  "source": "results/L_amend_gemini.json (first window), results/L_r4p_bw.json (second window)",
+  "how": ""
+ }
+}

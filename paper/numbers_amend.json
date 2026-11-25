@@ -1,0 +1,1382 @@
+{
+ "am.cov.pri.R4p.d3.t3": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d3.t3": {
+  "value": "96.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d3.t3": {
+  "value": "0.99",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d3.t3": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d3.t4": {
+  "value": "95.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d3.t4": {
+  "value": "96.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d3.t4": {
+  "value": "1.02",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d3.t4": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d3.t5": {
+  "value": "95.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d3.t5": {
+  "value": "96.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d3.t5": {
+  "value": "1.00",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d3.t5": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d3.t6": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d3.t6": {
+  "value": "96.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d3.t6": {
+  "value": "1.01",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d3.t6": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d5.t3": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d5.t3": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d5.t3": {
+  "value": "1.03",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d5.t3": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d5.t4": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d5.t4": {
+  "value": "95.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d5.t4": {
+  "value": "0.99",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d5.t4": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d5.t5": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d5.t5": {
+  "value": "95.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d5.t5": {
+  "value": "0.99",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d5.t5": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d5.t6": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d5.t6": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d5.t6": {
+  "value": "1.02",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d5.t6": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d7.t3": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d7.t3": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d7.t3": {
+  "value": "1.00",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d7.t3": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d7.t4": {
+  "value": "82.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d7.t4": {
+  "value": "87.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d7.t4": {
+  "value": "1.17",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d7.t4": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d7.t5": {
+  "value": "81.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d7.t5": {
+  "value": "86.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d7.t5": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d7.t5": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R4p.d7.t6": {
+  "value": "93.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R4p.d7.t6": {
+  "value": "94.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R4p.d7.t6": {
+  "value": "1.04",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R4p.d7.t6": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d3.t3": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d3.t3": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d3.t3": {
+  "value": "0.98",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d3.t3": {
+  "value": "10",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d3.t4": {
+  "value": "93.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d3.t4": {
+  "value": "96.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d3.t4": {
+  "value": "1.01",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d3.t4": {
+  "value": "11",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d3.t5": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d3.t5": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d3.t5": {
+  "value": "0.98",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d3.t5": {
+  "value": "11",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d3.t6": {
+  "value": "92.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d3.t6": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d3.t6": {
+  "value": "1.00",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d3.t6": {
+  "value": "11",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d5.t3": {
+  "value": "68.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d5.t3": {
+  "value": "73.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d5.t3": {
+  "value": "1.07",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d5.t3": {
+  "value": "9",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d5.t4": {
+  "value": "84.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d5.t4": {
+  "value": "88.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d5.t4": {
+  "value": "1.05",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d5.t4": {
+  "value": "10",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d5.t5": {
+  "value": "83.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d5.t5": {
+  "value": "87.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d5.t5": {
+  "value": "1.05",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d5.t5": {
+  "value": "10",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d5.t6": {
+  "value": "65.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d5.t6": {
+  "value": "69.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d5.t6": {
+  "value": "1.08",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d5.t6": {
+  "value": "10",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d7.t3": {
+  "value": "6.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d7.t3": {
+  "value": "16.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d7.t3": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d7.t3": {
+  "value": "8",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d7.t4": {
+  "value": "1.45",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d7.t4": {
+  "value": "9",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d7.t5": {
+  "value": "1.47",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d7.t5": {
+  "value": "9",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.cov.pri.R2lin.d7.t6": {
+  "value": "0.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.cov.sca.R2lin.d7.t6": {
+  "value": "1.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "hits/300, percent"
+ },
+ "am.ratio.R2lin.d7.t6": {
+  "value": "1.30",
+  "source": "results/L_amend_gemini.json",
+  "how": "median prediction / reference"
+ },
+ "am.hw.R2lin.d7.t6": {
+  "value": "9",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d3.t3": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d3.t4": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d3.t5": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d3.t6": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d5.t3": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d5.t4": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d5.t5": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d5.t6": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d7.t3": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d7.t4": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d7.t5": {
+  "value": "37",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.hw.R4.d7.t6": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": "median 95% half-width, percent of prediction: sqrt(upper/lower)-1"
+ },
+ "am.R4p.lowd.covmin": {
+  "value": "94.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "R4' primary coverage, d=3,5, min"
+ },
+ "am.R4p.lowd.covmax": {
+  "value": "95.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "max"
+ },
+ "am.R4p.lowd.ratmin": {
+  "value": "0.99",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.lowd.ratmax": {
+  "value": "1.03",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.d7.ratmin": {
+  "value": "1.00",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.d7.ratmax": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.all.ratmin": {
+  "value": "0.99",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.all.ratmax": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.hwmin": {
+  "value": "29",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R4p.hwmax": {
+  "value": "38",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d7.ratmin": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d7.ratmax": {
+  "value": "1.47",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d3.covmin": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d3.covmax": {
+  "value": "93.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d5.covmin": {
+  "value": "65.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d5.covmax": {
+  "value": "84.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d7.covmin": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.R2lin.d7.covmax": {
+  "value": "6.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.mech.step1": {
+  "value": "2.83",
+  "source": "results/L_amend_gemini.json",
+  "how": "successive-decade ratio of median R4/R4', same at every d to 2 decimals"
+ },
+ "am.mech.step2": {
+  "value": "3.13",
+  "source": "results/L_amend_gemini.json",
+  "how": "successive-decade ratio of median R4/R4', same at every d to 2 decimals"
+ },
+ "am.mech.step3": {
+  "value": "3.16",
+  "source": "results/L_amend_gemini.json",
+  "how": "successive-decade ratio of median R4/R4', same at every d to 2 decimals"
+ },
+ "am.mech.sqrt10": {
+  "value": "3.16",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.mech.logshare.min": {
+  "value": "0.90",
+  "source": "results/L_amend_gemini.json",
+  "how": "min log share at 1e-4..1e-6"
+ },
+ "am.mech.logshare.max": {
+  "value": "1.01",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.proj.t3": {
+  "value": "7.92\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.dist.t3": {
+  "value": "1.17",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(5)^2/p_L(3) over d=7 reference"
+ },
+ "am.r5.med.t3": {
+  "value": "1.76\\times10^{-5}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.tot.t3": {
+  "value": "2.59",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.fit.t3": {
+  "value": "2.23",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.share.t3": {
+  "value": "84",
+  "source": "results/L_amend_gemini.json",
+  "how": "ln(fit-input factor)/ln(total), percent"
+ },
+ "am.r5.proj.t4": {
+  "value": "8.89\\times10^{-10}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.dist.t4": {
+  "value": "1.56",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(5)^2/p_L(3) over d=7 reference"
+ },
+ "am.r5.med.t4": {
+  "value": "5.58\\times10^{-9}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.tot.t4": {
+  "value": "9.75",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.fit.t4": {
+  "value": "6.27",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.share.t4": {
+  "value": "81",
+  "source": "results/L_amend_gemini.json",
+  "how": "ln(fit-input factor)/ln(total), percent"
+ },
+ "am.r5.proj.t5": {
+  "value": "8.64\\times10^{-14}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.dist.t5": {
+  "value": "1.53",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(5)^2/p_L(3) over d=7 reference"
+ },
+ "am.r5.med.t5": {
+  "value": "1.78\\times10^{-12}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.tot.t5": {
+  "value": "31.5",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.fit.t5": {
+  "value": "20.6",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.share.t5": {
+  "value": "88",
+  "source": "results/L_amend_gemini.json",
+  "how": "ln(fit-input factor)/ln(total), percent"
+ },
+ "am.r5.proj.t6": {
+  "value": "8.26\\times10^{-18}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.dist.t6": {
+  "value": "1.29",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(5)^2/p_L(3) over d=7 reference"
+ },
+ "am.r5.med.t6": {
+  "value": "5.69\\times10^{-16}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.tot.t6": {
+  "value": "88.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.fit.t6": {
+  "value": "68.9",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.share.t6": {
+  "value": "94",
+  "source": "results/L_amend_gemini.json",
+  "how": "ln(fit-input factor)/ln(total), percent"
+ },
+ "am.r5.dist.min": {
+  "value": "1.17",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.r5.dist.max": {
+  "value": "1.56",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.reg.cells": {
+  "value": "52",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.reg.flip": {
+  "value": "5",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.reg.fixed": {
+  "value": "47",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.all.cells": {
+  "value": "152",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.all.flip": {
+  "value": "34",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.flip.hitmax.min": {
+  "value": "92.7",
+  "source": "results/L_amend_gemini.json",
+  "how": "smallest upper bound of hit fraction among the undecided registered cells"
+ },
+ "am.ru.flip.hitmax.max": {
+  "value": "95.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.flip.relse.min": {
+  "value": "7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.flip.relse.max": {
+  "value": "8",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t3.pt": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t3.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t3.max": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t3.flag": {
+  "value": "decided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t4.pt": {
+  "value": "13.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t4.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t4.max": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t4.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t5.pt": {
+  "value": "27.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t5.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t5.max": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t5.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t6.pt": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t6.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t6.max": {
+  "value": "71.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R2.d7.t6.flag": {
+  "value": "decided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t3.pt": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t3.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t3.max": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t3.flag": {
+  "value": "decided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t4.pt": {
+  "value": "37.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t4.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t4.max": {
+  "value": "95.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t4.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t5.pt": {
+  "value": "57.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t5.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t5.max": {
+  "value": "95.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t5.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t6.pt": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t6.min": {
+  "value": "0.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t6.max": {
+  "value": "92.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R3.d7.t6.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t3.pt": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t3.min": {
+  "value": "91.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t3.max": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t3.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t4.pt": {
+  "value": "82.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t4.min": {
+  "value": "52.7",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t4.max": {
+  "value": "93.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t4.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t5.pt": {
+  "value": "81.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t5.min": {
+  "value": "47.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t5.max": {
+  "value": "94.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t5.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t6.pt": {
+  "value": "93.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t6.min": {
+  "value": "78.3",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t6.max": {
+  "value": "95.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.R4p.d7.t6.flag": {
+  "value": "undecided",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ru.fixed.lowd.hitmax": {
+  "value": "0.3",
+  "source": "results/L_amend_gemini.json",
+  "how": "largest hit fraction of R2,R3 at d=3,5 over the reference range"
+ },
+ "am.ru.R4p.lowd.flip": {
+  "value": "0",
+  "source": "results/L_amend_gemini.json",
+  "how": "R4' primary cells at d=3,5 that can change class"
+ },
+ "am.ru.R4p.d7.flip": {
+  "value": "4",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.cov": {
+  "value": "78.0",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.hits": {
+  "value": "234",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.cplo": {
+  "value": "72.9",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.cphi": {
+  "value": "82.6",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.ratio": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.q25": {
+  "value": "1.07",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.q75": {
+  "value": "1.27",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.width": {
+  "value": "1.64",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.lam.ref": {
+  "value": "1.71\\times10^{-3}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.truth.p7": {
+  "value": "6.80\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.truth.lam": {
+  "value": "8.98",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.truth.d": {
+  "value": "23",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.truth.q": {
+  "value": "1{,}058",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.truth.st": {
+  "value": "24{,}334",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.truth.rel": {
+  "value": "1.00",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R1.p7": {
+  "value": "1.53\\times10^{-5}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R1.lam": {
+  "value": "6.64",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R1.d": {
+  "value": "25",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R1.q": {
+  "value": "1{,}250",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R1.st": {
+  "value": "31{,}250",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R1.rel": {
+  "value": "2.25",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R2.p7": {
+  "value": "5.31\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2.lam": {
+  "value": "9.28",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2.d": {
+  "value": "21",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2.q": {
+  "value": "882",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2.st": {
+  "value": "18{,}522",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2.rel": {
+  "value": "0.78",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R3.p7": {
+  "value": "5.44\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R3.lam": {
+  "value": "8.64",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R3.d": {
+  "value": "23",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R3.q": {
+  "value": "1{,}058",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R3.st": {
+  "value": "24{,}334",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R3.rel": {
+  "value": "0.80",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R4.p7": {
+  "value": "9.85\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4.lam": {
+  "value": "9.26",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4.d": {
+  "value": "23",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4.q": {
+  "value": "1{,}058",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4.st": {
+  "value": "24{,}334",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4.rel": {
+  "value": "1.45",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R4p.p7": {
+  "value": "6.77\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4p.lam": {
+  "value": "9.26",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4p.d": {
+  "value": "23",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4p.q": {
+  "value": "1{,}058",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4p.st": {
+  "value": "24{,}334",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R4p.rel": {
+  "value": "1.00",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R2lin.p7": {
+  "value": "7.99\\times10^{-6}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2lin.lam": {
+  "value": "8.21",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2lin.d": {
+  "value": "23",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2lin.q": {
+  "value": "1{,}058",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2lin.st": {
+  "value": "24{,}334",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R2lin.rel": {
+  "value": "1.18",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.ds.R5.p7": {
+  "value": "1.76\\times10^{-5}",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R5.lam": {
+  "value": "5.67",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R5.d": {
+  "value": "27",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R5.q": {
+  "value": "1{,}458",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R5.st": {
+  "value": "39{,}366",
+  "source": "results/L_amend_gemini.json",
+  "how": ""
+ },
+ "am.ds.R5.rel": {
+  "value": "2.59",
+  "source": "results/L_amend_gemini.json",
+  "how": "p_L(7) at 1e-3 over the reference"
+ },
+ "am.cross": {
+  "value": "8.9",
+  "source": "results/L_amend_gemini.json",
+  "how": "d=5/d=7 window-median crossing, units of 1e-3; results/fit_d357.json"
+ }
+}

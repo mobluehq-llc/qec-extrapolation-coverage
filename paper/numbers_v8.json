@@ -1,0 +1,62 @@
+{
+ "v8.z.d5.t5": {
+  "value": "+0.07",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d7.t4": {
+  "value": "+1.19",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d7.t6": {
+  "value": "-0.49",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d7.t3": {
+  "value": "+0.41",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d3.t5": {
+  "value": "-1.28",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d3.t6": {
+  "value": "+0.15",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d3.t3": {
+  "value": "+0.62",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d7.t5": {
+  "value": "+1.02",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d3.t4": {
+  "value": "-1.64",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d5.t6": {
+  "value": "-0.79",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d5.t4": {
+  "value": "-0.44",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ },
+ "v8.z.d5.t3": {
+  "value": "-0.07",
+  "source": "results/truth_*, truthextra_*",
+  "how": "run 1 minus run 2 over combined se"
+ }
+}

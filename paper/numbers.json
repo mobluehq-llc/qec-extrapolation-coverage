@@ -1,0 +1,2772 @@
+{
+ "truth.d3.t3": {
+  "value": "4.71\\times10^{-4}",
+  "source": "results/truth_d3_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d3.t3": {
+  "value": "1.3",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d3.t4": {
+  "value": "4.65\\times10^{-6}",
+  "source": "results/truth_d3_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d3.t4": {
+  "value": "1.4",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d3.t5": {
+  "value": "4.79\\times10^{-8}",
+  "source": "results/truth_d3_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d3.t5": {
+  "value": "1.3",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d3.t6": {
+  "value": "4.72\\times10^{-10}",
+  "source": "results/truth_d3_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d3.t6": {
+  "value": "1.4",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d5.t3": {
+  "value": "6.11\\times10^{-5}",
+  "source": "results/truth_d5_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d5.t3": {
+  "value": "1.3",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d5.t4": {
+  "value": "6.43\\times10^{-8}",
+  "source": "results/truth_d5_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d5.t4": {
+  "value": "1.3",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d5.t5": {
+  "value": "6.44\\times10^{-11}",
+  "source": "results/truth_d5_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d5.t5": {
+  "value": "1.4",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d5.t6": {
+  "value": "6.24\\times10^{-14}",
+  "source": "results/truth_d5_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d5.t6": {
+  "value": "1.4",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d7.t3": {
+  "value": "6.80\\times10^{-6}",
+  "source": "results/truth_d7_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d7.t3": {
+  "value": "3.2",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d7.t4": {
+  "value": "5.72\\times10^{-10}",
+  "source": "results/truth_d7_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d7.t4": {
+  "value": "7.0",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d7.t5": {
+  "value": "5.65\\times10^{-14}",
+  "source": "results/truth_d7_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d7.t5": {
+  "value": "7.8",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.d7.t6": {
+  "value": "6.41\\times10^{-18}",
+  "source": "results/truth_d7_p*.json + truthextra",
+  "how": "inverse-variance combination of run 1 and run 2"
+ },
+ "truthse.d7.t6": {
+  "value": "7.4",
+  "source": "same",
+  "how": "combined se / combined estimate, percent"
+ },
+ "truth.zmax": {
+  "value": "1.64",
+  "source": "results/truth_*, truthextra_*",
+  "how": "max |z| between run 1 and run 2 over the 12 cells"
+ },
+ "truthse.lowd.min": {
+  "value": "1.3",
+  "source": "same",
+  "how": "min rel se, d=3,5"
+ },
+ "truthse.lowd.max": {
+  "value": "1.4",
+  "source": "same",
+  "how": "max rel se, d=3,5"
+ },
+ "truthse.d7.far.min": {
+  "value": "7",
+  "source": "same",
+  "how": "min rel se, d=7, targets 1e-4..1e-6"
+ },
+ "truthse.d7.far.max": {
+  "value": "8",
+  "source": "same",
+  "how": "max rel se, d=7, targets 1e-4..1e-6"
+ },
+ "val.rows": {
+  "value": "16",
+  "source": "results/L_truth_validation.csv",
+  "how": "data rows"
+ },
+ "val.eligible": {
+  "value": "16",
+  "source": "same",
+  "how": "rows with eligible=1"
+ },
+ "val.ok": {
+  "value": "16",
+  "source": "same",
+  "how": "eligible rows with |z|<=2"
+ },
+ "val.zmax": {
+  "value": "1.94",
+  "source": "same",
+  "how": "max |z|"
+ },
+ "val.minerr": {
+  "value": "1000",
+  "source": "same",
+  "how": "fewest direct-MC logical errors in a cell"
+ },
+ "val.pmin": {
+  "value": "4.6\\times10^{-6}",
+  "source": "same",
+  "how": "smallest validated p_L"
+ },
+ "reps": {
+  "value": "300",
+  "source": "results/fit_d357.json",
+  "how": "replicates"
+ },
+ "windowpoints": {
+  "value": "4500",
+  "source": "same",
+  "how": "(rep,d,window p) points"
+ },
+ "cov.pri.R1.d3.t6": {
+  "value": "14.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d3.t5": {
+  "value": "18.3",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d3.t4": {
+  "value": "23.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d3.t3": {
+  "value": "60.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d5.t3": {
+  "value": "2.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R1.d7.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d3.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d3.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d3.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d3.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d5.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d7.t5": {
+  "value": "27.3",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d7.t4": {
+  "value": "13.7",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R2.d7.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d3.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d3.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d3.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d3.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d5.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d7.t5": {
+  "value": "57.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d7.t4": {
+  "value": "37.7",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R3.d7.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d3.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d3.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d3.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d3.t3": {
+  "value": "17.3",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d5.t3": {
+  "value": "10.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R4.d7.t3": {
+  "value": "23.7",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R5.d7.t6": {
+  "value": "2.7",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R5.d7.t5": {
+  "value": "2.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R5.d7.t4": {
+  "value": "2.0",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.pri.R5.d7.t3": {
+  "value": "5.7",
+  "source": "results/L_coverage.csv",
+  "how": "hits/300, percent"
+ },
+ "cells.pri": {
+  "value": "52",
+  "source": "results/L_coverage.csv",
+  "how": "cells"
+ },
+ "cells.pri.zero": {
+  "value": "36",
+  "source": "results/L_coverage.csv",
+  "how": "cells with 0 hits"
+ },
+ "cells.pri.below90": {
+  "value": "52",
+  "source": "results/L_coverage.csv",
+  "how": "cells with coverage < 0.90"
+ },
+ "cells.pri.firm": {
+  "value": "52",
+  "source": "results/L_coverage.csv",
+  "how": "cells with CP upper < 0.90"
+ },
+ "cells.pri.calibrated": {
+  "value": "0",
+  "source": "results/L_coverage.csv",
+  "how": "cells in 93-97%"
+ },
+ "cells.pri.above97": {
+  "value": "0",
+  "source": "results/L_coverage.csv",
+  "how": "cells above 97%"
+ },
+ "cov.pri.max": {
+  "value": "60.0",
+  "source": "results/L_coverage.csv",
+  "how": "largest coverage"
+ },
+ "cov.pri.median.R1": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.pri.median.R2": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.pri.median.R3": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.pri.median.R4": {
+  "value": "0.0",
+  "source": "results/L_coverage.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.pri.median.R5": {
+  "value": "2.3",
+  "source": "results/L_coverage.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.sca.R1.d3.t6": {
+  "value": "28.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d3.t5": {
+  "value": "35.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d3.t4": {
+  "value": "40.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d3.t3": {
+  "value": "68.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d5.t6": {
+  "value": "2.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d5.t5": {
+  "value": "3.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d5.t4": {
+  "value": "5.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d5.t3": {
+  "value": "16.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d7.t6": {
+  "value": "1.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d7.t5": {
+  "value": "1.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d7.t4": {
+  "value": "1.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R1.d7.t3": {
+  "value": "10.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d3.t6": {
+  "value": "2.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d3.t5": {
+  "value": "1.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d3.t4": {
+  "value": "3.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d3.t3": {
+  "value": "2.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d5.t6": {
+  "value": "2.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d5.t5": {
+  "value": "0.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d5.t4": {
+  "value": "0.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d5.t3": {
+  "value": "9.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d7.t6": {
+  "value": "96.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d7.t5": {
+  "value": "100.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d7.t4": {
+  "value": "100.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R2.d7.t3": {
+  "value": "56.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d3.t6": {
+  "value": "75.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d3.t5": {
+  "value": "52.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d3.t4": {
+  "value": "87.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d3.t3": {
+  "value": "78.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d5.t3": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d7.t6": {
+  "value": "50.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d7.t5": {
+  "value": "100.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d7.t4": {
+  "value": "100.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R3.d7.t3": {
+  "value": "1.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d3.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d3.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d3.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d3.t3": {
+  "value": "32.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d5.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d5.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d5.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d5.t3": {
+  "value": "21.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d7.t6": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d7.t5": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d7.t4": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R4.d7.t3": {
+  "value": "33.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R5.d7.t6": {
+  "value": "16.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R5.d7.t5": {
+  "value": "14.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R5.d7.t4": {
+  "value": "13.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cov.sca.R5.d7.t3": {
+  "value": "28.3",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "hits/300, percent"
+ },
+ "cells.sca": {
+  "value": "52",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "cells"
+ },
+ "cells.sca.zero": {
+  "value": "13",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "cells with 0 hits"
+ },
+ "cells.sca.below90": {
+  "value": "47",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "cells with coverage < 0.90"
+ },
+ "cells.sca.firm": {
+  "value": "46",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "cells with CP upper < 0.90"
+ },
+ "cells.sca.calibrated": {
+  "value": "1",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "cells in 93-97%"
+ },
+ "cells.sca.above97": {
+  "value": "4",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "cells above 97%"
+ },
+ "cov.sca.max": {
+  "value": "100.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "largest coverage"
+ },
+ "cov.sca.median.R1": {
+  "value": "8.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.sca.median.R2": {
+  "value": "3.2",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.sca.median.R3": {
+  "value": "51.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.sca.median.R4": {
+  "value": "0.0",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cov.sca.median.R5": {
+  "value": "15.7",
+  "source": "results/L_coverage_scaled.csv",
+  "how": "median over the recipe's cells"
+ },
+ "cp.zero.upper": {
+  "value": "1.2",
+  "source": "code/coverage.py cp(0,300)",
+  "how": "Clopper-Pearson upper limit for 0/300"
+ },
+ "h1.R1.cells": {
+  "value": "9",
+  "source": "results/L_coverage.csv",
+  "how": "cells with target <= 1e-4"
+ },
+ "h1.R1.mis": {
+  "value": "9",
+  "source": "same",
+  "how": "of which coverage < 0.90"
+ },
+ "h1.R1.firm": {
+  "value": "9",
+  "source": "same",
+  "how": "of which CP upper < 0.90"
+ },
+ "h1.R5.cells": {
+  "value": "3",
+  "source": "results/L_coverage.csv",
+  "how": "cells with target <= 1e-4"
+ },
+ "h1.R5.mis": {
+  "value": "3",
+  "source": "same",
+  "how": "of which coverage < 0.90"
+ },
+ "h1.R5.firm": {
+  "value": "3",
+  "source": "same",
+  "how": "of which CP upper < 0.90"
+ },
+ "ratio.R1.d3.t3": {
+  "value": "1.2",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d3.t3": {
+  "value": "0.84",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d3.t3": {
+  "value": "1.4",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d5.t3": {
+  "value": "1.7",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d5.t3": {
+  "value": "0.81",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d5.t3": {
+  "value": "1.5",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d7.t3": {
+  "value": "2.2",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d7.t3": {
+  "value": "0.78",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d7.t3": {
+  "value": "1.4",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d3.t3": {
+  "value": "0.86",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d5.t3": {
+  "value": "0.77",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d7.t3": {
+  "value": "0.80",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R5.d7.t3": {
+  "value": "2.6",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d3.t4": {
+  "value": "1.9",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d3.t4": {
+  "value": "0.85",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d3.t4": {
+  "value": "4.2",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d5.t4": {
+  "value": "3.5",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d5.t4": {
+  "value": "0.77",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d5.t4": {
+  "value": "4.1",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d7.t4": {
+  "value": "8.6",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d7.t4": {
+  "value": "0.93",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d7.t4": {
+  "value": "4.8",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d3.t4": {
+  "value": "0.87",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d5.t4": {
+  "value": "0.73",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d7.t4": {
+  "value": "0.95",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R5.d7.t4": {
+  "value": "9.8",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d3.t5": {
+  "value": "2.8",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d3.t5": {
+  "value": "0.82",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d3.t5": {
+  "value": "13",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d5.t5": {
+  "value": "7.9",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d5.t5": {
+  "value": "0.77",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d5.t5": {
+  "value": "13",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d7.t5": {
+  "value": "28",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d7.t5": {
+  "value": "0.94",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d7.t5": {
+  "value": "15",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d3.t5": {
+  "value": "0.85",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d5.t5": {
+  "value": "0.73",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d7.t5": {
+  "value": "0.96",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R5.d7.t5": {
+  "value": "32",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d3.t6": {
+  "value": "4.3",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d3.t6": {
+  "value": "0.84",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d3.t6": {
+  "value": "41",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d5.t6": {
+  "value": "18",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d5.t6": {
+  "value": "0.79",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d5.t6": {
+  "value": "42",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R1.d7.t6": {
+  "value": "80",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.d7.t6": {
+  "value": "0.83",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R4.d7.t6": {
+  "value": "42",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d3.t6": {
+  "value": "0.86",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d5.t6": {
+  "value": "0.75",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R3.d7.t6": {
+  "value": "0.85",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R5.d7.t6": {
+  "value": "89",
+  "source": "results/fit_d357.json, truth files; code/coverage.py fit_all",
+  "how": "median over 300 replicates of prediction/truth"
+ },
+ "ratio.R2.min": {
+  "value": "0.77",
+  "source": "same",
+  "how": "min over 12 cells"
+ },
+ "ratio.R2.max": {
+  "value": "0.94",
+  "source": "same",
+  "how": "max over 12 cells"
+ },
+ "ratio.R3.min": {
+  "value": "0.73",
+  "source": "same",
+  "how": "min over 12 cells"
+ },
+ "ratio.R3.max": {
+  "value": "0.96",
+  "source": "same",
+  "how": "max over 12 cells"
+ },
+ "ratio.fixed.min": {
+  "value": "0.73",
+  "source": "same",
+  "how": "min over R2,R3 cells"
+ },
+ "ratio.fixed.max": {
+  "value": "0.96",
+  "source": "same",
+  "how": "max over R2,R3 cells"
+ },
+ "ratio.fixed.lowpct.max": {
+  "value": "27",
+  "source": "same",
+  "how": "largest shortfall, percent"
+ },
+ "ratio.fixed.lowpct.min": {
+  "value": "4",
+  "source": "same",
+  "how": "smallest shortfall, percent"
+ },
+ "ratio.R4.min": {
+  "value": "1.4",
+  "source": "same",
+  "how": "R4 at 1e-3, min over d"
+ },
+ "ratio.R4.max": {
+  "value": "42",
+  "source": "same",
+  "how": "R4 at 1e-6, max over d"
+ },
+ "ratio.max": {
+  "value": "89",
+  "source": "same",
+  "how": "largest median ratio in the table"
+ },
+ "hw.R1.min": {
+  "value": "25.5",
+  "source": "same",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R1.max": {
+  "value": "166",
+  "source": "same",
+  "how": "largest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R2.min": {
+  "value": "5.0",
+  "source": "same",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R2.max": {
+  "value": "5.0",
+  "source": "same",
+  "how": "largest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R3.min": {
+  "value": "2.8",
+  "source": "same",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R3.max": {
+  "value": "4.6",
+  "source": "same",
+  "how": "largest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R4.min": {
+  "value": "28.6",
+  "source": "same",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R4.max": {
+  "value": "38",
+  "source": "same",
+  "how": "largest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R5.min": {
+  "value": "66.7",
+  "source": "same",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "hw.R5.max": {
+  "value": "774",
+  "source": "same",
+  "how": "largest cell-median 95% half-width, percent of prediction"
+ },
+ "fixed.sigmas.min": {
+  "value": "6",
+  "source": "same",
+  "how": "R2,R3 at d=3,5: |median log error| / median interval sigma, min"
+ },
+ "fixed.sigmas.max": {
+  "value": "22",
+  "source": "same",
+  "how": "max"
+ },
+ "win.d3.p0": {
+  "value": "7.04\\times10^{-3}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d3.p1": {
+  "value": "1.52\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d3.p2": {
+  "value": "2.59\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d3.p3": {
+  "value": "3.85\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d3.p4": {
+  "value": "7.73\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "slope.d3": {
+  "value": "1.82",
+  "source": "same; code/coverage.py wls",
+  "how": "median fitted R1 exponent"
+ },
+ "chidof.d3": {
+  "value": "0.9",
+  "source": "same",
+  "how": "median chi2/dof of the R1 fit"
+ },
+ "nominal.d3": {
+  "value": "2",
+  "source": "definition",
+  "how": "(d+1)/2"
+ },
+ "win.d5.p0": {
+  "value": "3.76\\times10^{-3}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d5.p1": {
+  "value": "1.22\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d5.p2": {
+  "value": "2.66\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d5.p3": {
+  "value": "4.77\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d5.p4": {
+  "value": "1.26\\times10^{-1}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "slope.d5": {
+  "value": "2.65",
+  "source": "same; code/coverage.py wls",
+  "how": "median fitted R1 exponent"
+ },
+ "chidof.d5": {
+  "value": "2.2",
+  "source": "same",
+  "how": "median chi2/dof of the R1 fit"
+ },
+ "nominal.d5": {
+  "value": "3",
+  "source": "definition",
+  "how": "(d+1)/2"
+ },
+ "win.d7.p0": {
+  "value": "1.72\\times10^{-3}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d7.p1": {
+  "value": "8.38\\times10^{-3}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d7.p2": {
+  "value": "2.44\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d7.p3": {
+  "value": "5.25\\times10^{-2}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "win.d7.p4": {
+  "value": "1.72\\times10^{-1}",
+  "source": "results/fit_d357.json",
+  "how": "mean over replicates of k/n"
+ },
+ "slope.d7": {
+  "value": "3.49",
+  "source": "same; code/coverage.py wls",
+  "how": "median fitted R1 exponent"
+ },
+ "chidof.d7": {
+  "value": "6.9",
+  "source": "same",
+  "how": "median chi2/dof of the R1 fit"
+ },
+ "nominal.d7": {
+  "value": "4",
+  "source": "definition",
+  "how": "(d+1)/2"
+ },
+ "win.order.p2": {
+  "value": "735",
+  "source": "results/fit_d357.json",
+  "how": "distances in ascending order of mean p_L at p=8e-3"
+ },
+ "x.prop.below90": {
+  "value": "48",
+  "source": "EXPLORATORY; results/fit_d357.json, truth files",
+  "how": "cells < 0.90 when truth se is added in quadrature"
+ },
+ "x.prop.zero": {
+  "value": "34",
+  "source": "same",
+  "how": "cells at 0"
+ },
+ "x.prop.changed": {
+  "value": "6",
+  "source": "same",
+  "how": "cells whose coverage moves by more than 5 points"
+ },
+ "x.prop.above90.list": {
+  "value": "R2 $d=7$ $10^{-5}$, R2 $d=7$ $10^{-4}$, R3 $d=7$ $10^{-5}$, R3 $d=7$ $10^{-4}$",
+  "source": "same",
+  "how": "cells reaching 0.90"
+ },
+ "x.prop.R1.d3.t3": {
+  "value": "60.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d3.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d3.t3": {
+  "value": "17.3",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d5.t3": {
+  "value": "2.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d5.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d5.t3": {
+  "value": "10.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d7.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d7.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d7.t3": {
+  "value": "25.3",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d3.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d5.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d7.t3": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R5.d7.t3": {
+  "value": "6.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d3.t4": {
+  "value": "23.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d3.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d3.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d5.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d5.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d5.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d7.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d7.t4": {
+  "value": "100.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d7.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d3.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d5.t4": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d7.t4": {
+  "value": "100.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R5.d7.t4": {
+  "value": "2.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d3.t5": {
+  "value": "18.3",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d3.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d3.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d5.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d5.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d5.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d7.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d7.t5": {
+  "value": "100.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d7.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d3.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d5.t5": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d7.t5": {
+  "value": "100.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R5.d7.t5": {
+  "value": "2.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d3.t6": {
+  "value": "14.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d3.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d3.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d5.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d5.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d5.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R1.d7.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R2.d7.t6": {
+  "value": "8.7",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R4.d7.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d3.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d5.t6": {
+  "value": "0.0",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R3.d7.t6": {
+  "value": "26.7",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.R5.d7.t6": {
+  "value": "2.7",
+  "source": "same",
+  "how": "coverage with truth se propagated, percent"
+ },
+ "x.prop.lowd.changed": {
+  "value": "0",
+  "source": "same",
+  "how": "d=3,5 cells moving by more than 5 points"
+ },
+ "x.low.cov.R1.d3.t3": {
+  "value": "89.7",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d3.t3": {
+  "value": "1.1",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d3.t3": {
+  "value": "6.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d3.t3": {
+  "value": "0.89",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d5.t3": {
+  "value": "83.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d5.t3": {
+  "value": "1.2",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d5.t3": {
+  "value": "16.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d5.t3": {
+  "value": "0.91",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d7.t3": {
+  "value": "81.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d7.t3": {
+  "value": "1.2",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d7.t3": {
+  "value": "47.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d7.t3": {
+  "value": "0.94",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d3.t4": {
+  "value": "85.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d3.t4": {
+  "value": "1.5",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d3.t4": {
+  "value": "10.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d3.t4": {
+  "value": "0.90",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d5.t4": {
+  "value": "79.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d5.t4": {
+  "value": "1.7",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d5.t4": {
+  "value": "1.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d5.t4": {
+  "value": "0.86",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d7.t4": {
+  "value": "63.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d7.t4": {
+  "value": "2.2",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d7.t4": {
+  "value": "10.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d7.t4": {
+  "value": "1.1",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d3.t5": {
+  "value": "84.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d3.t5": {
+  "value": "1.9",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d3.t5": {
+  "value": "2.7",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d3.t5": {
+  "value": "0.88",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d5.t5": {
+  "value": "74.7",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d5.t5": {
+  "value": "2.6",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d5.t5": {
+  "value": "1.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d5.t5": {
+  "value": "0.86",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d7.t5": {
+  "value": "65.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d7.t5": {
+  "value": "3.2",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d7.t5": {
+  "value": "5.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d7.t5": {
+  "value": "1.1",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d3.t6": {
+  "value": "83.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d3.t6": {
+  "value": "2.7",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d3.t6": {
+  "value": "6.0",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d3.t6": {
+  "value": "0.89",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d5.t6": {
+  "value": "70.7",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d5.t6": {
+  "value": "3.9",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d5.t6": {
+  "value": "3.3",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d5.t6": {
+  "value": "0.89",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R1.d7.t6": {
+  "value": "72.7",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R1.d7.t6": {
+  "value": "4.0",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.cov.R2.d7.t6": {
+  "value": "93.7",
+  "source": "EXPLORATORY; results/fit_d357.json (three lowest window points), truth files",
+  "how": "coverage, percent"
+ },
+ "x.low.ratio.R2.d7.t6": {
+  "value": "0.99",
+  "source": "same",
+  "how": "median prediction/truth"
+ },
+ "x.low.below90": {
+  "value": "23",
+  "source": "same",
+  "how": "cells below 0.90"
+ },
+ "x.low.cells": {
+  "value": "24",
+  "source": "same",
+  "how": "cells"
+ },
+ "x.low.cov.max": {
+  "value": "93.7",
+  "source": "same",
+  "how": "largest coverage"
+ },
+ "x.low.slope.d3": {
+  "value": "1.88",
+  "source": "same",
+  "how": "median R1 exponent on three lowest points"
+ },
+ "x.low.slope.d5": {
+  "value": "2.83",
+  "source": "same",
+  "how": "median R1 exponent on three lowest points"
+ },
+ "x.low.slope.d7": {
+  "value": "3.84",
+  "source": "same",
+  "how": "median R1 exponent on three lowest points"
+ },
+ "x.low.R1.max": {
+  "value": "4.0",
+  "source": "same",
+  "how": "largest R1 median ratio"
+ },
+ "x.low.R2.min": {
+  "value": "0.86",
+  "source": "same",
+  "how": "smallest R2 median ratio"
+ },
+ "x.low.R2.max": {
+  "value": "1.1",
+  "source": "same",
+  "how": "largest R2 median ratio"
+ },
+ "ca.R1.do": {
+  "value": "1.000",
+  "source": "results/L_control_a.txt",
+  "how": "reject rate, data-only dataset"
+ },
+ "ca.R1.do.cells": {
+  "value": "15",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R1.fresh": {
+  "value": "18.5",
+  "source": "same",
+  "how": "reject rate, fresh circuit data, percent"
+ },
+ "ca.R1.fresh.cells": {
+  "value": "0",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R2.do": {
+  "value": "1.000",
+  "source": "results/L_control_a.txt",
+  "how": "reject rate, data-only dataset"
+ },
+ "ca.R2.do.cells": {
+  "value": "15",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R2.fresh": {
+  "value": "49.0",
+  "source": "same",
+  "how": "reject rate, fresh circuit data, percent"
+ },
+ "ca.R2.fresh.cells": {
+  "value": "2",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R3.do": {
+  "value": "1.000",
+  "source": "results/L_control_a.txt",
+  "how": "reject rate, data-only dataset"
+ },
+ "ca.R3.do.cells": {
+  "value": "15",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R3.fresh": {
+  "value": "52.0",
+  "source": "same",
+  "how": "reject rate, fresh circuit data, percent"
+ },
+ "ca.R3.fresh.cells": {
+  "value": "2",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R4.do": {
+  "value": "1.000",
+  "source": "results/L_control_a.txt",
+  "how": "reject rate, data-only dataset"
+ },
+ "ca.R4.do.cells": {
+  "value": "15",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "ca.R4.fresh": {
+  "value": "6.2",
+  "source": "same",
+  "how": "reject rate, fresh circuit data, percent"
+ },
+ "ca.R4.fresh.cells": {
+  "value": "0",
+  "source": "same",
+  "how": "cells >= 0.95"
+ },
+ "cb.R1.mis": {
+  "value": "12",
+  "source": "results/L_control_b.txt",
+  "how": "miscalibrated cells"
+ },
+ "cb.R1.cells": {
+  "value": "12",
+  "source": "same",
+  "how": "cells"
+ },
+ "cb.R1.median": {
+  "value": "2.7",
+  "source": "same",
+  "how": "median coverage, percent"
+ },
+ "cb.R2.mis": {
+  "value": "12",
+  "source": "results/L_control_b.txt",
+  "how": "miscalibrated cells"
+ },
+ "cb.R2.cells": {
+  "value": "12",
+  "source": "same",
+  "how": "cells"
+ },
+ "cb.R2.median": {
+  "value": "1.7",
+  "source": "same",
+  "how": "median coverage, percent"
+ },
+ "cb.R3.mis": {
+  "value": "12",
+  "source": "results/L_control_b.txt",
+  "how": "miscalibrated cells"
+ },
+ "cb.R3.cells": {
+  "value": "12",
+  "source": "same",
+  "how": "cells"
+ },
+ "cb.R3.median": {
+  "value": "5.3",
+  "source": "same",
+  "how": "median coverage, percent"
+ },
+ "cb.R4.mis": {
+  "value": "12",
+  "source": "results/L_control_b.txt",
+  "how": "miscalibrated cells"
+ },
+ "cb.R4.cells": {
+  "value": "12",
+  "source": "same",
+  "how": "cells"
+ },
+ "cb.R4.median": {
+  "value": "0.0",
+  "source": "same",
+  "how": "median coverage, percent"
+ },
+ "cb.R5.mis": {
+  "value": "4",
+  "source": "results/L_control_b.txt",
+  "how": "miscalibrated cells"
+ },
+ "cb.R5.cells": {
+  "value": "4",
+  "source": "same",
+  "how": "cells"
+ },
+ "cb.R5.median": {
+  "value": "6.2",
+  "source": "same",
+  "how": "median coverage, percent"
+ },
+ "ex.d3.nmech": {
+  "value": "286",
+  "source": "exact/d3_manifest.json",
+  "how": "mechanisms"
+ },
+ "ex.d3.ndet": {
+  "value": "24",
+  "source": "exact/d3_manifest.json",
+  "how": "detectors"
+ },
+ "ex.d3.w1.sets": {
+  "value": "286",
+  "source": "exact/d3_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d3.w1.fail": {
+  "value": "0",
+  "source": "exact/d3_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d3.w1.frac": {
+  "value": "0",
+  "source": "exact/d3_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d3.w2.sets": {
+  "value": "40{,}755",
+  "source": "exact/d3_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d3.w2.fail": {
+  "value": "5{,}113",
+  "source": "exact/d3_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d3.w2.frac": {
+  "value": "1.3\\times10^{-1}",
+  "source": "exact/d3_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d3.w3.sets": {
+  "value": "3{,}858{,}140",
+  "source": "exact/d3_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d3.w3.fail": {
+  "value": "1{,}002{,}962",
+  "source": "exact/d3_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d3.w3.frac": {
+  "value": "2.6\\times10^{-1}",
+  "source": "exact/d3_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d3.w4.sets": {
+  "value": "272{,}963{,}405",
+  "source": "exact/d3_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d3.w4.fail": {
+  "value": "95{,}856{,}732",
+  "source": "exact/d3_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d3.w4.frac": {
+  "value": "3.5\\times10^{-1}",
+  "source": "exact/d3_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d3.c1": {
+  "value": "0",
+  "source": "exact/d3_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d3.c2": {
+  "value": "474.63",
+  "source": "exact/d3_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d3.c3": {
+  "value": "-8719.17",
+  "source": "exact/d3_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d3.c4": {
+  "value": "-35821",
+  "source": "exact/d3_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d5.nmech": {
+  "value": "1{,}953",
+  "source": "exact/d5_manifest.json",
+  "how": "mechanisms"
+ },
+ "ex.d5.ndet": {
+  "value": "120",
+  "source": "exact/d5_manifest.json",
+  "how": "detectors"
+ },
+ "ex.d5.w1.sets": {
+  "value": "1{,}953",
+  "source": "exact/d5_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d5.w1.fail": {
+  "value": "0",
+  "source": "exact/d5_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d5.w1.frac": {
+  "value": "0",
+  "source": "exact/d5_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d5.w2.sets": {
+  "value": "1{,}906{,}128",
+  "source": "exact/d5_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d5.w2.fail": {
+  "value": "0",
+  "source": "exact/d5_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d5.w2.frac": {
+  "value": "0",
+  "source": "exact/d5_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d5.w3.sets": {
+  "value": "1.24\\times10^{9}",
+  "source": "exact/d5_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d5.w3.fail": {
+  "value": "7{,}674{,}933",
+  "source": "exact/d5_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d5.w3.frac": {
+  "value": "6.2\\times10^{-3}",
+  "source": "exact/d5_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d5.w4.sets": {
+  "value": "6.04\\times10^{11}",
+  "source": "exact/d5_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d5.w4.fail": {
+  "value": "1.36\\times10^{10}",
+  "source": "exact/d5_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d5.w4.frac": {
+  "value": "2.2\\times10^{-2}",
+  "source": "exact/d5_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d5.c1": {
+  "value": "0",
+  "source": "exact/d5_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d5.c2": {
+  "value": "0",
+  "source": "exact/d5_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d5.c3": {
+  "value": "62996",
+  "source": "exact/d5_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d5.c4": {
+  "value": "-684898",
+  "source": "exact/d5_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d7.nmech": {
+  "value": "6{,}602",
+  "source": "exact/d7_manifest.json",
+  "how": "mechanisms"
+ },
+ "ex.d7.ndet": {
+  "value": "336",
+  "source": "exact/d7_manifest.json",
+  "how": "detectors"
+ },
+ "ex.d7.w1.sets": {
+  "value": "6{,}602",
+  "source": "exact/d7_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d7.w1.fail": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d7.w1.frac": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d7.w2.sets": {
+  "value": "21{,}789{,}901",
+  "source": "exact/d7_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d7.w2.fail": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d7.w2.frac": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d7.w3.sets": {
+  "value": "4.79\\times10^{10}",
+  "source": "exact/d7_manifest.json",
+  "how": "fault sets in the shell (all enumerated)"
+ },
+ "ex.d7.w3.fail": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "failing sets"
+ },
+ "ex.d7.w3.frac": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "failing fraction"
+ },
+ "ex.d7.c1": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d7.c2": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d7.c3": {
+  "value": "0",
+  "source": "exact/d7_manifest.json",
+  "how": "exact coefficient"
+ },
+ "ex.d5.c4overc3": {
+  "value": "1.09",
+  "source": "exact/d5_manifest.json",
+  "how": "|c4| p / c3 at p=1e-3, percent"
+ },
+ "ex.d3.c3overc2": {
+  "value": "1.84",
+  "source": "exact/d3_manifest.json",
+  "how": "|c3| p / c2 at p=1e-3, percent"
+ },
+ "ex.d7.w4.units": {
+  "value": "279",
+  "source": "exact/d7_w4_snapshot_*.json",
+  "how": "sampled units decoded"
+ },
+ "ex.d7.w4.unitstotal": {
+  "value": "407{,}785",
+  "source": "same",
+  "how": "units in the shell"
+ },
+ "ex.d7.w4.setsdone": {
+  "value": "5.4\\times10^{10}",
+  "source": "same",
+  "how": "sets decoded"
+ },
+ "ex.d7.w4.setstotal": {
+  "value": "7.9\\times10^{13}",
+  "source": "same",
+  "how": "sets in the shell"
+ },
+ "ex.d7.w4.fracdone": {
+  "value": "0.07",
+  "source": "same",
+  "how": "percent of the shell decoded"
+ },
+ "ex.d7.w4.fail": {
+  "value": "5{,}460{,}038",
+  "source": "same",
+  "how": "failing sets observed"
+ },
+ "ex.d7.w4.frac": {
+  "value": "1.0\\times10^{-4}",
+  "source": "same",
+  "how": "observed failing fraction (sets done)"
+ },
+ "ex.d7.c4.est": {
+  "value": "5.4\\times10^{6}",
+  "source": "same",
+  "how": "design-based estimate of c4"
+ },
+ "ex.d7.c4.se": {
+  "value": "1.3\\times10^{6}",
+  "source": "same",
+  "how": "its se"
+ },
+ "ex.d7.c4.relse": {
+  "value": "25",
+  "source": "same",
+  "how": "rel se, percent"
+ },
+ "ex.d7.c4.lower": {
+  "value": "3725",
+  "source": "same",
+  "how": "observed lower bound on c4"
+ },
+ "ex.d7.c4.circuit": {
+  "value": "6.4\\times10^{6}",
+  "source": "results/truth_d7_p1e-6.json + truthextra",
+  "how": "real-circuit truth at p=1e-6 divided by p^4"
+ },
+ "ex.gap.d3.t3": {
+  "value": "+1.1",
+  "source": "truth files; exact/d3_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d3.t3": {
+  "value": "4.66\\times10^{-4}",
+  "source": "exact/d3_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d3.t4": {
+  "value": "-1.8",
+  "source": "truth files; exact/d3_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d3.t4": {
+  "value": "4.74\\times10^{-6}",
+  "source": "exact/d3_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d3.t5": {
+  "value": "+1.0",
+  "source": "truth files; exact/d3_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d3.t5": {
+  "value": "4.75\\times10^{-8}",
+  "source": "exact/d3_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d3.t6": {
+  "value": "-0.5",
+  "source": "truth files; exact/d3_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d3.t6": {
+  "value": "4.75\\times10^{-10}",
+  "source": "exact/d3_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d5.t3": {
+  "value": "-2.0",
+  "source": "truth files; exact/d5_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d5.t3": {
+  "value": "6.23\\times10^{-5}",
+  "source": "exact/d5_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d5.t4": {
+  "value": "+2.2",
+  "source": "truth files; exact/d5_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d5.t4": {
+  "value": "6.29\\times10^{-8}",
+  "source": "exact/d5_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d5.t5": {
+  "value": "+2.2",
+  "source": "truth files; exact/d5_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d5.t5": {
+  "value": "6.30\\times10^{-11}",
+  "source": "exact/d5_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d5.t6": {
+  "value": "-0.9",
+  "source": "truth files; exact/d5_manifest.json",
+  "how": "real-circuit truth / surrogate polynomial - 1, percent"
+ },
+ "ex.poly.d5.t6": {
+  "value": "6.30\\times10^{-14}",
+  "source": "exact/d5_manifest.json",
+  "how": "polynomial through order 4"
+ },
+ "ex.gap.d5.mean": {
+  "value": "0",
+  "source": "same",
+  "how": "mean over 4 targets, d=5, percent"
+ },
+ "ex.gap.d3.mean": {
+  "value": "-0",
+  "source": "same",
+  "how": "mean over 4 targets, d=3, percent"
+ },
+ "is.d3.t3.exact": {
+  "value": "4.6588\\times10^{-4}",
+  "source": "results/is_validation/d3_p1e-3.log",
+  "how": "exact polynomial value"
+ },
+ "is.d3.t3.inside": {
+  "value": "19",
+  "source": "results/is_validation/d3_p1e-3.log",
+  "how": "seeds with the exact value inside the 95% interval"
+ },
+ "is.d3.t3.n": {
+  "value": "20",
+  "source": "results/is_validation/d3_p1e-3.log",
+  "how": "seeds"
+ },
+ "is.d3.t3.width": {
+  "value": "7.1",
+  "source": "results/is_validation/d3_p1e-3.log",
+  "how": "median relative width, percent"
+ },
+ "is.d3.t4.exact": {
+  "value": "4.7376\\times10^{-6}",
+  "source": "results/is_validation/d3_p1e-4.log",
+  "how": "exact polynomial value"
+ },
+ "is.d3.t4.inside": {
+  "value": "20",
+  "source": "results/is_validation/d3_p1e-4.log",
+  "how": "seeds with the exact value inside the 95% interval"
+ },
+ "is.d3.t4.n": {
+  "value": "20",
+  "source": "results/is_validation/d3_p1e-4.log",
+  "how": "seeds"
+ },
+ "is.d3.t4.width": {
+  "value": "7.4",
+  "source": "results/is_validation/d3_p1e-4.log",
+  "how": "median relative width, percent"
+ },
+ "is.d5.t3.exact": {
+  "value": "6.2311\\times10^{-5}",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "exact polynomial value"
+ },
+ "is.d5.t3.inside": {
+  "value": "20",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "seeds with the exact value inside the 95% interval"
+ },
+ "is.d5.t3.n": {
+  "value": "20",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "seeds"
+ },
+ "is.d5.t3.width": {
+  "value": "7.1",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "median relative width, percent"
+ },
+ "is.d5.t4.exact": {
+  "value": "6.2928\\times10^{-8}",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "exact polynomial value"
+ },
+ "is.d5.t4.inside": {
+  "value": "19",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "seeds with the exact value inside the 95% interval"
+ },
+ "is.d5.t4.n": {
+  "value": "20",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "seeds"
+ },
+ "is.d5.t4.width": {
+  "value": "7.5",
+  "source": "results/is_validation/d5_agg.json",
+  "how": "median relative width, percent"
+ },
+ "is.width.min": {
+  "value": "7.1",
+  "source": "results/is_validation",
+  "how": "min of the four medians"
+ },
+ "is.width.max": {
+  "value": "7.5",
+  "source": "same",
+  "how": "max"
+ },
+ "h.runs": {
+  "value": "6",
+  "source": "results/holdout_truth_d9_p1e-4_s900*.json",
+  "how": "truth runs"
+ },
+ "h.truth": {
+  "value": "5.5\\times10^{-13}",
+  "source": "same; code/holdout.py",
+  "how": "inverse-variance combination"
+ },
+ "h.se": {
+  "value": "1.6\\times10^{-11}",
+  "source": "same",
+  "how": "combined se"
+ },
+ "h.relse": {
+  "value": "29",
+  "source": "same",
+  "how": "combined se / estimate (a multiple, not percent)"
+ },
+ "h.five.min": {
+  "value": "3.4\\times10^{-13}",
+  "source": "same",
+  "how": "smallest run estimate"
+ },
+ "h.five.max": {
+  "value": "4.8\\times10^{-13}",
+  "source": "same",
+  "how": "fifth smallest run estimate"
+ },
+ "h.outlier": {
+  "value": "2.7\\times10^{-11}",
+  "source": "same",
+  "how": "largest run estimate"
+ },
+ "h.run.relse.min": {
+  "value": "8",
+  "source": "same",
+  "how": "min per-run se/estimate"
+ },
+ "h.run.relse.max": {
+  "value": "112",
+  "source": "same",
+  "how": "max per-run se/estimate"
+ },
+ "h.samples.min": {
+  "value": "14.2",
+  "source": "same",
+  "how": "samples per run, millions, min"
+ },
+ "h.samples.max": {
+  "value": "14.6",
+  "source": "same",
+  "how": "max"
+ },
+ "h.upper": {
+  "value": "3.2\\times10^{-11}",
+  "source": "same",
+  "how": "estimate + 1.96 se"
+ },
+ "h.hits.R1": {
+  "value": "0",
+  "source": "results/L_holdout_d9.csv",
+  "how": "hits of 300"
+ },
+ "h.hits.R2": {
+  "value": "0",
+  "source": "results/L_holdout_d9.csv",
+  "how": "hits of 300"
+ },
+ "h.hits.R3": {
+  "value": "0",
+  "source": "results/L_holdout_d9.csv",
+  "how": "hits of 300"
+ },
+ "h.hits.R4": {
+  "value": "0",
+  "source": "results/L_holdout_d9.csv",
+  "how": "hits of 300"
+ },
+ "h.hits.R5": {
+  "value": "0",
+  "source": "results/L_holdout_d9.csv",
+  "how": "hits of 300"
+ },
+ "h.pred.R1": {
+  "value": "1.0\\times10^{-10}",
+  "source": "results/fit_d357.json, fit_d9.json; code/coverage.py",
+  "how": "median prediction of p_L(d=9, 1e-4)"
+ },
+ "h.ratio.R1": {
+  "value": "184",
+  "source": "same + holdout truth",
+  "how": "median prediction / point estimate of truth"
+ },
+ "h.above.R1": {
+  "value": "300",
+  "source": "same",
+  "how": "replicates (of 300) whose prediction exceeds estimate + 1.96 se"
+ },
+ "h.aboveout.R1": {
+  "value": "300",
+  "source": "same",
+  "how": "replicates whose prediction exceeds the largest single-run estimate"
+ },
+ "h.pred.R2": {
+  "value": "5.4\\times10^{-12}",
+  "source": "results/fit_d357.json, fit_d9.json; code/coverage.py",
+  "how": "median prediction of p_L(d=9, 1e-4)"
+ },
+ "h.ratio.R2": {
+  "value": "9.8",
+  "source": "same + holdout truth",
+  "how": "median prediction / point estimate of truth"
+ },
+ "h.above.R2": {
+  "value": "0",
+  "source": "same",
+  "how": "replicates (of 300) whose prediction exceeds estimate + 1.96 se"
+ },
+ "h.aboveout.R2": {
+  "value": "0",
+  "source": "same",
+  "how": "replicates whose prediction exceeds the largest single-run estimate"
+ },
+ "h.pred.R3": {
+  "value": "5.5\\times10^{-12}",
+  "source": "results/fit_d357.json, fit_d9.json; code/coverage.py",
+  "how": "median prediction of p_L(d=9, 1e-4)"
+ },
+ "h.ratio.R3": {
+  "value": "10",
+  "source": "same + holdout truth",
+  "how": "median prediction / point estimate of truth"
+ },
+ "h.above.R3": {
+  "value": "0",
+  "source": "same",
+  "how": "replicates (of 300) whose prediction exceeds estimate + 1.96 se"
+ },
+ "h.aboveout.R3": {
+  "value": "0",
+  "source": "same",
+  "how": "replicates whose prediction exceeds the largest single-run estimate"
+ },
+ "h.pred.R4": {
+  "value": "2.5\\times10^{-11}",
+  "source": "results/fit_d357.json, fit_d9.json; code/coverage.py",
+  "how": "median prediction of p_L(d=9, 1e-4)"
+ },
+ "h.ratio.R4": {
+  "value": "45",
+  "source": "same + holdout truth",
+  "how": "median prediction / point estimate of truth"
+ },
+ "h.above.R4": {
+  "value": "15",
+  "source": "same",
+  "how": "replicates (of 300) whose prediction exceeds estimate + 1.96 se"
+ },
+ "h.aboveout.R4": {
+  "value": "73",
+  "source": "same",
+  "how": "replicates whose prediction exceeds the largest single-run estimate"
+ },
+ "h.pred.R5": {
+  "value": "1.4\\times10^{-10}",
+  "source": "results/fit_d357.json, fit_d9.json; code/coverage.py",
+  "how": "median prediction of p_L(d=9, 1e-4)"
+ },
+ "h.ratio.R5": {
+  "value": "261",
+  "source": "same + holdout truth",
+  "how": "median prediction / point estimate of truth"
+ },
+ "h.above.R5": {
+  "value": "285",
+  "source": "same",
+  "how": "replicates (of 300) whose prediction exceeds estimate + 1.96 se"
+ },
+ "h.aboveout.R5": {
+  "value": "290",
+  "source": "same",
+  "how": "replicates whose prediction exceeds the largest single-run estimate"
+ }
+}

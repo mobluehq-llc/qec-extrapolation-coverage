@@ -1,0 +1,249 @@
+\documentclass[aps,pre,onecolumn,superscriptaddress,nofootinbib,10pt]{revtex4-2}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage[T1]{fontenc}
+\usepackage{eso-pic}
+\usepackage{float}
+\usepackage[margin=0.55in]{geometry}
+\usepackage{etoolbox}
+\AtBeginEnvironment{table}{\footnotesize}
+\makeatletter\input{xr_main.tex}\makeatother % main-text labels (frozen copy; no .aux needed)
+\input{numbers.tex}
+\input{numbers_amend.tex}
+\input{numbers_v3.tex}
+\input{numbers_v4.tex}
+\input{numbers_v5.tex}
+\input{numbers_v6.tex}
+\input{numbers_v7.tex}
+\input{numbers_v8.tex}
+\newcommand{\pL}{p_L}
+\renewcommand{\thetable}{S\arabic{table}}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thesection}{S\arabic{section}}
+\newif\ifdraftmark
+\IfFileExists{draft.flag}{\draftmarktrue}{\draftmarkfalse}
+\ifdraftmark\AddToShipoutPictureFG{\AtPageUpperLeft{\raisebox{-1.1cm}{\makebox[\paperwidth]{\textsf{\small DRAFT v8, not for distribution}}}}}\fi
+\sloppy
+\setlength{\textfloatsep}{6pt}\setlength{\floatsep}{6pt}\setlength{\intextsep}{6pt}
+\begin{document}
+\small
+% v12 (arXiv v5): Tables S9 and S10 merged, Fig. S1 dropped, run-to-run z added to the reference table, S1/S5/S7 method sentences added. No result changed.
+% v10 (arXiv v3): cell-level coverage table moved here from the main text; Table S13 (distance illustration) cut. No result changed.
+% v7: CUT pass under PROCESS.md section 20. No new results and no number changes; superseded tables, the amendment record and run histories are in the repo (PLAN.md, RESULTS*.md, ERRATA.md).
+\title{Supplemental Material: Calibration of extrapolated logical error rates: nominal 95\% intervals of constant-prefactor fits showed low empirical coverage}
+\author{Adam Faust}
+\affiliation{MOBLUEHQ, Inc., Long Grove, Illinois, USA}
+\date{\ifdraftmark DRAFT v8, not for distribution. \fi November 2026.}
+\maketitle
+All logical error rates are block rates, per memory experiment of $d$ rounds, unless stated. The \emph{first window} is $p=4\times10^{-3}$ to $1.5\times10^{-2}$ and the \emph{second} is $1.5\times10^{-3}$ to $4\times10^{-3}$. ``Registered'' and ``post hoc'' are used as in Table~\ref{tab:status}. Generated tables label the first window ``registered'' and the second ``below the crossing'', and call post hoc rows ``corrective''.
+
+\begin{table}[htbp]
+\caption{Standing, bar and outcome of each analysis. ``Registered'': rule, bar, code (by hash) and seeds committed to the author's private repository before the quantity was computed. ``Post hoc'': written down before it was computed but after registered results were known; it cannot change a registered verdict. Cells at $p\le10^{-4}$ are ``far''.}\label{tab:status}
+\footnotesize\setlength{\tabcolsep}{3pt}
+\begin{tabular}{p{0.30\columnwidth}p{0.33\columnwidth}p{0.29\columnwidth}}\hline\hline
+analysis & registered bar & outcome\\\hline
+H1: R1, R5, first window & each below 90\% in $\ge2/3$ of far cells & held: \V{h1.R1.mis} of \V{h1.R1.cells}, \V{h1.R5.mis} of \V{h1.R5.cells}\\
+BW-1: the same, second window & as H1 & failed: R1 \V{bw1.pri.R1.mis} of \V{bw1.R1.cells} (R5 \V{bw1.pri.R5.mis} of \V{bw1.R5.cells})\\
+BW-2: R1 improves & higher coverage in $\ge6$ of 12 cells & held: \V{bw2.higher} of \V{bw2.cells}\\
+BW-3: R1, R5 rarely calibrated & $\le2$ of 16 cells in 93--97\% & failed: \V{bw3.inband} of \V{bw3.cells}\\
+BW-4: R2, R3, second window & below 90\% in $\ge2/3$ of 24 cells & held: \V{bw4.mis} of \V{bw4.cells}\\
+R4$'$, second window ($d=3,5$) & $\ge\V{r4b.bar}$ of \V{r4b.cells} cells in 93--97\% & not met: \V{r4b.inband} of \V{r4b.cells}\\
+Inflated R2, R3 intervals & $\ge\V{inf.bar}$ of \V{inf.cells} cells in 93--97\%, each window & failed: \V{inf.st.inband} and \V{inf.bw.inband}\\
+Holdout, $d=9$ & reference resolved to 20\% & not resolved\\
+Interval at $d=9$ (given A-0) & $\ge\V{c9.bar}$ of \V{reps} missed by it, R1 and R5 & not met: \V{c9.miss.R1} and \V{c9.miss.R5}\\
+\hline
+\multicolumn{3}{p{0.94\columnwidth}}{Post hoc, no bar: R4$'$ on the first window; reference ranges; per-round R5; $d=7$ reference under other weightings; surrogate bracket.}\\
+\hline\hline
+\end{tabular}
+\end{table}
+
+Registered follow-ups, none completed and none relied on: a refinement of the $d=7$ references to \V{v6.ref7.bar}\%; a proof of A-0 (a weighted structural bound did not close it); a sliding-window sweep; R1 on the second window with more data; and blind extrapolations in distance to $d=9,11,13$.
+
+\section{The reference estimator}\label{sec:method}
+This section completes Sec.~\ref{sec:ref} of the main text. The estimator is our own implementation of an established approach, sampling at a fixed number of faults \cite{heussen2024,beverland2025,ye2026} with an interval built from the strata \cite{molavi2026}; it was written independently of those works and uses none of their code.
+
+
+\emph{Circuit and decoder.} The circuit is Stim's generated circuit \texttt{surface\_code:rotated\_memory\_z} with distance $d$ and $d$ rounds, with the three noise arguments \texttt{after\_clifford\_depolarization}, \texttt{before\_measure\_flip\_probability} and \texttt{after\_reset\_flip\_probability} set to $p$ and no other noise. The fault mechanisms are the error instructions of its flattened detector error model, taken without decomposition, so that a mechanism flipping more than two detectors stays one mechanism. The decoder is PyMatching's matching decoder built from the detector error model of the same circuit at the same $p$, with errors decomposed into edges. A fault set fails if the decoder's prediction for the observable differs from the parity of the observable flips of its mechanisms. The software was Stim 1.16.0 and PyMatching 2.4.0.
+
+\emph{Strata.} Mechanism $i$ occurs with probability $q_i$ and has odds $r_i=q_i/(1-q_i)$. The number of faults $W$ has $P(W=w)=e_w(r)\prod_i(1-q_i)$, where $e_w$ is the elementary symmetric polynomial of degree $w$, computed by the usual recurrence. Given $W=w$, a set $S$ of $w$ mechanisms has probability $\prod_{i\in S}r_i/e_w(r)$. Strata $w=1$ to $120$ are kept; the mean number of faults, $\sum_iq_i$, is at most \V{m.lam.max} in any reference cell, and a Chernoff bound puts the neglected probability below $\V{v6.tail.d7}$ there.
+
+
+\emph{Sampling law.} Within a stratum, ordered sequences of $w$ mechanisms are drawn from a mixture of two proposals. With probability $\alpha=0.7$ the sequence is grown locally: the first mechanism is drawn with probability proportional to $r_i$, and each later one by choosing, uniformly, a detector from those touched by the mechanisms already chosen or sharing a mechanism with one of them, and then a mechanism acting on that detector with probability proportional to $r_i$. This favours clustered faults, the kind that defeat a matching decoder with few faults. With probability $1-\alpha$ the mechanisms are drawn one at a time without replacement with probability proportional to $r_i$ (the Plackett--Luce law), which reaches every set and keeps the weights bounded. A sequence $s$ in which a mechanism repeats, possible only under local growth, scores zero. Any other sequence scores
+\begin{align}
+Y(s)&=\mathbf{1}[s\ \text{fails}]\;\frac{\pi(s)}{\alpha\,q_{\mathrm g}(s)+(1-\alpha)\,q_{\mathrm{PL}}(s)},\\
+\pi(s)&=\frac{\prod_{i\in s}r_i}{e_w(r)\,w!},\nonumber
+\end{align}
+where $\pi$ is the target probability of the ordered sequence and $q_{\mathrm g}$, $q_{\mathrm{PL}}$ are the probabilities of $s$ under the two proposals, both evaluated for every sequence whichever proposal produced it. The estimate $\hat f_w$ is the mean of $Y$ over all $M_w$ draws in the stratum, and for a fixed $M_w$ it is unbiased.
+
+\emph{Proposal probabilities.} Write $R=\sum_ir_i$ and, for a detector $t$, $\rho_t$ for the sum of $r_i$ over the mechanisms that flip $t$. For an ordered sequence $s=(i_1,\dots,i_w)$ without repeats,
+\begin{equation}
+q_{\mathrm{PL}}(s)=\prod_{k=1}^{w}\frac{r_{i_k}}{R-\sum_{j<k}r_{i_j}},\qquad
+q_{\mathrm g}(s)=\frac{r_{i_1}}{R}\prod_{k=2}^{w}\frac{1}{|D_k|}\sum_{t\in D_k,\ i_k\ \mathrm{flips}\ t}\frac{r_{i_k}}{\rho_t},
+\end{equation}
+where $D_k$ is the set of detectors that are flipped by one of $i_1,\dots,i_{k-1}$ or share a mechanism with such a detector. In a batch of $M$ draws the number taken from the local-growth proposal is binomial with parameters $M$ and $\alpha=0.7$. Repeats are counted among the $M$ draws with score zero. Each run uses one pseudo-random generator with its own seed.
+
+\emph{Variance, allocation and stopping.} Each stratum starts with 5000 draws, or $10^5$ if $w<(d+1)/2$. The working standard error of the estimate is $\hat\sigma=(\sum_wu_w^2)^{1/2}$ with
+\begin{equation}
+u_w=P(W=w)\,\frac{\bigl(\sum Y^2+\bar W^2\bigr)^{1/2}}{M_w}\,\max\!\Bigl(1,\sqrt{30/n_{\mathrm{eff}}}\Bigr),\label{eq:se}
+\end{equation}
+where the sum is over the draws of the stratum, $\bar W=1/(1-\alpha)$ is a nominal cap on the weights, and $n_{\mathrm{eff}}=(\sum Y)^2/\sum Y^2$, taken as at least 1, is the effective number of failing draws. Three choices in Eq.~(\ref{eq:se}) err on the wide side: the second moment is not centred; the term $\bar W^2$ acts as one extra draw at the nominal cap, so that a stratum in which no failure has been seen still contributes; and the error is inflated when fewer than 30 effective failures have been seen. There is one exception in the other direction. A stratum with $w<(d+1)/2$ in which none of the $10^5$ draws fails is given $u_w=0$. That was the case in every run. It treats as known that fewer than $(d+1)/2$ faults cannot cause a failure, which for the circuit is an assumption, supported by those draws and, for the surrogate of Sec.~\ref{sec:shells}, by complete enumeration.
+
+Sampling then proceeds in rounds. In each round the strata with the largest $u_w$, at most six and each at least 0.3 of the largest, receive a further batch equal to the draws they already have (at least 5000, at most $4\times10^5$). A run stops when $\hat\sigma$ is at most 2\% of the estimate, or when it reaches a time limit of 2400~s or $4\times10^7$ draws. Because the allocation and the stop depend on the draws already made, the final estimate is not exactly unbiased and $\hat\sigma$ is not a guaranteed bound. We rely on the checks of Sec.~\ref{sec:truthcheck} of the main text for its calibration.
+
+\emph{Constants.} The time limit was 3000~s for the holdout runs. A run that reaches a limit returns its estimate and $\hat\sigma$ as they stand and is not extended, restarted or replaced. The estimator's code has a single commit, made before the results of the check against direct Monte Carlo were committed, and its hash is recorded in the frozen plan. Table~\ref{tab:runs} gives the size of the runs.
+\begin{table}[htbp]
+\caption{The runs behind the twelve reference cells, two per cell: \V{m.lowd.runs} at $d=3$ and $5$ and \V{m4.d7.ref.runs} at $d=7$. The last column gives how the runs ended; all \V{m4.d7.ref.time} of the $d=7$ runs in this table reached the 2400~s limit, with fewer than $4\times10^7$ draws and $\hat\sigma$ above 2\%. Draws are fault sets decoded, summed over strata. In every run no failure was seen in the $10^5$ draws of each stratum with $w<(d+1)/2$, and the first stratum with failures was $w=(d+1)/2$.}\label{tab:runs}
+\begin{tabular}{rrrrrl}\hline\hline
+$d$ & mechanisms $N$ & draws per run ($10^6$) & run time (s) & $\hat\sigma$/estimate, single run (\%) & ended by\\\hline
+3 & \V{m.N.d3} & \V{m.totM.d3.min} & \V{m.secs.d3.min}--\V{m.secs.d3.max} & \V{m.runrelse.d3.min}--\V{m.runrelse.d3.max} & 2\% rule\\
+5 & \V{m.N.d5} & \V{m.totM.d5.min}--\V{m.totM.d5.max} & \V{m.secs.d5.min}--\V{m.secs.d5.max} & \V{m.runrelse.d5.min}--\V{m.runrelse.d5.max} & 2\% rule\\
+7 & \V{m.N.d7} & \V{m.totM.d7.min}--\V{m.totM.d7.max} & \V{m.secs.d7.min}--\V{m.secs.d7.max} & \V{m.runrelse.d7.min}--\V{m.runrelse.d7.max} & time limit\\
+\hline\hline
+\end{tabular}
+\end{table}
+
+\emph{Checks.} For the comparison with direct Monte Carlo, the circuit was sampled with Stim and decoded with the same decoder until at least 1000 logical errors had been seen. A cell was eligible if the estimate was at least $10^{-6}$ and at least 100 errors had been seen, and the statistic was $z=(\hat p_{\mathrm{ref}}-k/n)/(\hat\sigma^2+k/n^2)^{1/2}$ for $k$ errors in $n$ shots, using the first run of the cell. For the comparison with the surrogate, the same estimator was pointed at the surrogate model and run with 20 seeds per cell, the same 2\% rule and a limit of 25 minutes. A seed counted as inside if the surrogate's polynomial through fourth order lay within $\pm1.96\,\hat\sigma$ of its estimate. The polynomial was inside in \V{is.d3.t3.inside}, \V{is.d3.t4.inside}, \V{is.d5.t3.inside} and \V{is.d5.t4.inside} of 20 seeds in the four cells (\V{v6.br.is.touch} of \V{v6.br.is.n}; registered bar at least 18 of 20 per cell and median width at most 20\%, the widths being \V{is.width.min}--\V{is.width.max}\%). This is the check of the working estimator; the separate betting intervals of Sec.~\ref{sec:cert} were checked on the same polynomial in \V{c.inside.all} of \V{c.n.all} replicates.
+
+\section{Reference estimates and window data}\label{sec:refs}
+\begin{table}[htbp]
+\caption{Real-circuit reference estimates of $\pL$ used to score the fits, by distance and target $p$: inverse-variance combination of two independent runs, with, in brackets, the combined relative standard error in percent and the run-to-run difference $z$ in combined standard errors. Treated as exact in the registered hit test.}\label{tab:truth}
+\input{tab_truth.tex}
+\end{table}
+\begin{table}[htbp]
+\caption{Mean over \V{reps} replicates of the simulated logical error rate at each window point; upper block the first window, lower block the second. On the first window the ordering of the distances reverses between $p=6\times10^{-3}$ and $p=10^{-2}$; on the second larger codes are better at every point. Median $\chi^2/\mathrm{dof}$ of the free-exponent fit R1 at $d=3,5,7$: \V{chidof.d3}, \V{chidof.d5}, \V{chidof.d7} (first) and \V{bw.chidof.d3}, \V{bw.chidof.d5}, \V{bw.chidof.d7} (second). Descriptive.}\label{tab:window}
+\input{tab_window.tex}
+
+\vspace{4pt}
+\input{tab_bw_window.tex}
+\end{table}
+
+\emph{The $d=7$ references (post hoc reading of stored runs).} Table~\ref{tab:d7runs} gives the two runs behind each $d=7$ reference cell. The inverse-variance weights are close to one half, equal weighting changes the combined value by at most \V{v6.eq.maxdiff}\%, and the largest difference between two runs is $|z|=\V{v6.run.zmax}$. The low values at $p=10^{-4}$ and $10^{-5}$ therefore do not come from the combination rule; both runs are lower there than at $p=10^{-3}$. Whether each run is itself biased low by missed heavy fault sets cannot be told from two seeds of one estimator. The registered smooth model for $\pL/p^4$, $A\,e^{-\lambda(p)}(1+Bp)$ fitted to all eight runs, failed ($\chi^2=\V{v6.smooth.reg.chi2}$ on \V{v6.smooth.reg.dof} degrees of freedom) and is not used. As a post hoc fallback, $A\,e^{-\lambda(p)}$ fitted to the six runs at $p\le10^{-4}$ gives $A=\V{v6.smooth.A}\times10^{6}$ with $\chi^2=\V{v6.smooth.chi2}$ on \V{v6.smooth.dof} ($p=\V{v6.smooth.p}$; largest $|z|$ \V{v6.smooth.zmax}). Table~\ref{tab:r2d7} re-scores R2 at $d=7$ against each variant; equal weighting moves at most \V{v6.r2d7.eq.maxmove} hits of 300. On the second window R2's median prediction at $p=10^{-4}$ and $10^{-5}$ is \V{v6.r2d7.w2.rat.min}--\V{v6.r2d7.w2.rat.max} times the reference under every variant.
+\begin{table}[htbp]
+\caption{The two runs behind each $d=7$ reference cell, as $\pL/p^4$ in units of $10^6$, with the inverse-variance weight of the first run and the difference between the runs in standard errors.}\label{tab:d7runs}
+\input{tab_v6_d7runs.tex}
+\end{table}
+\begin{table}[htbp]
+\caption{Hit fraction (\%) of R2 at $d=7$ when the $d=7$ reference is combined in different ways, by target $p$. First row: the registered reference (inverse-variance weights). Others, post hoc: equal weights, each run alone, and the smooth curve $A\,e^{-\lambda(p)}p^4$.}\label{tab:r2d7}
+\input{tab_v6_r2d7.tex}
+\end{table}
+
+\section{Size of the errors, and sensitivity analyses}\label{sec:bwsm}
+\begin{table}[htbp]
+\caption{Median over replicates of prediction divided by reference, by target $p$, for both windows. For R5 both the registered block-rate projection and the per-round version (post hoc) are given.}\label{tab:ratio}
+\footnotesize\input{tab_v6_ratio.tex}
+\end{table}
+\begin{table}[htbp]
+\caption{Registered sensitivity analysis: coverage (\%) with the covariance of each fit scaled by $\max(1,\chi^2/\mathrm{dof})$, by target $p$. Left: first window; median coverage by recipe R1 \V{cov.sca.median.R1}, R2 \V{cov.sca.median.R2}, R3 \V{cov.sca.median.R3}, R4 \V{cov.sca.median.R4}, R5 \V{cov.sca.median.R5}. Right: second window. Primary coverage for R1, R2, R3 and R5 is in Table~\ref{tab:covrange}; first-window primary coverage for R4 is in Table~\ref{tab:exp}.}\label{tab:bwsca}
+\footnotesize
+\begin{minipage}{0.48\textwidth}\centering\emph{First window}\\[2pt]\input{tab_cov_scaled.tex}\end{minipage}\hfill
+\begin{minipage}{0.48\textwidth}\centering\emph{Second window}\\[2pt]\input{tab_bw_scaled.tex}\end{minipage}
+\end{table}
+\begin{table*}[tbp]
+\caption{Coverage of the reference point estimate by the reported 95\% interval, by target $p$ and for both windows: hits out of \V{reps} replicates (primary analysis); the hit fraction in percent; in parentheses the reference range, the smallest and largest hit fraction as one shared reference value moves over the estimate $\pm1.96$ standard errors; in brackets the exact Clopper--Pearson 95\% interval of the hit fraction in percent (285 hits is 91.9--97.2\%). R2, R3, R1 and R5 are registered on both windows; R4$'$ is post hoc on the first window and registered on the second ($d=3,5$; no bar at $d=7$). R5 is the registered block-rate projection. The reference ranges are post hoc and do not cover a bias shared by the reference estimates. Cells share fits and references and are not independent. Labels in the main text are generated from the integer counts: robust-below if the largest hit count in the range is under 270, robust-above if the smallest is 270 or more, else undecided.}\label{tab:covrange}
+\scriptsize\setlength{\tabcolsep}{2pt}\input{tab_v8_cov.tex}
+\end{table*}
+\emph{First window.} Scored against the reference point estimates, all \V{cells.pri.below90} of \V{cells.pri} cells of the registered recipes are below 90\% in the primary analysis and \V{cells.pri.zero} have no hit; with the scaling, \V{cells.sca.below90} stay below 90\% and \V{cells.sca.above97} exceed 97\%, all of them R2 or R3 at $d=7$. A cell with no hits has a Clopper--Pearson upper limit of \V{cp.zero.upper}\%.
+
+\emph{Second window.} The amendment was committed before the run, after every result on the first window was known. It fixed the window by the rule given in the main text (Sec.~\ref{sec:recipes}), the seeds, the code by hash, and four predictions (Table~\ref{tab:status}; BW-1 to BW-3 are for the primary analysis, and under the scaling R1 and R5 are below 90\% in \V{bw1.sca.R1.mis} of \V{bw1.R1.cells} and \V{bw1.sca.R5.mis} of \V{bw1.R5.cells} far cells). The crossing used by the rule, $p_\times=\V{bw.px}\times10^{-3}$, is where the mean logical error rates of $d=3$ and $d=7$ on the first window are equal, by log-linear interpolation. The analysis code is the registered code with the list of window points replaced. Over all \V{bw.cells} cells of the primary analysis on this window, \V{bw.cells.mis} are below 90\%, \V{bw.cells.zero} have no hit and \V{bw.cells.inband} are in the 93--97\% band; on the first window the counts were \V{cells.pri.below90}, \V{cells.pri.zero} and \V{cells.pri.calibrated}. The cell-median 95\% half-widths are \V{bw.hw.R1.min}--\V{bw.hw.R1.max}\% of the prediction for R1, \V{bw.hw.R2.max}\% for R2, \V{bw.hw.R3.min}--\V{bw.hw.R3.max}\% for R3 and \V{bw.hw.R5.min}--\V{bw.hw.R5.max}\% for R5. The controls were not repeated for this window. In the sensitivity analysis R1 covers \V{bw.sca.R1.covmin}--\V{bw.sca.R1.covmax}\%.
+
+\emph{R4$'$ on the second window (registered).} The amendment was committed before any R4$'$ number on this window had been computed, and after all results of R1--R5 on it were known. It uses the stored replicates, the same reference values, targets, hit rule and band. As a check, the hits of R1--R5 were re-derived by the new code and equal those of the stored table in every cell. \emph{Registered bar:} R4$'$ in 93--97\% in at least \V{r4b.bar} of the \V{r4b.cells} cells at $d=3$ and $5$ (primary analysis). \emph{Outcome: not met}, \V{r4b.inband} of \V{r4b.cells}. The \V{r4b.above} cells outside the band are $d=3$ at $p=10^{-4}$, $10^{-5}$ and $10^{-6}$, at \V{r4b.cov.d3.t4}\%, \V{r4b.cov.d3.t5}\% and \V{r4b.cov.d3.t6}\%, all above it. In the scaled sensitivity analysis \V{r4b.sca.inband} cells are in the band and \V{r4b.sca.above} above it. At $d=7$ (no bar) \V{v7.w2.R4p.d7.undecided} of the 4 cells are undecided over the reference range and one, at $p=10^{-6}$ (range \V{v7.rg.w2.R4p.d7.t6}\%), is at or above 90\% throughout, though its range reaches below the lower edge of the 93--97\% band.
+
+\section{Attempted repairs of the fixed-exponent intervals (registered)}\label{sec:inflate}
+
+The hypothesis, registered before any computation, was that the over-confidence of R2 and R3 is a discrepancy of the model that the replicate's own data can estimate. The rule, applied to the stored replicates of both windows: (1) fit the recipe to all five window points, giving the prediction and its variance at the target on the log scale; (2) refit to the four lowest points and predict the highest; (3) take the square of the difference between the observed and predicted $\ln\hat\pL$ at that point as a discrepancy variance, with no floor and no shrinkage (for R3 the shared model is refitted and there is one residual per distance); (4) add it to the variance at the target and report $\hat\mu\pm1.96$ times the square root. The same residual is used at every target. \emph{Registered bar:} coverage in 93--97\% in at least \V{inf.bar} of the \V{inf.cells} cells of R2 and R3, on each window. \emph{Outcome: failed on both} (Table~\ref{tab:inflate}): \V{inf.bw.inband} of \V{inf.cells} on the second window and \V{inf.st.inband} of \V{inf.cells} on the first. The coverage without inflation, recomputed by the same code, equals the stored tables in every cell.
+\begin{table}[htbp]
+\caption{Registered. Coverage of R2 and R3 after inflation, in numbers of cells out of 12 per recipe and window; median coverage over those cells in percent, with the value before inflation in brackets; and the median ratio of the inflated to the original interval width on the log scale. R1 with the same inflation is a side check and is not part of the bar.}\label{tab:inflate}
+\input{tab_inflate.tex}
+\end{table}
+On the second window the rule moves coverage towards the band without reaching it, and at $p\le10^{-4}$ only \V{inf.bw.far.inband} of \V{inf.bw.far.cells} cells are in the band and \V{inf.bw.far.below90} are still below 90\%. On the first window the intervals become \V{inf.st.R2.width} to \V{inf.st.R3.width} times wider and cover nearly always. The held-out point lies one step from the fit while the targets lie up to several decades away, so the residual can understate the discrepancy at distant targets.
+
+\emph{Dividing out the zero-fault factor (registered).} The window data were divided by $E(p)=\prod_i(1-q_i)$, the exact probability that no mechanism occurs, before fitting R2 or R3, and the prediction was multiplied by $E$ at the target; the stored data were reused and nothing was simulated. Three predictions were registered. P1: at $d=3$ and $5$ on the first window the median prediction over reference lies in 0.90--1.10 in all \V{zf.p1.n} cells (found: \V{zf.p1.in}). P2: coverage below 90\% in at most 8 of those \V{zf.p1.n} cells (found: \V{zf.p2.below}). P3: R2 robustly below 90\% in at most 2 of 8 cells on the second window (found: \V{zf.p3.rb} of \V{zf.p3.n}). All three failed: $E$ is far from 1 inside the windows, the divided data still carry every higher-order term, and the fitted prefactor is inflated. The recipe is dropped. The record is the archive file RESULTS\_ZEROFAULT.
+
+\section{The leading power and the projection in distance (post hoc)}\label{sec:r4}
+\emph{R4 and R4$'$.} R4, the form registered first, is $p^{d/2}e^{c_0+c_1p+c_2p^2}$ with three constants per $d$; the exponent $d/2$ is the leading order for the even distances for which the form was written \cite{bravyi2024,beverland2025} and is wrong for odd $d$. R4$'$ is identical to R4 in every respect except that the exponent is $(d+1)/2$ instead of $d/2$; its interval widths are identical (Table~\ref{tab:exp}). R4's coverage is \V{cov.pri.R4.d5.t3}--\V{cov.pri.R4.d7.t3}\% at $p=10^{-3}$ and zero beyond, and its median prediction is \V{ratio.R4.min} to \V{ratio.R4.max} times the reference, nearly the same at each distance. Relative to the correct leading power R4 carries a factor $p^{-1/2}$, which the correction terms can absorb inside the window but not below it, so each further decade multiplies the prediction by about $\sqrt{10}=\V{am.mech.sqrt10}$: the ratio of the R4 to the R4$'$ median prediction grows by \V{am.mech.step1}, \V{am.mech.step2} and \V{am.mech.step3} over the three successive decades, the same at every $d$. On the second window R4 is again high, by \V{bw.ratio.R4.t4.min}--\V{bw.ratio.R4.t4.max} at $p=10^{-4}$ and \V{bw.ratio.R4.t6.min}--\V{bw.ratio.R4.t6.max} at $10^{-6}$. R2-lin, the form $p^{(d+1)/2}(c_0+c_1p)$ fitted on the linear scale, is intermediate between R2 and R4$'$: on the first window it covered \V{am.R2lin.d3.covmin}--\V{am.R2lin.d3.covmax}\% at $d=3$, \V{am.R2lin.d5.covmin}--\V{am.R2lin.d5.covmax}\% at $d=5$ and at most \V{am.R2lin.d7.covmax}\% at $d=7$.
+\begin{table}[htbp]
+\caption{Post hoc. First window: coverage in percent (primary analysis, \V{reps} replicates), with the median of prediction divided by reference in brackets, by target $p$. R4 has exponent $d/2$, as registered; R4$'$ has exponent $(d+1)/2$ and is otherwise the same fit.}\label{tab:exp}
+\input{tab_am_main.tex}
+\end{table}
+
+\emph{Per-round normalisation.} With $\epsilon(d)=[1-(1-2\pL)^{1/d}]/2$ and its inverse $\pL=[1-(1-2\epsilon)^d]/2$, a geometric sequence $\epsilon(7)=\epsilon(5)^2/\epsilon(3)$ gives, at small rates, $\pL(7)=7\,\epsilon(5)^2/\epsilon(3)=(21/25)\,\pL(5)^2/\pL(3)$. The registered R5 applied the step to block rates and so carries a factor $\V{v6.alg}=\V{v6.algval}$ in the small-rate limit that is algebra, not data. For the per-round R5, each replicate's per-round point prediction was computed from its own fitted R1 rates at $d=3$ and $5$ through $\epsilon(d)$ and the inverse map, and both ends of its interval were multiplied by the same replicate-specific factor (per-round over block prediction), so the interval keeps its width on the logarithmic scale and the delta-method variance was not propagated through the map (the endpoints were not rescaled by the single factor $21/25$), and the hit counts of the untransformed version were verified equal to the stored tables in every cell on both windows. The per-round suppression factors of the reference values from $d=3$ to $5$ and from $5$ to $7$ are \V{v6.lam35.t3} and \V{v6.lam57.t3} at $p=10^{-3}$, \V{v6.lam35.t4} and \V{v6.lam57.t4} at $10^{-4}$, \V{v6.lam35.t5} and \V{v6.lam57.t5} at $10^{-5}$, and \V{v6.lam35.t6} and \V{v6.lam57.t6} at $10^{-6}$ (Table~\ref{tab:r5}). The per-round R5 is lower than the registered one by a factor \V{v6.r5.w1.shift}; on the second window it is below 90\% in \V{v6.r5.w2.far.below90.pr} of its 3 far cells where the registered version was in \V{v6.r5.w2.far.below90.blk}, with median predictions \V{v6.r5.w2.rat.pr.min}--\V{v6.r5.w2.rat.pr.max} times the reference.
+\begin{table}[htbp]
+\caption{The step in distance from $d=3$ and $5$ to $d=7$. Columns 2--3: the step applied to the reference estimates, divided by the $d=7$ reference, on per-round rates [Eq.~(\ref{eq:perround}) of the main text] and on block rates; the two differ by about $\V{v6.alg}$ at small rates. Columns 4--6: R5 with the per-round step on the first window: median prediction over reference, the same divided by column 2 (the part due to the fitted inputs), and hits. Post hoc.}\label{tab:r5}
+\input{tab_v6_r5.tex}
+\end{table}
+
+\emph{R5 on the first window.} R5 combines an extrapolation in $p$, the R1 fits at $d=3$ and $5$, with one in $d$. Applied to the reference estimates themselves, on per-round rates, the step in distance lands at \V{v6.dist.pr.t3}, \V{v6.dist.pr.t4}, \V{v6.dist.pr.t5} and \V{v6.dist.pr.t6} times the $d=7$ reference at $p=10^{-3}$ to $10^{-6}$ (Table~\ref{tab:r5}). The factors near 1.3 sit where the $d=7$ reference is lowest (Sec.~\ref{sec:truthcheck} of the main text; \V{v6.dist.sm.t4} and \V{v6.dist.sm.t5} with the smooth-curve references), so a departure from constant per-round suppression is not established. The per-round R5 is still \V{v6.r5.w1.rat.pr.t3} to \V{v6.r5.w1.rat.pr.t6} times the reference, with at most \V{v6.r5.w1.cov.pr.farmax}\% coverage at $p\le10^{-4}$, and \V{v6.r5.w1.share.t4}\% to \V{v6.r5.w1.share.t6}\% of the logarithm of its error there comes from the R1 inputs.
+
+\section{Low-order structure of the surrogate}\label{sec:shells}
+\begin{table}[htbp]
+\caption{Linearised detector-error-model surrogate: number of fault sets of each size, and how many cause a logical failure. All shells are complete except the last row, which is a random sample (\V{ex.d7.w4.units} of \V{ex.d7.w4.unitstotal} units). The surrogate is not the circuit and is not the reference for the coverage tables.}\label{tab:shells}
+\input{tab_shells.tex}
+\end{table}
+The surrogate is built from Stim's detector error model generated with its decomposition option; each error instruction is one mechanism, with its full set of detectors. Mechanism $i$ has probability $m_ip$, where $m_i$ is its probability at $p=10^{-9}$ divided by $10^{-9}$, and the decoder is the matching decoder built at $p=10^{-3}$, the same at every $p$. A set $S$ of mechanisms occurs alone with probability $\prod_{i\in S}m_ip\prod_{j\notin S}(1-m_jp)$, so each failing set of $w$ faults contributes to the coefficient of $p^k$, $k\ge w$, the product of its $m_i$ times the term of order $k-w$ of the second product. All sets of up to four faults were decoded at $d=3$ and $d=5$, and all sets of up to three at $d=7$ (Table~\ref{tab:shells}; this is the low end of the failure spectrum of Ref.~\cite{beverland2025}). No set of fewer than $(d+1)/2$ faults fails. Writing $\pL=\sum_kc_kp^k$ for the surrogate, the exact coefficients are $c_2=\V{ex.d3.c2}$, $c_3=\V{ex.d3.c3}$, $c_4=\V{ex.d3.c4}$ at $d=3$ and $c_3=\V{ex.d5.c3}$, $c_4=\V{ex.d5.c4}$ at $d=5$, with all lower coefficients exactly zero. At $d=7$, $c_1=c_2=c_3=0$ exactly, and the fourth shell ($\V{ex.d7.w4.setstotal}$ sets) was sampled in units processed in a seeded random order: $c_4\approx\V{ex.d7.c4.est}$ with a sampling standard error of \V{ex.d7.c4.relse}\%, an estimate and not an exact coefficient. At $p=10^{-3}$ the $p^4$ term removes \V{ex.d5.c4overc3}\% of the $p^3$ term at $d=5$ (at $d=3$ the $p^3$ term removes \V{ex.d3.c3overc2}\% of the $p^2$ term). These negative corrections in the surrogate are consistent with the direction of the prefactor drift in Fig.~\ref{fig:money} of the main text. The fourth-order surrogate polynomial and the circuit reference estimates differ by at most about 2.2\% at $d=3$ and $5$ (between \V{ex.gap.d5.t3}\% and \V{ex.gap.d5.t4}\% at $d=5$ and between \V{ex.gap.d3.t4}\% and \V{ex.gap.d3.t3}\% at $d=3$). At $d=5$ the bounds on the full surrogate are too wide to establish agreement at that precision (Table~\ref{tab:bracket}). None of these comparisons was a registered test.
+
+\emph{The surrogate checks were against a truncation (post hoc).} For the complete shells $w\le4$ the enumeration also gives the terms of orders up to $w+3$, the remainder of those shells is bounded by a geometric series, and the shells $w\ge5$ contribute between zero and $P(W\ge5)$, which is exact. This gives a bracket for the full surrogate value, from enumeration and an analytic remainder bound (Table~\ref{tab:bracket}). At $d=3$ the bracket is tight and every replicate interval of Sec.~\ref{sec:cert} contains all of it. At $d=5$ it is not: at $p=10^{-3}$ the known higher-order terms lower the polynomial by \V{v6.br.d5.t3.lower}\% and the unknown contribution of five or more faults, which is positive, is bounded only by $P(W\ge5)$. All \V{c.n.all} replicate intervals intersect the bracket, and \V{v6.br.is.touch} of the \V{v6.br.is.n} intervals of the working estimator do, the same seeds that contain the polynomial. Completing the check at $d=5$ would need the fifth shell, about $2.4\times10^{14}$ decodes ($\binom{1953}{5}$ sets).
+\begin{table}[htbp]
+\caption{Bracket for the full value of the surrogate, against its polynomial through fourth order, and the number of replicate intervals of Sec.~\ref{sec:cert} that contain the whole bracket. Post hoc.}\label{tab:bracket}
+\footnotesize\input{tab_v6_bracket.tex}
+\end{table}
+
+\section{Intervals with a stated guarantee, and $d=9$}\label{sec:cert}
+The standard error of Eq.~(\ref{eq:se}) is a working one. This section describes an interval for the same stratified quantity that holds with probability at least $1-\delta$ without appeal to a normal limit. The general plan, exact knowledge of some fault sets plus sampling of the rest with a non-asymptotic interval, is that of Ref.~\cite{molavi2026}, and sampling by number of faults with a bound on the unsampled remainder is in Ref.~\cite{heussen2024}. We claim two refinements only, marked (i) and (ii) below. Item (i) we did not find in Refs.~\cite{heussen2024,beverland2025,ye2026,molavi2026}, of which Ref.~\cite{heussen2024} was read in part only; we have made no systematic search. Item (ii) applies a bound that Ref.~\cite{heussen2024}, Eqs.~(5)--(6), already gives for equal fault probabilities.
+
+
+\emph{(i) A range bound for each stratum.} The score $Y$ of a draw in stratum $w$ satisfies
+\begin{equation}
+0\le Y\le b_w=\frac{R^w}{(1-\alpha)\,e_w(r)\,w!}.
+\end{equation}
+The mixture probability is at least $(1-\alpha)q_{\mathrm{PL}}(s)$, and $q_{\mathrm{PL}}(s)\ge\prod_{i\in s}r_i/R^w$ because each denominator in $q_{\mathrm{PL}}$ is at most $R$; dividing $\pi(s)$ by this lower limit gives $b_w$. In the strata used here $b_w$ lies between \V{c.b.min} and \V{c.b.max}, at or slightly above the nominal cap $\bar W=1/(1-\alpha)$ of the working standard error. Each stratum mean $f_w$ then receives its own two-sided confidence interval for the mean of a variable confined to $[0,b_w]$, by the betting method of Ref.~\cite{waudbysmith2024}: for a trial value $m$ of the mean, the products $\prod_j[1+\lambda(Y_j-m)]$ are averaged over a fixed grid of 18 values of $\lambda$, and $m$ is rejected as too small when the average reaches $2S/\delta$; the upper limit is found in the same way from $\prod_j[1+\lambda(m-Y_j)]$. The grids are fixed in advance and not tuned: $\lambda_j=g_j/b_w$ with, for the lower limit, $g_j=$ \V{v6.grid.lower}, of which a value is used only where $\lambda_jm<1$ (all trial means for the first \V{v6.grid.lower.full} values), and for the upper limit $g_j=$ \V{v6.grid.upper}, all admissible for every $m$ in $[0,b_w)$. A multiplier that is not admissible at a trial mean contributes zero to the average, which is still over all 18 and not renormalised, so the statistic is an average of non-negative test martingales starting at most at 1 and Ville's inequality applies. Each term is non-increasing in $m$: it falls as $m$ grows and then drops to zero at the cutoff $m=1/\lambda_j$, where the multiplier ceases to be admissible, continuously if some draw has $Y_j=0$ and otherwise possibly as a jump down. A jump down preserves monotonicity, so the lower-limit statistic is non-increasing in $m$ and the bisection finds the point at which it crosses $2S/\delta$ (the infimum of the trial means not rejected); the upper-limit statistic is non-decreasing. Checked on the stored $d=9$ draws, both are monotone on a 4000-point grid in each of the eight strata (largest violation \V{v7.bet.mono}); the first cutoff, $b_w/30\approx\V{v7.bet.cut}$, is at least \V{v7.bet.ratio} times the largest bound computed, so all \V{v7.bet.adm} lower multipliers are admissible at every reported bound; and a dense-grid root agrees with the bisection within \V{v7.bet.bf}\%. Here $S$ is the number of strata bounded ($S=8$ under A-0, $S=12$ without it) and $\delta=0.05$, so that all $2S$ one-sided statements (\V{c9.events.A0}, or \V{c9.events.free} without A-0) hold together with probability at least $1-\delta$. A separate bound for each stratum matters because the failing fraction and the stratum probability both vary by orders of magnitude from one stratum to the next.
+
+\emph{(ii) The unsampled-mass bound for unequal probabilities.} With $[f_w^-,f_w^+]$ the interval for $f_w$,
+\begin{equation}
+L=\sum_{w\le w_{\max}}P(W=w)\,f_w^-,\qquad U=\sum_{w\le w_{\max}}P(W=w)\,f_w^++P(W>w_{\max}).
+\end{equation}
+The last term counts every fault set above the largest sampled stratum as a failure. It is not estimated: it is the tail of the distribution of the number of faults for unequal $q_i$ (the equal-probability case is Eq.~(6) of Ref.~\cite{heussen2024}), obtained from the same elementary symmetric polynomials as the stratum probabilities. The sum stops at 120 faults, as in the main text; by the Chernoff bound $P(W\ge k)\le e^{-\lambda}(e\lambda/k)^k$ for a sum of independent indicators with mean $\lambda$, the omitted probability $P(W>120)$ is below $\V{v6.tail.d9}$ at $d=9$, $p=10^{-4}$. This bound is added to $U$, so that $U$ is a bound for the full sum; it is below double precision and changes no printed digit. Both printed endpoints are recomputed from the stored full-precision per-stratum limits and rounded outward ($L$ down, $U$ up), to three significant figures; the displayed rows of Table~\ref{tab:certd9} are rounded to two and need not add to the totals. At the other end, a stratum that complete enumeration has shown to contain no failing set is fixed at $f_w=0$ and uses none of $\delta$.
+
+\emph{Sampling.} There is no adaptive stopping. A pilot of 20\,000 draws per stratum fixes $w_{\max}$ (the smallest value for which the tail is at most $10^{-3}$ of the pilot estimate) and the number of draws for each stratum; the pilot is then discarded and only fresh draws enter the bounds. The interval is for the model sampled: independent mechanisms with the stated probabilities and the stated decoder. It assumes that the proposal probabilities are computed correctly (verified by complete enumeration of one stratum at $d=3$ only), that the pseudo-random draws are independent, and that floating-point error in the stratum probabilities is negligible.
+
+
+\emph{Check on the surrogate (registered before it was run).} For the surrogate at $d=3$ and $5$ and $p=10^{-3}$ and $10^{-4}$, where the polynomial through fourth order was taken as the answer, \V{c.d3.t3.n} replicate intervals were computed per cell with $4\times10^6$ draws each at $d=3$ and $10^7$ at $d=5$. That polynomial lay inside $[L,U]$ in \V{c.inside.all} of \V{c.n.all} replicates, and the median of $(U-L)$ divided by it was \V{c.d3.t3.width}\% and \V{c.d3.t4.width}\% at $d=3$ and \V{c.d5.t3.width}\% and \V{c.d5.t4.width}\% at $d=5$. The registered bars were every replicate inside and a median width of at most 50\%. The polynomial is a truncation; against the bracket for the full value (Table~\ref{tab:bracket}) the check is complete at $d=3$ only.
+
+\emph{The holdout at $d=9$, $p=10^{-4}$ (registered; not resolved).} The reference value was to come from six runs of the working estimator, each with a time limit of 3000~s. Five of the \V{h.runs} runs gave $\V{h.five.min}$ to $\V{h.five.max}$; the sixth gave $\V{h.outlier}$. The registered combination is $\V{h.truth}\pm\V{h.se}$, a standard error of about \V{h.relse} times the estimate, against a bar of 20\%; the estimate is the inverse-variance weighted mean of the six runs and $\pm$ is $(\sum_i\hat\sigma_i^{-2})^{-1/2}$, not a spread between runs. The single-run $\hat\sigma_i$ are $3.4\times10^{-11}$ to $3.8\times10^{-11}$ for the five low runs and $2.2\times10^{-10}$ for the sixth, that is \V{h.run.relse.min} to \V{h.run.relse.max} times the run's own estimate, so the combination is set by the working standard errors and not by the scatter of the estimates. The combined point estimate and those five run estimates are below the lower limit $L$ of the interval below, which does not depend on A-0, and the largest run estimate is above its upper limit. The holdout remains unresolved and we draw no conclusion from it.
+
+\emph{The interval at $d=9$, $p=10^{-4}$ (registered; a new measurement).} The model is the circuit model of the holdout, with \V{c9.N} fault mechanisms. The allocation of $\V{c9.draws}$ draws to the strata of 5 to \V{c.d9.wmax} faults was fixed from the holdout runs, which do not enter the bounds, and committed before sampling; each stratum of 1 to 4 faults received $\V{c9.lowdraws}$ draws for the second version below. All seeds were new.
+
+
+\emph{Assumption A-0.} The primary interval assumes $f_w=0$ for $w\le4$ at $d=9$: no set of four or fewer faults of the model causes a failure under the decoder used. \emph{A-0 is an assumption and is not proven here.} No shell at $d=9$ was enumerated. What supports it: at $d=7$ every set of up to three faults of the surrogate was decoded and none fails (Table~\ref{tab:shells}), the analogous statement one distance down; at $d=9$ none of the $\V{c9.lowdraws}$ fresh draws in each of the four strata failed, nor any of the $10^5$ draws per stratum in each of the six holdout runs. Sampling of this size cannot exclude a failing fraction below about $\V{c9.free.ucb}$ in a stratum, which, multiplied by the stratum probabilities, is far above the rates of interest. If A-0 is false, the upper limit below is not valid; the lower limit does not depend on it.
+
+Under A-0 the bound uses \V{c9.events.A0} one-sided statements and gives
+\begin{equation}
+L=\V{c9.L},\qquad U=\V{c9.U},
+\end{equation}
+with $U/L=\V{c9.UoverL}$ (Table~\ref{tab:certd9}). The stratum of five faults supplies most of $L$ and \V{c9.w5.shareU}\% of $U$, from \V{c9.w5.nfail} failing draws in $\V{c9.w5.n}$. The interval is wide even so, because the bound must allow for draws, not seen, with scores as large as $b_w$. Without A-0 (\V{c9.events.free} one-sided statements, strata 1 to 4 bounded from their draws) the interval is $\V{c9.free.L}$ to $\V{c9.free.U}$; one and two faults alone contribute $\V{c9.free.w1.hi}$ and $\V{c9.free.w2.hi}$ to the upper limit.
+\begin{table}[htbp]
+\caption{Interval at $d=9$, $p=10^{-4}$, under assumption A-0 (strata of 1 to 4 faults set to zero; not proven). Contributions are $P(W=w)$ times the lower and upper confidence limits of $f_w$. The last line before the total is the exact tail, counted wholly as failure.}\label{tab:certd9}
+\input{tab_cert_d9.tex}
+\end{table}
+\emph{The recipes against the interval.} For each of the \V{reps} replicates of the window data at $d=9$, a recipe is missed by the interval if (given A-0) $U$ is below the lower end of its 95\% interval (or $L$ above the upper end, which did not occur). The registered bar for a decision on R1 and R5 was at least \V{c9.bar} of \V{reps} for both under A-0. The counts are \V{c9.miss.R1} (R1), \V{c9.miss.R2} (R2), \V{c9.miss.R3} (R3), \V{c9.miss.R4} (R4) and \V{c9.miss.R5} (R5), so the bar is not met (Table~\ref{tab:cert}). Without A-0 the count is zero for every recipe. R2 and R3 are neither rejected nor confirmed. Under A-0, every R2 and R3 replicate interval overlaps the reference interval, and the median endpoints for both recipes lie inside it. This comparison leaves their coverage unresolved. No second-window fit exists at $d=9$. No interval of this kind was computed at $d=7$ or for any of the twelve reference cells, and none enters the coverage tables.
+\begin{table}[htbp]
+\caption{$d=9$, $p=10^{-4}$: the recipes fitted on the first window against the interval $\V{c9.L}\le\pL\le\V{c9.U}$ per memory experiment, which holds under assumption A-0 (no failure with four or fewer faults; not proven). Columns: the median over replicates of the ends of the recipe's 95\% interval, in units of $10^{-12}$ (in which the interval is \V{c9.L12} to \V{c9.U12}); the number of the \V{reps} replicates missed by the interval, that is, whose whole interval lies above $U$ (none lies below $L$); and the median prediction divided by $U$ and by $L$. Registered. Without A-0 no replicate of any recipe is missed by the interval. R5 is the registered block-rate projection.}\label{tab:cert}
+\input{tab_cert_recipes.tex}
+\end{table}
+
+\section{Controls A and B}\label{sec:controls}
+Both controls were run on the first window only. The in-window test rejects a fit made on one replicate dataset at a window point if the logarithm of the rate measured there in another dataset lies more than 1.96 combined standard errors (the fit's and the measurement's) from the fit's prediction; 150 replicate fits are compared with 150 independent fresh replicates, or with the data-only dataset, at each of the five window points and each distance (15 cells). \emph{Control A} replaces the circuit noise by data-qubit noise only; a fit made on circuit data must reject it. The data-only dataset was rejected by every recipe, R1 to R4, in all \V{ca.do.cells} of 15 cells (rate \V{ca.do.rate}). Fresh circuit data, which a sound test should reject 5\% of the time, were rejected at \V{ca.R1.fresh}\%, \V{ca.R2.fresh}\% and \V{ca.R3.fresh}\% by R1, R2 and R3, so the fits are overdispersed even inside the window. \emph{Control B}, a positive control, repeats the coverage analysis on a simpler noise model with independent errors on the edges of the matching graph, against reference values from stratified sampling of that model. All five recipes were miscalibrated in every cell (R1 to R4 in \V{cb.cells.R14} of \V{cb.cells.R14}, R5 in \V{cb.cells.R5} of \V{cb.cells.R5}; median coverage at most \V{cb.maxmed}\%), as a positive control should be. The controls were not repeated on the second window.
+
+\section{Direct Monte Carlo validation cells}\label{sec:val}
+Table~\ref{tab:val} lists the \V{val.eligible} cells in which the reference estimator was compared with direct Monte Carlo on the real circuit (the first run of each cell; eligibility and the statistic $z$ are defined in Sec.~\ref{sec:method}). All have $|z|\le2$; the largest is \V{val.zmax}. Direct sampling reaches only $\pL\approx\V{val.pmin}$, so direct checks cover all three distances at $p=10^{-3}$, only $d=3$ at $10^{-4}$, and neither of the two lower targets.
+\begin{table}[htbp]
+\caption{The \V{val.eligible} direct-Monte-Carlo validation cells: estimator value, direct estimate, number of logical errors seen, shots, and $z=(\hat p_{\mathrm{ref}}-k/n)/(\hat\sigma^2+k/n^2)^{1/2}$.}\label{tab:val}
+\footnotesize\input{tab_v9_val.tex}
+\end{table}
+
+\begin{figure}[htbp]
+\includegraphics[width=0.38\textwidth]{figs/fig4_windows}
+\caption{The free-exponent fit R1 on the two windows. (a) Coverage of the reference by the reported 95\% interval; the grey band is 93--97\% and the dotted line 90\%. (b) Median prediction divided by reference. Open symbols and dashed lines: first window. Filled symbols and solid lines: second window. Circles, squares and triangles are $d=3,5,7$.}\label{fig:win}
+\end{figure}
+
+\bibliography{refs}
+\end{document}

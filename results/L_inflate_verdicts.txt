@@ -1,0 +1,33 @@
+[BW CONFIRMATORY] R2: inflated in-band(93-97) 4/12, <90 5, >97 1, median cov 0.920; uninflated in-band 1, <90 11, median cov 0.657; median width ratio lnscale 2.21x linear 2.22x
+[BW CONFIRMATORY] R3: inflated in-band(93-97) 1/12, <90 7, >97 4, median cov 0.658; uninflated in-band 4, <90 8, median cov 0.063; median width ratio lnscale 2.84x linear 2.85x
+[BW CONFIRMATORY] R1: inflated in-band(93-97) 7/12, <90 0, >97 1, median cov 0.942; uninflated in-band 5, <90 0, median cov 0.925; median width ratio lnscale 1.02x linear 1.02x
+[BW CONFIRMATORY] BAR cells R2+R3 in band: 5/24 (need >=18)
+[BW CONFIRMATORY] far targets (<=1e-4) R2+R3 in band: 3/18, <90: 11
+[BW] sanity uninflated vs stored table mismatches: 0 []
+[BW EXPLORATORY-scaled] R2: inflated in-band(93-97) 4/12, <90 5, >97 1, median cov 0.925; uninflated in-band 1, <90 11, median cov 0.717; median width ratio lnscale 2.09x linear 2.09x
+[BW EXPLORATORY-scaled] R3: inflated in-band(93-97) 0/12, <90 7, >97 5, median cov 0.715; uninflated in-band 0, <90 7, median cov 0.202; median width ratio lnscale 2.28x linear 2.28x
+[BW EXPLORATORY-scaled] R1: inflated in-band(93-97) 9/12, <90 0, >97 2, median cov 0.955; uninflated in-band 10, <90 0, median cov 0.943; median width ratio lnscale 1.02x linear 1.02x
+[BW EXPLORATORY-scaled] BAR cells R2+R3 in band: 4/24 (need >=18)
+[BW EXPLORATORY-scaled] far targets (<=1e-4) R2+R3 in band: 2/18, <90: 11
+[BW EXPLORATORY-leave-lowest] R2: inflated in-band(93-97) 4/12, <90 5, >97 1, median cov 0.913; uninflated in-band 1, <90 11, median cov 0.657; median width ratio lnscale 2.12x linear 2.12x
+[BW EXPLORATORY-leave-lowest] R3: inflated in-band(93-97) 1/12, <90 7, >97 4, median cov 0.800; uninflated in-band 4, <90 8, median cov 0.063; median width ratio lnscale 3.05x linear 3.05x
+[BW EXPLORATORY-leave-lowest] R1: inflated in-band(93-97) 8/12, <90 0, >97 2, median cov 0.943; uninflated in-band 5, <90 0, median cov 0.925; median width ratio lnscale 1.02x linear 1.03x
+[BW EXPLORATORY-leave-lowest] BAR cells R2+R3 in band: 5/24 (need >=18)
+[BW EXPLORATORY-leave-lowest] far targets (<=1e-4) R2+R3 in band: 4/18, <90: 11
+[STRADDLE CONFIRMATORY] R2: inflated in-band(93-97) 3/12, <90 0, >97 8, median cov 1.000; uninflated in-band 0, <90 12, median cov 0.000; median width ratio lnscale 14.74x linear 16.03x
+[STRADDLE CONFIRMATORY] R3: inflated in-band(93-97) 0/12, <90 0, >97 12, median cov 1.000; uninflated in-band 0, <90 12, median cov 0.000; median width ratio lnscale 21.77x linear 23.31x
+[STRADDLE CONFIRMATORY] R1: inflated in-band(93-97) 0/12, <90 12, >97 0, median cov 0.073; uninflated in-band 0, <90 12, median cov 0.000; median width ratio lnscale 1.19x linear 1.23x
+[STRADDLE CONFIRMATORY] BAR cells R2+R3 in band: 3/24 (need >=18)
+[STRADDLE CONFIRMATORY] far targets (<=1e-4) R2+R3 in band: 2/18, <90: 0
+[STRADDLE] sanity uninflated vs stored table mismatches: 0 []
+[STRADDLE EXPLORATORY-scaled] R2: inflated in-band(93-97) 4/12, <90 0, >97 8, median cov 1.000; uninflated in-band 1, <90 9, median cov 0.032; median width ratio lnscale 4.41x linear 4.87x
+[STRADDLE EXPLORATORY-scaled] R3: inflated in-band(93-97) 0/12, <90 0, >97 12, median cov 1.000; uninflated in-band 0, <90 10, median cov 0.510; median width ratio lnscale 5.95x linear 6.37x
+[STRADDLE EXPLORATORY-scaled] R1: inflated in-band(93-97) 0/12, <90 12, >97 0, median cov 0.208; uninflated in-band 0, <90 12, median cov 0.080; median width ratio lnscale 1.07x linear 1.11x
+[STRADDLE EXPLORATORY-scaled] BAR cells R2+R3 in band: 4/24 (need >=18)
+[STRADDLE EXPLORATORY-scaled] far targets (<=1e-4) R2+R3 in band: 3/18, <90: 0
+[STRADDLE EXPLORATORY-leave-lowest] R2: inflated in-band(93-97) 1/12, <90 4, >97 4, median cov 0.917; uninflated in-band 0, <90 12, median cov 0.000; median width ratio lnscale 8.55x linear 8.79x
+[STRADDLE EXPLORATORY-leave-lowest] R3: inflated in-band(93-97) 2/12, <90 4, >97 6, median cov 0.965; uninflated in-band 0, <90 12, median cov 0.000; median width ratio lnscale 11.25x linear 11.63x
+[STRADDLE EXPLORATORY-leave-lowest] R1: inflated in-band(93-97) 0/12, <90 12, >97 0, median cov 0.078; uninflated in-band 0, <90 12, median cov 0.000; median width ratio lnscale 1.18x linear 1.22x
+[STRADDLE EXPLORATORY-leave-lowest] BAR cells R2+R3 in band: 3/24 (need >=18)
+[STRADDLE EXPLORATORY-leave-lowest] far targets (<=1e-4) R2+R3 in band: 2/18, <90: 6
+VERDICT (frozen rule, both windows, need >=18/24 each): BW 5/24, STRADDLE 3/24 -> FAIL

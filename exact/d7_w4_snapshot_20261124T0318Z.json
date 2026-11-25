@@ -1,0 +1,43 @@
+{
+ "kind": "READ-ONLY SNAPSHOT of the in-progress sampled weight-4 shell (same arithmetic as exact/assemble_w4.py; run still in progress, hard stop 2026-11-24 22:50)",
+ "snapshot_utc": "2026-11-24T03:18:39Z",
+ "d": 7,
+ "shell": 4,
+ "design": {
+  "d": 7,
+  "n": 6602,
+  "target": 200000000.0,
+  "seed": 7,
+  "n_units": 407785,
+  "total_sets": 79085356184450,
+  "sets_in_units": 79085356184450,
+  "dem_sha": "be3a85cce1b83e0a31ebb1d2282887e687f1748ae082f1d0b11ff4d34bcc98f1"
+ },
+ "units_done": 279,
+ "units_total": 407785,
+ "sets_done": 53578725152,
+ "sets_total": 79085356184450,
+ "frac_sets_done": 0.0006774797223779187,
+ "observed": {
+  "n_fail": 5460038,
+  "T": [
+   3725.2123601498724,
+   5867.758580839769,
+   10340.525799464283,
+   22594.86732390059
+  ]
+ },
+ "unit_files_sha256": "5b869e152d8563290eb5fc424a1efe96b0da3733d7752b69377bf33bd7d655cc",
+ "ESTIMATE_full_shell_NOT_exact": {
+  "n_fail": {
+   "estimate": 7980364142.759856,
+   "se": 1574784566.1048017,
+   "rel_se": 0.19733241966577636
+  },
+  "T0": {
+   "estimate": 5444751.692773172,
+   "se": 1342732.3040519136,
+   "rel_se": 0.2466103836900633
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "A0": {
+  "L": 6.522046102612605e-13,
+  "U": 1.6069470972919972e-11,
+  "recipes": {
+   "R1": {
+    "certified_missed_high": 300,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 6.35014935325231e-11,
+    "median_hi": 1.6137214764873722e-10
+   },
+   "R2": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 5.133787606777534e-12,
+    "median_hi": 5.65159087425142e-12
+   },
+   "R3": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 5.281747503311675e-12,
+    "median_hi": 5.791059548227524e-12
+   },
+   "R4": {
+    "certified_missed_high": 239,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 1.8320407122545848e-11,
+    "median_hi": 3.415889243444177e-11
+   },
+   "R5": {
+    "certified_missed_high": 208,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 2.6139363332672733e-11,
+    "median_hi": 7.936681606087103e-10
+   }
+  }
+ },
+ "assumption_free": {
+  "L": 6.301394515372951e-13,
+  "U": 1.097343441300675e-06,
+  "recipes": {
+   "R1": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 6.35014935325231e-11,
+    "median_hi": 1.6137214764873722e-10
+   },
+   "R2": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 5.133787606777534e-12,
+    "median_hi": 5.65159087425142e-12
+   },
+   "R3": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 5.281747503311675e-12,
+    "median_hi": 5.791059548227524e-12
+   },
+   "R4": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 1.8320407122545848e-11,
+    "median_hi": 3.415889243444177e-11
+   },
+   "R5": {
+    "certified_missed_high": 0,
+    "certified_missed_low": 0,
+    "n": 300,
+    "median_lo": 2.6139363332672733e-11,
+    "median_hi": 7.936681606087103e-10
+   }
+  }
+ },
+ "decisive_bar_A0_R1_R5_ge_285of300": false
+}

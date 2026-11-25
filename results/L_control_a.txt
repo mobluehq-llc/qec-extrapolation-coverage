@@ -1,0 +1,9 @@
+CONTROL-A R1 dataonly: reject rate 1.000; cells with reject rate>=0.95: 15/15
+CONTROL-A R1 circuit_fresh: reject rate 0.185; cells with reject rate>=0.95: 0/15
+CONTROL-A R2 dataonly: reject rate 1.000; cells with reject rate>=0.95: 15/15
+CONTROL-A R2 circuit_fresh: reject rate 0.490; cells with reject rate>=0.95: 2/15
+CONTROL-A R3 dataonly: reject rate 1.000; cells with reject rate>=0.95: 15/15
+CONTROL-A R3 circuit_fresh: reject rate 0.520; cells with reject rate>=0.95: 2/15
+CONTROL-A R4 dataonly: reject rate 1.000; cells with reject rate>=0.95: 15/15
+CONTROL-A R4 circuit_fresh: reject rate 0.062; cells with reject rate>=0.95: 0/15
+CONTROL-A data-only measured P/ circuit-fit: see csv; data-only points (d,p,k,n): {7: ([301.0, 300.0, 305.0, 309.0, 342.0], [199000000.0, 37400000.0, 12600000.0, 5400000.0, 1200000.0]), 5: ([308.0, 312.0, 314.0, 341.0, 501.0], [11600000.0, 3600000.0, 1400000.0, 800000.0, 400000.0]), 3: ([351.0, 342.0, 301.0, 489.0, 1042.0], [1000000.0, 400000.0, 200000.0, 200000.0, 200000.0])}

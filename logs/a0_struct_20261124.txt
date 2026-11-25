@@ -1,0 +1,31 @@
+d 3 shortest_graphlike_error len 3 0.0 s
+search err search skipped by flag
+graph edges 78 w min/max 6.991071755428541 10.532042876495124 ratio 1.5064990383365802
+Wmin 24.556222067533604 = edges-equiv 3.5125118045692765
+mechanisms 286 top W_i [30.48188114 30.48188114 29.53277805 29.53277805 26.05095131] max comps
+S4 120.029318384352 2*S4 240.058636768704 margin 0.04114079248630908 CHEAP TEST (Wmin>2S4+margin): False
+residual subsets with S>=Wmin/2 (mechanism-weight upper bound), exact: {1: 208, 2: 40755, 3: 3858140} total C(n,w) [286, 40755, 3858140]
+d 5 shortest_graphlike_error len 5 0.0 s
+search err search skipped by flag
+graph edges 502 w min/max 6.83073100149925 10.532042876495124 ratio 1.5418617530368988
+Wmin 41.33429360877175 = edges-equiv 6.051225498368982
+mechanisms 1953 top W_i [32.1679258  32.1679258  31.26601196 31.26601196 31.26601196] max comps
+S4 126.86787551243651 2*S4 253.73575102487303 margin 0.04114079248630908 CHEAP TEST (Wmin>2S4+margin): False
+residual subsets with S>=Wmin/2 (mechanism-weight upper bound), exact: {1: 290, 2: np.int64(1781505), 3: np.int64(1239618568)} total C(n,w) [1953, 1906128, 1239618576]
+d 7 shortest_graphlike_error len 7 0.0 s
+search err search skipped by flag
+graph edges 1558 w min/max 6.830731001499248 10.532042876495124 ratio 1.5418617530368992
+Wmin 58.23949630827218 = edges-equiv 8.52610010487742
+mechanisms 6602 top W_i [32.1679258 32.1679258 32.1679258 32.1679258 32.1679258] max comps
+S4 128.67170318779347 2*S4 257.34340637558694 margin 0.04114079248630908 CHEAP TEST (Wmin>2S4+margin): False
+residual subsets with S>=Wmin/2 (mechanism-weight upper bound), exact: {1: 20, 2: np.int64(12423641), 3: np.int64(46812706658)} total C(n,w) [6602, 21789901, 47937782200]
+d 9 shortest_graphlike_error len 9 0.2 s
+search err search skipped by flag
+graph edges 3534 w min/max 6.830731001499248 10.532042876495124 ratio 1.5418617530368992
+Wmin 75.1446990077726 = edges-equiv 11.000974711385854
+mechanisms 14966 top W_i [32.1679258 32.1679258 32.1679258 32.1679258 32.1679258] max comps
+S4 128.67170318779347 2*S4 257.34340637558694 margin 0.04114079248630908 CHEAP TEST (Wmin>2S4+margin): False
+residual subsets with S>=Wmin/2 (mechanism-weight upper bound), exact: {1: 0, 2: np.int64(14901375), 3: None} total C(n,w) [14966, 111983095, 558571677860]
+# d=3,5,7 searches (limits above=4,degree<=4, canonicalize): search_for_undetectable_logical_errors len 3,5,7 (1.3 s at d=5, 132 s and 3.2 GB at d=7); shortest_graphlike_error 3,5,7,9.
+# d=9 search: [internal operations note redacted]
+# d=9 search_for_undetectable_logical_errors NOT RUN to completion: [internal operations note redacted] d=9 shortest_graphlike_error = 9 only.

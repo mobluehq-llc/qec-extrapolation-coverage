@@ -1,0 +1,11 @@
+[internal operations note redacted] probe = code/a0_cost_probe.py, 20,000 sets per row)
+pauli_components 42722
+N 13937 unique det sets 12705
+random w 2 us/decode 2.877485752105713 fails 0
+walk(local) w 2 us/decode 2.603435516357422 fails 0
+random w 3 us/decode 2.8919458389282227 fails 0
+walk(local) w 3 us/decode 4.125857353210449 fails 0
+random w 4 us/decode 4.234755039215088 fails 0
+walk(local) w 4 us/decode 5.770933628082275 fails 0
+sha_circuit a28ef567b5ad810c
+C(N,w), N=13937: w1=13937 w2=97113016 w3=451089959320 w4=1571371873291220 ; sum(w<=4)=1571823060377493 ; sum(w<=3)=451187086273

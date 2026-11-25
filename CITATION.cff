@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+title: "How often do extrapolated logical error rates contain the truth? A coverage benchmark on the rotated surface code"
+type: software
+version: "7"
+date-released: "2026-11-25"
+authors:
+  - family-names: Faust
+    given-names: Adam
+    affiliation: "MOBLUEHQ, Inc."
+license: MIT
+repository-code: "to be added"
+doi: "to be added (Zenodo)"
+abstract: "Reproducibility bundle for paper L (coverage of 95% intervals of extrapolated logical error rates, rotated surface code, d=3,5,7, with reference estimates by fault-stratified importance sampling, exact enumeration, and a certified d=9 interval): stim circuits and drivers, fitting recipes R1-R5, stored replicates, reference runs, pre-registration texts, the arXiv v7 source, and a stdlib-only recomputation of the headline coverage counts."

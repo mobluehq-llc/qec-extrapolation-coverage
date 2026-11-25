@@ -1,0 +1,1522 @@
+{
+ "bw.reps": {
+  "value": "300",
+  "source": "results/fit_bw.json",
+  "how": "replicates"
+ },
+ "bw.cov.pri.R1.d3.t6": {
+  "value": "91.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d3.t5": {
+  "value": "91.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d3.t4": {
+  "value": "91.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d3.t3": {
+  "value": "93.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d5.t6": {
+  "value": "92.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d5.t5": {
+  "value": "94.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d5.t4": {
+  "value": "93.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d5.t3": {
+  "value": "92.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d7.t6": {
+  "value": "94.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d7.t5": {
+  "value": "94.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d7.t4": {
+  "value": "92.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R1.d7.t3": {
+  "value": "92.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d3.t6": {
+  "value": "63.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d3.t5": {
+  "value": "35.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d3.t4": {
+  "value": "83.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d3.t3": {
+  "value": "68.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d5.t6": {
+  "value": "79.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d5.t5": {
+  "value": "32.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d5.t4": {
+  "value": "33.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d5.t3": {
+  "value": "94.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d7.t6": {
+  "value": "72.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d7.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d7.t4": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R2.d7.t3": {
+  "value": "85.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d3.t6": {
+  "value": "94.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d3.t5": {
+  "value": "84.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d3.t4": {
+  "value": "95.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d3.t3": {
+  "value": "96.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d5.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d5.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d5.t4": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d5.t3": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d7.t6": {
+  "value": "12.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d7.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d7.t4": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R3.d7.t3": {
+  "value": "94.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d3.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d3.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d3.t4": {
+  "value": "2.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d3.t3": {
+  "value": "96.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d5.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d5.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d5.t4": {
+  "value": "6.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d5.t3": {
+  "value": "91.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d7.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d7.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d7.t4": {
+  "value": "3.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R4.d7.t3": {
+  "value": "94.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R5.d7.t6": {
+  "value": "91.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R5.d7.t5": {
+  "value": "88.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R5.d7.t4": {
+  "value": "82.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.pri.R5.d7.t3": {
+  "value": "71.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d3.t6": {
+  "value": "92.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d3.t5": {
+  "value": "93.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d3.t4": {
+  "value": "92.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d3.t3": {
+  "value": "94.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d5.t6": {
+  "value": "94.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d5.t5": {
+  "value": "95.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d5.t4": {
+  "value": "94.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d5.t3": {
+  "value": "93.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d7.t6": {
+  "value": "95.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d7.t5": {
+  "value": "96.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d7.t4": {
+  "value": "95.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R1.d7.t3": {
+  "value": "93.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d3.t6": {
+  "value": "69.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d3.t5": {
+  "value": "47.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d3.t4": {
+  "value": "87.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d3.t3": {
+  "value": "74.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d5.t6": {
+  "value": "84.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d5.t5": {
+  "value": "43.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d5.t4": {
+  "value": "45.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d5.t3": {
+  "value": "96.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d7.t6": {
+  "value": "78.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d7.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d7.t4": {
+  "value": "0.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R2.d7.t3": {
+  "value": "89.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d3.t6": {
+  "value": "98.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d3.t5": {
+  "value": "92.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d3.t4": {
+  "value": "98.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d3.t3": {
+  "value": "98.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d5.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d5.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d5.t4": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d5.t3": {
+  "value": "1.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d7.t6": {
+  "value": "39.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d7.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d7.t4": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R3.d7.t3": {
+  "value": "98.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d3.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d3.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d3.t4": {
+  "value": "9.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d3.t3": {
+  "value": "96.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d5.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d5.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d5.t4": {
+  "value": "15.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d5.t3": {
+  "value": "93.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d7.t6": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d7.t5": {
+  "value": "0.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d7.t4": {
+  "value": "7.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R4.d7.t3": {
+  "value": "96.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R5.d7.t6": {
+  "value": "93.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R5.d7.t5": {
+  "value": "91.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R5.d7.t4": {
+  "value": "86.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw.cov.sca.R5.d7.t3": {
+  "value": "77.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py (frozen), re-derived = results/L_bw_coverage_scaled.csv",
+  "how": "coverage, percent of 300"
+ },
+ "bw1.pri.R1.mis": {
+  "value": "0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "far cells (targets <= 1e-4) with coverage < 90%"
+ },
+ "bw1.pri.R1.firm": {
+  "value": "0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "of which CP upper limit < 90%"
+ },
+ "bw1.R1.cells": {
+  "value": "9",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "far cells"
+ },
+ "bw1.pri.R5.mis": {
+  "value": "2",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "far cells (targets <= 1e-4) with coverage < 90%"
+ },
+ "bw1.pri.R5.firm": {
+  "value": "1",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "of which CP upper limit < 90%"
+ },
+ "bw1.R5.cells": {
+  "value": "3",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "far cells"
+ },
+ "bw1.sca.R1.mis": {
+  "value": "0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "far cells (targets <= 1e-4) with coverage < 90%"
+ },
+ "bw1.sca.R1.firm": {
+  "value": "0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "of which CP upper limit < 90%"
+ },
+ "bw1.sca.R5.mis": {
+  "value": "1",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "far cells (targets <= 1e-4) with coverage < 90%"
+ },
+ "bw1.sca.R5.firm": {
+  "value": "1",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "of which CP upper limit < 90%"
+ },
+ "bw2.higher": {
+  "value": "12",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt vs results/L_coverage.csv",
+  "how": "R1 cells with coverage strictly above the registered-window table"
+ },
+ "bw2.cells": {
+  "value": "12",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw3.inband": {
+  "value": "5",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R1 and R5 cells in 93-97%"
+ },
+ "bw3.cells": {
+  "value": "16",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw3.inband.R1": {
+  "value": "5",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R1 cells in 93-97%"
+ },
+ "bw3.inband.R5": {
+  "value": "0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R1.median": {
+  "value": "92.5",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "median R1 coverage over 12 cells"
+ },
+ "bw.R1.covmin": {
+  "value": "91.0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R1.covmax": {
+  "value": "94.0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R1.mis": {
+  "value": "0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R1 cells below 90%"
+ },
+ "bw.R1.cplo.min": {
+  "value": "87.2",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "smallest CP lower limit, R1"
+ },
+ "bw.R1.cphi.max": {
+  "value": "96.4",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "largest CP upper limit, R1"
+ },
+ "bw.R1.cphi.below95": {
+  "value": "4",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R1 cells whose CP upper limit is below 95%"
+ },
+ "bw.sca.R1.inband": {
+  "value": "10",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "scaled: R1 cells in 93-97%"
+ },
+ "bw.sca.R1.median": {
+  "value": "94.3",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.sca.R1.covmin": {
+  "value": "92.7",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.sca.R1.covmax": {
+  "value": "96.0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.sca.R5.median": {
+  "value": "88.7",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw4.R2.mis": {
+  "value": "11",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells below 90%"
+ },
+ "bw4.R2.firm": {
+  "value": "11",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "firmly"
+ },
+ "bw4.R2.inband": {
+  "value": "1",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells in 93-97%"
+ },
+ "bw4.R2.zero": {
+  "value": "2",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells with no hit"
+ },
+ "bw4.sca.R2.mis": {
+  "value": "11",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "scaled: cells below 90%"
+ },
+ "bw4.R3.mis": {
+  "value": "8",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells below 90%"
+ },
+ "bw4.R3.firm": {
+  "value": "8",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "firmly"
+ },
+ "bw4.R3.inband": {
+  "value": "4",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells in 93-97%"
+ },
+ "bw4.R3.zero": {
+  "value": "6",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells with no hit"
+ },
+ "bw4.sca.R3.mis": {
+  "value": "7",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "scaled: cells below 90%"
+ },
+ "bw4.mis": {
+  "value": "19",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R2+R3 cells below 90%"
+ },
+ "bw4.cells": {
+  "value": "24",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw4.firm": {
+  "value": "19",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw4.far.mis": {
+  "value": "16",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw4.far.cells": {
+  "value": "18",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw4.notmis": {
+  "value": "5",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R2+R3 cells at or above 90%"
+ },
+ "bw4.sca.mis": {
+  "value": "18",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "scaled: R2+R3 cells below 90%"
+ },
+ "bw.R4.t3.covmin": {
+  "value": "91.7",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R4.t3.covmax": {
+  "value": "96.0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R4.far.covmax": {
+  "value": "6.0",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "largest R4 coverage at targets <= 1e-4"
+ },
+ "bw.R4.mis": {
+  "value": "9",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R5.covmin": {
+  "value": "71.3",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R5.covmax": {
+  "value": "91.3",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.R5.mis.all": {
+  "value": "3",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "R5 cells below 90%, all four targets"
+ },
+ "bw.cells": {
+  "value": "52",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.cells.mis": {
+  "value": "31",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells below 90%"
+ },
+ "bw.cells.zero": {
+  "value": "14",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": "cells with no hit"
+ },
+ "bw.cells.inband": {
+  "value": "12",
+  "source": "results/L_bw_coverage.csv; rule in PLAN.md (below-threshold amendment); cf. results/L_bw_verdicts.txt",
+  "how": ""
+ },
+ "bw.ratio.R1.d3.t3": {
+  "value": "1.00",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d3.t3": {
+  "value": "0.96",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d3.t3": {
+  "value": "1.05",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d5.t3": {
+  "value": "1.03",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d5.t3": {
+  "value": "0.99",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d5.t3": {
+  "value": "1.07",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d7.t3": {
+  "value": "0.95",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d7.t3": {
+  "value": "0.98",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d7.t3": {
+  "value": "0.99",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d3.t3": {
+  "value": "0.99",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d5.t3": {
+  "value": "0.93",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d7.t3": {
+  "value": "1.01",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R5.d7.t3": {
+  "value": "1.26",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d3.t4": {
+  "value": "1.15",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d3.t4": {
+  "value": "0.97",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d3.t4": {
+  "value": "2.48",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d5.t4": {
+  "value": "1.11",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d5.t4": {
+  "value": "0.94",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d5.t4": {
+  "value": "2.35",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d7.t4": {
+  "value": "1.08",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d7.t4": {
+  "value": "1.16",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d7.t4": {
+  "value": "2.60",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d3.t4": {
+  "value": "1.01",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d5.t4": {
+  "value": "0.88",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d7.t4": {
+  "value": "1.20",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R5.d7.t4": {
+  "value": "1.72",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d3.t5": {
+  "value": "1.27",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d3.t5": {
+  "value": "0.95",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d3.t5": {
+  "value": "7.40",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d5.t5": {
+  "value": "1.26",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d5.t5": {
+  "value": "0.94",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d5.t5": {
+  "value": "7.18",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d7.t5": {
+  "value": "1.02",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d7.t5": {
+  "value": "1.18",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d7.t5": {
+  "value": "7.98",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d3.t5": {
+  "value": "0.98",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d5.t5": {
+  "value": "0.88",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d7.t5": {
+  "value": "1.21",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R5.d7.t5": {
+  "value": "1.92",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d3.t6": {
+  "value": "1.45",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d3.t6": {
+  "value": "0.96",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d3.t6": {
+  "value": "24",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d5.t6": {
+  "value": "1.47",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d5.t6": {
+  "value": "0.97",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d5.t6": {
+  "value": "23",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.d7.t6": {
+  "value": "0.85",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R2.d7.t6": {
+  "value": "1.04",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R4.d7.t6": {
+  "value": "22",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d3.t6": {
+  "value": "0.99",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d5.t6": {
+  "value": "0.91",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R3.d7.t6": {
+  "value": "1.07",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R5.d7.t6": {
+  "value": "1.89",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median over 300 replicates of prediction/reference"
+ },
+ "bw.ratio.R1.min": {
+  "value": "0.85",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "min over cells"
+ },
+ "bw.ratio.R1.max": {
+  "value": "1.47",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over cells"
+ },
+ "bw.hw.R1.min": {
+  "value": "15.3",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "bw.hw.R1.max": {
+  "value": "219",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest"
+ },
+ "bw.ratio.R2.min": {
+  "value": "0.94",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "min over cells"
+ },
+ "bw.ratio.R2.max": {
+  "value": "1.18",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over cells"
+ },
+ "bw.hw.R2.min": {
+  "value": "5.1",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "bw.hw.R2.max": {
+  "value": "5.1",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest"
+ },
+ "bw.ratio.R3.min": {
+  "value": "0.88",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "min over cells"
+ },
+ "bw.ratio.R3.max": {
+  "value": "1.21",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over cells"
+ },
+ "bw.hw.R3.min": {
+  "value": "2.9",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "bw.hw.R3.max": {
+  "value": "4.6",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest"
+ },
+ "bw.ratio.R4.min": {
+  "value": "0.99",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "min over cells"
+ },
+ "bw.ratio.R4.max": {
+  "value": "24",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over cells"
+ },
+ "bw.hw.R4.min": {
+  "value": "23",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "bw.hw.R4.max": {
+  "value": "70",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest"
+ },
+ "bw.ratio.R5.min": {
+  "value": "1.26",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "min over cells"
+ },
+ "bw.ratio.R5.max": {
+  "value": "1.92",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over cells"
+ },
+ "bw.hw.R5.min": {
+  "value": "38",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "smallest cell-median 95% half-width, percent of prediction"
+ },
+ "bw.hw.R5.max": {
+  "value": "1235",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest"
+ },
+ "bw.hw.R1.t3.min": {
+  "value": "15",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "R1 cell-median half-width at this target, min over d, percent"
+ },
+ "bw.hw.R1.t3.max": {
+  "value": "15",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over d"
+ },
+ "bw.hw.R1.t4.min": {
+  "value": "61",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "R1 cell-median half-width at this target, min over d, percent"
+ },
+ "bw.hw.R1.t4.max": {
+  "value": "61",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over d"
+ },
+ "bw.hw.R1.t5.min": {
+  "value": "126",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "R1 cell-median half-width at this target, min over d, percent"
+ },
+ "bw.hw.R1.t5.max": {
+  "value": "127",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over d"
+ },
+ "bw.hw.R1.t6.min": {
+  "value": "218",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "R1 cell-median half-width at this target, min over d, percent"
+ },
+ "bw.hw.R1.t6.max": {
+  "value": "219",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over d"
+ },
+ "bw.ratio.fixed.min": {
+  "value": "0.88",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": ""
+ },
+ "bw.ratio.fixed.max": {
+  "value": "1.21",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": ""
+ },
+ "bw.fixed.low": {
+  "value": "16",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "R2,R3 cells with median ratio below 1"
+ },
+ "bw.fixed.maxdev": {
+  "value": "21",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest |median ratio - 1|, percent"
+ },
+ "bw.ratio.R4.t4.min": {
+  "value": "2.35",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "over d"
+ },
+ "bw.ratio.R4.t4.max": {
+  "value": "2.60",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "over d"
+ },
+ "bw.ratio.R4.t6.min": {
+  "value": "22",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "over d"
+ },
+ "bw.ratio.R4.t6.max": {
+  "value": "24",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "over d"
+ },
+ "bw.R4.step1.min": {
+  "value": "3.0",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "growth of the R4 median ratio over one decade, min over d"
+ },
+ "bw.R4.step1.max": {
+  "value": "3.1",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over d"
+ },
+ "bw.R4.step2.min": {
+  "value": "2.8",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "growth of the R4 median ratio over one decade, min over d"
+ },
+ "bw.R4.step2.max": {
+  "value": "3.2",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "max over d"
+ },
+ "bw.ratio.R1.lowd.t6.min": {
+  "value": "1.45",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": ""
+ },
+ "bw.ratio.R1.lowd.t6.max": {
+  "value": "1.47",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": ""
+ },
+ "bw.old.ratio.R1.d7.t6": {
+  "value": "80",
+  "source": "numbers.json (registered window)",
+  "how": "R1 median ratio, d=7, 1e-6, registered window"
+ },
+ "bw.slope.d3": {
+  "value": "1.95",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median fitted R1 exponent, below-crossing window"
+ },
+ "bw.chidof.d3": {
+  "value": "0.8",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median chi2/dof of the R1 fit"
+ },
+ "bw.win.d3.p0": {
+  "value": "1.04\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d3.p1": {
+  "value": "1.84\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d3.p2": {
+  "value": "2.84\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d3.p3": {
+  "value": "4.04\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d3.p4": {
+  "value": "7.07\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.shots.d3.p0": {
+  "value": "3.0\\times10^{5}",
+  "source": "results/fit_bw.json",
+  "how": "mean shots per replicate at the lowest window point"
+ },
+ "bw.slope.d5": {
+  "value": "2.95",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median fitted R1 exponent, below-crossing window"
+ },
+ "bw.chidof.d5": {
+  "value": "0.8",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median chi2/dof of the R1 fit"
+ },
+ "bw.win.d5.p0": {
+  "value": "2.09\\times10^{-4}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d5.p1": {
+  "value": "4.93\\times10^{-4}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d5.p2": {
+  "value": "9.51\\times10^{-4}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d5.p3": {
+  "value": "1.63\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d5.p4": {
+  "value": "3.76\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.shots.d5.p0": {
+  "value": "1.5\\times10^{6}",
+  "source": "results/fit_bw.json",
+  "how": "mean shots per replicate at the lowest window point"
+ },
+ "bw.slope.d7": {
+  "value": "4.03",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median fitted R1 exponent, below-crossing window"
+ },
+ "bw.chidof.d7": {
+  "value": "0.7",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "median chi2/dof of the R1 fit"
+ },
+ "bw.win.d7.p0": {
+  "value": "3.32\\times10^{-5}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d7.p1": {
+  "value": "1.06\\times10^{-4}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d7.p2": {
+  "value": "2.61\\times10^{-4}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d7.p3": {
+  "value": "5.45\\times10^{-4}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.win.d7.p4": {
+  "value": "1.71\\times10^{-3}",
+  "source": "results/fit_bw.json",
+  "how": "mean over replicates of k/n"
+ },
+ "bw.shots.d7.p0": {
+  "value": "9.4\\times10^{6}",
+  "source": "results/fit_bw.json",
+  "how": "mean shots per replicate at the lowest window point"
+ },
+ "bw.slope.maxdev": {
+  "value": "0.05",
+  "source": "results/fit_bw.json, truth files; code/coverage_bw.py fit_all (as code/bw_extra.py)",
+  "how": "largest |median R1 exponent - (d+1)/2|"
+ },
+ "bw.px": {
+  "value": "8.28",
+  "source": "PLAN.md (below-threshold amendment): crossing of d=3 and d=7 window means, results/fit_d357_1121.json",
+  "how": "x 1e-3"
+ },
+ "bw.topfrac": {
+  "value": "0.48",
+  "source": "arithmetic",
+  "how": "top window point / p_x"
+ },
+ "bw.gap.new.t3": {
+  "value": "0.2",
+  "source": "arithmetic",
+  "how": "decades from lower window edge to target 1e-3"
+ },
+ "bw.gap.new.t4": {
+  "value": "1.2",
+  "source": "arithmetic",
+  "how": "to 1e-4"
+ },
+ "bw.gap.new.t6": {
+  "value": "3.2",
+  "source": "arithmetic",
+  "how": "to 1e-6"
+ },
+ "bw.gap.old.t3": {
+  "value": "0.6",
+  "source": "arithmetic",
+  "how": "decades from lower window edge to target 1e-3"
+ },
+ "bw.gap.old.t4": {
+  "value": "1.6",
+  "source": "arithmetic",
+  "how": "to 1e-4"
+ },
+ "bw.gap.old.t6": {
+  "value": "3.6",
+  "source": "arithmetic",
+  "how": "to 1e-6"
+ },
+ "bw.gapdiff": {
+  "value": "0.4",
+  "source": "arithmetic",
+  "how": "decades by which the lower edge of the second window is nearer the targets"
+ },
+ "bw.span.new": {
+  "value": "2.7",
+  "source": "arithmetic",
+  "how": "ratio of highest to lowest window point"
+ },
+ "bw.span.old": {
+  "value": "3.8",
+  "source": "arithmetic",
+  "how": ""
+ },
+ "m4.d7.runs": {
+  "value": "12",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "all stored d=7 runs of the reference estimator"
+ },
+ "m4.d7.time": {
+  "value": "9",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "ended at the 2400 s limit"
+ },
+ "m4.d7.draws": {
+  "value": "1",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "ended at the 4e7-draw limit before 2400 s"
+ },
+ "m4.d7.rule": {
+  "value": "2",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "stopped by the 2% rule"
+ },
+ "m4.d7.ref.runs": {
+  "value": "8",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "runs behind the four d=7 reference cells"
+ },
+ "m4.d7.ref.time": {
+  "value": "8",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "of which ended at the time limit"
+ },
+ "m4.d7.val.runs": {
+  "value": "4",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "d=7 runs used only in the check against direct Monte Carlo"
+ },
+ "m4.d7.draws.p": {
+  "value": "1.5",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "p of the run that ended at the draw limit, x 1e-3"
+ },
+ "m4.d7.draws.relse": {
+  "value": "2.4",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "its se/estimate"
+ },
+ "m4.d7.draws.secs": {
+  "value": "2148",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": ""
+ },
+ "m4.d7.timeval.p": {
+  "value": "2",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": "p of the validation-only run that ended at the time limit, x 1e-3"
+ },
+ "m4.d7.timeval.relse": {
+  "value": "2.1",
+  "source": "results/truth_d7_p*.json + truthextra_d7_p*.json (fields se, truth, secs, totM); stop order in code/truth.py; 'STOP by budget' lines in logs/L_cov_manifest.jsonl (4 second runs) and in the first-run logs on a compute host (read 2026-11-24)",
+  "how": ""
+ }
+}

@@ -1,0 +1,7 @@
+CONTROL-B surrogate truth cells used (tail<1e-3): [(3, 1e-06), (3, 1e-05), (3, 0.0001), (3, 0.001), (5, 1e-06), (5, 1e-05), (5, 0.0001), (5, 0.001), (7, 1e-06), (7, 1e-05), (7, 0.0001), (7, 0.001)]; replicates 300
+CONTROL-B R1: miscalibrated 12/12 cells; median coverage 0.027
+CONTROL-B R2: miscalibrated 12/12 cells; median coverage 0.017
+CONTROL-B R3: miscalibrated 12/12 cells; median coverage 0.053
+CONTROL-B R4: miscalibrated 12/12 cells; median coverage 0.000
+CONTROL-B R5: miscalibrated 4/4 cells; median coverage 0.062
+CONTROL-B R1 d=5,7 targets<=1e-5: miscalibrated 4/4

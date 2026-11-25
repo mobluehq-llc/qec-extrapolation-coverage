@@ -1,0 +1,168 @@
+{
+ "kind": "TRUTH GENERATION (exact enumeration), not a confirmatory test",
+ "d": 5,
+ "rounds": 5,
+ "n_mechanisms": 1953,
+ "n_detectors": 120,
+ "model": "independent DEM mechanisms q_i=m_i*p (m_i=q_i(1e-9)/1e-9, merged by stim, decompose_errors=True)",
+ "noise": "after_clifford=before_measure_flip=after_reset_flip=p",
+ "decoder": "pymatching, weights fixed from DEM at p=0.001",
+ "dem_sha256": "bc2621051adfeb9e7f482ad7d5197bc2b510f9c410e8605945e10c51e99db055",
+ "m_multiplicity_hist": {
+  "0.066667": 808,
+  "0.133333": 337,
+  "0.2": 288,
+  "0.266667": 170,
+  "0.333333": 28,
+  "0.4": 59,
+  "0.466667": 12,
+  "0.533333": 45,
+  "0.6": 16,
+  "0.733333": 6,
+  "0.8": 2,
+  "0.866667": 4,
+  "0.933333": 10,
+  "1.066667": 2,
+  "1.133333": 4,
+  "1.266667": 22,
+  "1.533333": 12,
+  "2.133333": 8,
+  "2.2": 12,
+  "2.266667": 14,
+  "2.333333": 2,
+  "2.4": 14,
+  "2.533333": 2,
+  "2.6": 6,
+  "2.666667": 2,
+  "2.733333": 4,
+  "2.8": 2,
+  "2.866667": 2,
+  "3.466667": 6,
+  "3.533333": 12,
+  "3.6": 8,
+  "3.733333": 12,
+  "4.066667": 2,
+  "4.266667": 4,
+  "4.4": 6,
+  "4.533334": 2,
+  "4.733334": 2,
+  "4.8": 2,
+  "4.933334": 2,
+  "5.2": 2
+ },
+ "shells": {
+  "1": {
+   "units_done": 1953,
+   "units_total": 1953,
+   "sets_done": 1953,
+   "sets_total": 1953,
+   "complete": true,
+   "n_fail": 0,
+   "T": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "unit_files_sha256": "b4b05fda443fc4932c08416f93e068ce4e4b9731b419e11e785426e3a1ebff91",
+   "status": "COMPLETE"
+  },
+  "2": {
+   "units_done": 1952,
+   "units_total": 1952,
+   "sets_done": 1906128,
+   "sets_total": 1906128,
+   "complete": true,
+   "n_fail": 0,
+   "T": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "unit_files_sha256": "8246a1229ad220fe33af38f298c38ed721658c6159ba098418fdc50ef9d4dd1f",
+   "status": "COMPLETE"
+  },
+  "3": {
+   "units_done": 1951,
+   "units_total": 1951,
+   "sets_done": 1239618576,
+   "sets_total": 1239618576,
+   "complete": true,
+   "n_fail": 7674933,
+   "T": [
+    62996.22845669943,
+    132574.51887067882,
+    317981.15367794485,
+    833728.9379811258
+   ],
+   "unit_files_sha256": "92f36af89795f6ac8e135a323199ca3ba8ac4ff32c7ea534efc962850e767882",
+   "status": "COMPLETE"
+  },
+  "4": {
+   "units_done": 1950,
+   "units_total": 1950,
+   "sets_done": 604314055800,
+   "sets_total": 604314055800,
+   "complete": true,
+   "n_fail": 13578493861,
+   "T": [
+    46060122.76396256,
+    193674564.78735366,
+    755873475.8931637,
+    2959141415.03195
+   ],
+   "unit_files_sha256": "9735f600cfbee5051bd25c18902fec6a6492b0d07d73c496d73104ef0f9e63d2",
+   "status": "COMPLETE"
+  }
+ },
+ "coverage": {
+  "1": {
+   "units_present": 1953,
+   "units_total": 1953,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  },
+  "2": {
+   "units_present": 1952,
+   "units_total": 1952,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  },
+  "3": {
+   "units_present": 1951,
+   "units_total": 1951,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  },
+  "4": {
+   "units_present": 1950,
+   "units_total": 1950,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  }
+ },
+ "coefficients_p_L=sum c_k p^k": {
+  "1": {
+   "coef": 0.0,
+   "status": "EXACT"
+  },
+  "2": {
+   "coef": 0.0,
+   "status": "EXACT"
+  },
+  "3": {
+   "coef": 62996.22845669943,
+   "status": "EXACT"
+  },
+  "4": {
+   "coef": -684898.4807474464,
+   "status": "EXACT"
+  }
+ },
+ "note": "c_k exact up to float64 summation; polynomial valid only where truncated tail is small (n_mech*p << 1)."
+}

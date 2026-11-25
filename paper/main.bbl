@@ -1,0 +1,230 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{17}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Dennis}\ \emph {et~al.}(2002)\citenamefont {Dennis},
+  \citenamefont {Kitaev}, \citenamefont {Landahl},\ and\ \citenamefont
+  {Preskill}}]{dennis2002}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {E.}~\bibnamefont
+  {Dennis}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Kitaev}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Landahl}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Preskill}},\ }\bibfield  {title}
+  {\bibinfo {title} {Topological quantum memory},\ }\href
+  {https://doi.org/10.1063/1.1499754} {\bibfield  {journal} {\bibinfo
+  {journal} {J. Math. Phys.}\ }\textbf {\bibinfo {volume} {43}},\ \bibinfo
+  {pages} {4452} (\bibinfo {year} {2002})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fowler}\ \emph {et~al.}(2012)\citenamefont {Fowler},
+  \citenamefont {Mariantoni}, \citenamefont {Martinis},\ and\ \citenamefont
+  {Cleland}}]{fowler2012}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.~G.}\ \bibnamefont
+  {Fowler}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Mariantoni}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Martinis}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.~N.}\ \bibnamefont {Cleland}},\
+  }\bibfield  {title} {\bibinfo {title} {Surface codes: Towards practical
+  large-scale quantum computation},\ }\href
+  {https://doi.org/10.1103/PhysRevA.86.032324} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo {volume} {86}},\ \bibinfo
+  {pages} {032324} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Litinski}(2019)}]{litinski2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Litinski}},\ }\bibfield  {title} {\bibinfo {title} {A game of surface codes:
+  Large-scale quantum computing with lattice surgery},\ }\href
+  {https://doi.org/10.22331/q-2019-03-05-128} {\bibfield  {journal} {\bibinfo
+  {journal} {Quantum}\ }\textbf {\bibinfo {volume} {3}},\ \bibinfo {pages}
+  {128} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bravyi}\ \emph {et~al.}(2024)\citenamefont {Bravyi},
+  \citenamefont {Cross}, \citenamefont {Gambetta}, \citenamefont {Maslov},
+  \citenamefont {Rall},\ and\ \citenamefont {Yoder}}]{bravyi2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bravyi}}, \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Cross}},
+  \bibinfo {author} {\bibfnamefont {J.~M.}\ \bibnamefont {Gambetta}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Maslov}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Rall}},\ and\ \bibinfo {author}
+  {\bibfnamefont {T.~J.}\ \bibnamefont {Yoder}},\ }\bibfield  {title} {\bibinfo
+  {title} {High-threshold and low-overhead fault-tolerant quantum memory},\
+  }\href {https://doi.org/10.1038/s41586-024-07107-7} {\bibfield  {journal}
+  {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {627}},\ \bibinfo
+  {pages} {778} (\bibinfo {year} {2024})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Google Quantum AI}}(2023)}]{google2023}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Google Quantum AI}}},\
+  }\bibfield  {title} {\bibinfo {title} {Suppressing quantum errors by scaling
+  a surface code logical qubit},\ }\href
+  {https://doi.org/10.1038/s41586-022-05434-1} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {614}},\ \bibinfo {pages}
+  {676} (\bibinfo {year} {2023})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{Google Quantum AI and
+  Collaborators}}(2025)}]{google2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibnamefont {{Google Quantum AI and
+  Collaborators}}},\ }\bibfield  {title} {\bibinfo {title} {Quantum error
+  correction below the surface code threshold},\ }\href
+  {https://doi.org/10.1038/s41586-024-08449-y} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature}\ }\textbf {\bibinfo {volume} {638}},\ \bibinfo {pages}
+  {920} (\bibinfo {year} {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gidney}\ and\ \citenamefont
+  {Eker{\aa}}(2021)}]{gidneyekera2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Gidney}}\ and\ \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Eker{\aa}}},\ }\bibfield  {title} {\bibinfo {title} {How to factor 2048 bit
+  {RSA} integers in 8 hours using 20 million noisy qubits},\ }\href
+  {https://doi.org/10.22331/q-2021-04-15-433} {\bibfield  {journal} {\bibinfo
+  {journal} {Quantum}\ }\textbf {\bibinfo {volume} {5}},\ \bibinfo {pages}
+  {433} (\bibinfo {year} {2021})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bravyi}\ and\ \citenamefont
+  {Vargo}(2013)}]{bravyivargo2013}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Bravyi}}\ and\ \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Vargo}},\
+  }\bibfield  {title} {\bibinfo {title} {Simulation of rare events in quantum
+  error correction},\ }\href {https://doi.org/10.1103/PhysRevA.88.062308}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. A}\ }\textbf {\bibinfo
+  {volume} {88}},\ \bibinfo {pages} {062308} (\bibinfo {year}
+  {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mayer}\ \emph {et~al.}(2025)\citenamefont {Mayer},
+  \citenamefont {Ganti}, \citenamefont {Onunkwo}, \citenamefont {Metodi},
+  \citenamefont {Anker},\ and\ \citenamefont {Skryzalin}}]{mayer2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Mayer}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Ganti}},
+  \bibinfo {author} {\bibfnamefont {U.}~\bibnamefont {Onunkwo}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Metodi}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Anker}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Skryzalin}},\ }\href@noop {} {\bibinfo
+  {title} {Rare event simulation of quantum error-correcting circuits}}
+  (\bibinfo {year} {2025}),\ \bibinfo {note} {version 4, October 2026},\
+  \Eprint {https://arxiv.org/abs/2509.13678} {arXiv:2509.13678} \BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Heu{\ss}en}\ \emph {et~al.}(2024)\citenamefont
+  {Heu{\ss}en}, \citenamefont {Winter}, \citenamefont {Rispler},\ and\
+  \citenamefont {M{\"u}ller}}]{heussen2024}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Heu{\ss}en}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Winter}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Rispler}},\ and\ \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {M{\"u}ller}},\ }\bibfield  {title}
+  {\bibinfo {title} {Dynamical subset sampling of quantum error-correcting
+  protocols},\ }\href {https://doi.org/10.1103/PhysRevResearch.6.013177}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. Research}\ }\textbf
+  {\bibinfo {volume} {6}},\ \bibinfo {pages} {013177} (\bibinfo {year}
+  {2024})},\ \Eprint {https://arxiv.org/abs/2309.12774} {arXiv:2309.12774}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Ye}\ and\ \citenamefont {Palsberg}(2026)}]{ye2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~Z.}\ \bibnamefont
+  {Ye}}\ and\ \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Palsberg}},\
+  }\href@noop {} {\bibinfo {title} {Scalable testing of quantum error
+  correction}} (\bibinfo {year} {2026}),\ \Eprint
+  {https://arxiv.org/abs/2602.04921} {arXiv:2602.04921} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Beverland}\ \emph {et~al.}(2025)\citenamefont
+  {Beverland}, \citenamefont {Carroll}, \citenamefont {Cross},\ and\
+  \citenamefont {Yoder}}]{beverland2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~E.}\ \bibnamefont
+  {Beverland}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Carroll}},
+  \bibinfo {author} {\bibfnamefont {A.~W.}\ \bibnamefont {Cross}},\ and\
+  \bibinfo {author} {\bibfnamefont {T.~J.}\ \bibnamefont {Yoder}},\ }\href@noop
+  {} {\bibinfo {title} {Fail fast: techniques to probe rare events in quantum
+  error correction}} (\bibinfo {year} {2025}),\ \Eprint
+  {https://arxiv.org/abs/2511.15177} {arXiv:2511.15177} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Molavi}\ \emph {et~al.}(2026)\citenamefont {Molavi},
+  \citenamefont {Saad},\ and\ \citenamefont {Albarghouthi}}]{molavi2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Molavi}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Saad}},\ and\
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Albarghouthi}},\
+  }\href@noop {} {\bibinfo {title} {Analyzing decoders for quantum error
+  correction}} (\bibinfo {year} {2026}),\ \Eprint
+  {https://arxiv.org/abs/2603.20127} {arXiv:2603.20127} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mullan}\ \emph {et~al.}(2026)\citenamefont {Mullan},
+  \citenamefont {Weippert},\ and\ \citenamefont {Brown}}]{mullan2026}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Mullan}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Weippert}},\
+  and\ \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Brown}},\
+  }\href@noop {} {\bibinfo {title} {Improved methods for determining quantum
+  error correcting code performance and fault tolerance}} (\bibinfo {year}
+  {2026}),\ \Eprint {https://arxiv.org/abs/2607.27153} {arXiv:2607.27153}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Gidney}(2021)}]{stim2021}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Gidney}},\ }\bibfield  {title} {\bibinfo {title} {Stim: a fast stabilizer
+  circuit simulator},\ }\href {https://doi.org/10.22331/q-2021-07-06-497}
+  {\bibfield  {journal} {\bibinfo  {journal} {Quantum}\ }\textbf {\bibinfo
+  {volume} {5}},\ \bibinfo {pages} {497} (\bibinfo {year} {2021})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Higgott}\ and\ \citenamefont
+  {Gidney}(2025)}]{sparseblossom2025}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {O.}~\bibnamefont
+  {Higgott}}\ and\ \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont
+  {Gidney}},\ }\bibfield  {title} {\bibinfo {title} {Sparse blossom: correcting
+  a million errors per core second with minimum-weight matching},\ }\href
+  {https://doi.org/10.22331/q-2025-01-20-1600} {\bibfield  {journal} {\bibinfo
+  {journal} {Quantum}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages}
+  {1600} (\bibinfo {year} {2025})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Clopper}\ and\ \citenamefont
+  {Pearson}(1934)}]{clopperpearson1934}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {C.~J.}\ \bibnamefont
+  {Clopper}}\ and\ \bibinfo {author} {\bibfnamefont {E.~S.}\ \bibnamefont
+  {Pearson}},\ }\bibfield  {title} {\bibinfo {title} {The use of confidence or
+  fiducial limits illustrated in the case of the binomial},\ }\href
+  {https://doi.org/10.1093/biomet/26.4.404} {\bibfield  {journal} {\bibinfo
+  {journal} {Biometrika}\ }\textbf {\bibinfo {volume} {26}},\ \bibinfo {pages}
+  {404} (\bibinfo {year} {1934})}\BibitemShut {NoStop}%
+\end{thebibliography}%

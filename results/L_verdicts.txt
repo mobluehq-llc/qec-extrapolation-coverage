@@ -1,0 +1,20 @@
+primary(absolute sigma) H1 component R1: 9/9 cells miscalibrated (cov<90%) at >=2 decades (CP-firm: 9/9); need >= 6.00 -> MET
+primary(absolute sigma) H1 component R5: 3/3 cells miscalibrated (cov<90%) at >=2 decades (CP-firm: 3/3); need >= 2.00 -> MET
+primary(absolute sigma) H1 (R1 and R5 miscalibrated in >=2/3 of cells at >=2 decades): SUPPORTED
+primary(absolute sigma) Claim1 R1 coverage<90% at 2-4 decades: 9/9 cells
+primary(absolute sigma) Claim2 R5 coverage<90%: 3/3 cells (all targets: 4/4)
+primary(absolute sigma) Claim3 R1: 0/12 cells with coverage in [93%,97%]; median coverage 0.000; miscalibrated 12/12
+primary(absolute sigma) Claim3 R2: 0/12 cells with coverage in [93%,97%]; median coverage 0.000; miscalibrated 12/12
+primary(absolute sigma) Claim3 R3: 0/12 cells with coverage in [93%,97%]; median coverage 0.000; miscalibrated 12/12
+primary(absolute sigma) Claim3 R4: 0/12 cells with coverage in [93%,97%]; median coverage 0.000; miscalibrated 12/12
+primary(absolute sigma) Claim3 R5: 0/4 cells with coverage in [93%,97%]; median coverage 0.023; miscalibrated 4/4
+sensitivity(chi2/dof-scaled) H1 component R1: 9/9 cells miscalibrated (cov<90%) at >=2 decades (CP-firm: 9/9); need >= 6.00 -> MET
+sensitivity(chi2/dof-scaled) H1 component R5: 3/3 cells miscalibrated (cov<90%) at >=2 decades (CP-firm: 3/3); need >= 2.00 -> MET
+sensitivity(chi2/dof-scaled) H1 (R1 and R5 miscalibrated in >=2/3 of cells at >=2 decades): SUPPORTED
+sensitivity(chi2/dof-scaled) Claim1 R1 coverage<90% at 2-4 decades: 9/9 cells
+sensitivity(chi2/dof-scaled) Claim2 R5 coverage<90%: 3/3 cells (all targets: 4/4)
+sensitivity(chi2/dof-scaled) Claim3 R1: 0/12 cells with coverage in [93%,97%]; median coverage 0.080; miscalibrated 12/12
+sensitivity(chi2/dof-scaled) Claim3 R2: 1/12 cells with coverage in [93%,97%]; median coverage 0.032; miscalibrated 9/12
+sensitivity(chi2/dof-scaled) Claim3 R3: 0/12 cells with coverage in [93%,97%]; median coverage 0.510; miscalibrated 10/12
+sensitivity(chi2/dof-scaled) Claim3 R4: 0/12 cells with coverage in [93%,97%]; median coverage 0.000; miscalibrated 12/12
+sensitivity(chi2/dof-scaled) Claim3 R5: 0/4 cells with coverage in [93%,97%]; median coverage 0.157; miscalibrated 4/4

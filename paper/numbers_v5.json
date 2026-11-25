@@ -1,0 +1,1052 @@
+{
+ "c9.L": {
+  "value": "6.52\\times10^{-13}",
+  "source": "results/cert_d9_result.json",
+  "how": "certified lower bound under A-0, rounded outward (down) to 3 s.f."
+ },
+ "c9.U": {
+  "value": "1.61\\times10^{-11}",
+  "source": "results/cert_d9_result.json",
+  "how": "certified upper bound under A-0, includes the beyond-120 remainder, rounded outward (up) to 3 s.f."
+ },
+ "c9.L12": {
+  "value": "0.65",
+  "source": "results/cert_d9_result.json",
+  "how": "L in units of 1e-12, rounded down"
+ },
+ "c9.U12": {
+  "value": "16.1",
+  "source": "results/cert_d9_result.json",
+  "how": "U in units of 1e-12, rounded up"
+ },
+ "c9.UoverL": {
+  "value": "25",
+  "source": "results/cert_d9_result.json",
+  "how": "U/L under A-0"
+ },
+ "c9.est": {
+  "value": "3.8\\times10^{-12}",
+  "source": "results/cert_d9_result.json",
+  "how": "plug-in point estimate (no guarantee)"
+ },
+ "c9.free.L": {
+  "value": "6.30\\times10^{-13}",
+  "source": "results/cert_d9_result.json",
+  "how": "lower bound, no assumption on strata 1-4, rounded down"
+ },
+ "c9.free.U": {
+  "value": "1.10\\times10^{-6}",
+  "source": "results/cert_d9_result.json",
+  "how": "upper bound, no assumption on strata 1-4, rounded up"
+ },
+ "c9.events.A0": {
+  "value": "16",
+  "source": "results/cert_d9_result.json",
+  "how": "one-sided events in the union bound"
+ },
+ "c9.events.free": {
+  "value": "24",
+  "source": "results/cert_d9_result.json",
+  "how": ""
+ },
+ "c9.tail": {
+  "value": "3.6\\times10^{-15}",
+  "source": "results/cert_d9_result.json",
+  "how": "P(W>12), added to U"
+ },
+ "c9.draws": {
+  "value": "1.0\\times10^{9}",
+  "source": "results/cert_d9_result.json",
+  "how": "fresh draws over strata 5-12"
+ },
+ "c9.lowdraws": {
+  "value": "10^{7}",
+  "source": "results/cert_d9_result.json",
+  "how": "fresh draws in each of strata 1-4"
+ },
+ "c9.N": {
+  "value": "13937",
+  "source": "results/cert_d9_result.json",
+  "how": "fault mechanisms"
+ },
+ "c9.w5.lo": {
+  "value": "5.4\\times10^{-13}",
+  "source": "results/cert_d9_result.json",
+  "how": "stratum contribution to L"
+ },
+ "c9.w5.hi": {
+  "value": "8.6\\times10^{-12}",
+  "source": "results/cert_d9_result.json",
+  "how": "stratum contribution to U"
+ },
+ "c9.w6.lo": {
+  "value": "8.7\\times10^{-14}",
+  "source": "results/cert_d9_result.json",
+  "how": "stratum contribution to L"
+ },
+ "c9.w6.hi": {
+  "value": "5.1\\times10^{-12}",
+  "source": "results/cert_d9_result.json",
+  "how": "stratum contribution to U"
+ },
+ "c9.w7.lo": {
+  "value": "2.1\\times10^{-14}",
+  "source": "results/cert_d9_result.json",
+  "how": "stratum contribution to L"
+ },
+ "c9.w7.hi": {
+  "value": "1.7\\times10^{-12}",
+  "source": "results/cert_d9_result.json",
+  "how": "stratum contribution to U"
+ },
+ "c9.w5.nfail": {
+  "value": "37126",
+  "source": "results/cert_d9_result.json",
+  "how": "failing draws, stratum 5"
+ },
+ "c9.w5.n": {
+  "value": "8.8\\times10^{8}",
+  "source": "results/cert_d9_result.json",
+  "how": "draws, stratum 5"
+ },
+ "c9.w5.shareU": {
+  "value": "53",
+  "source": "results/cert_d9_result.json",
+  "how": "share of U from stratum 5, percent"
+ },
+ "c9.free.w1.hi": {
+  "value": "8.7\\times10^{-7}",
+  "source": "results/cert_d9_result.json",
+  "how": "contribution of a zero-failure stratum to the assumption-free U"
+ },
+ "c9.free.w2.hi": {
+  "value": "2.0\\times10^{-7}",
+  "source": "results/cert_d9_result.json",
+  "how": "contribution of a zero-failure stratum to the assumption-free U"
+ },
+ "c9.free.ucb": {
+  "value": "3.0\\times10^{-6}",
+  "source": "results/cert_d9_result.json",
+  "how": "largest upper limit on f_w for w<=4 from 1e7 failure-free draws"
+ },
+ "c9.bar": {
+  "value": "285",
+  "source": "PLAN.md (certified interval amendment)",
+  "how": "registered bar: replicates certified missed, of 300, for both R1 and R5"
+ },
+ "c9.miss.R1": {
+  "value": "300",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "replicates (of 300) whose whole 95% interval lies above U"
+ },
+ "c9.int12.lo.R1": {
+  "value": "63.5",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end, units of 1e-12"
+ },
+ "c9.int12.hi.R1": {
+  "value": "161",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end, units of 1e-12"
+ },
+ "c9.int.lo.R1": {
+  "value": "6.4\\times10^{-11}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end of the recipe's interval"
+ },
+ "c9.int.hi.R1": {
+  "value": "1.6\\times10^{-10}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end"
+ },
+ "c9.miss.R2": {
+  "value": "0",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "replicates (of 300) whose whole 95% interval lies above U"
+ },
+ "c9.int12.lo.R2": {
+  "value": "5.1",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end, units of 1e-12"
+ },
+ "c9.int12.hi.R2": {
+  "value": "5.7",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end, units of 1e-12"
+ },
+ "c9.int.lo.R2": {
+  "value": "5.1\\times10^{-12}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end of the recipe's interval"
+ },
+ "c9.int.hi.R2": {
+  "value": "5.7\\times10^{-12}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end"
+ },
+ "c9.miss.R3": {
+  "value": "0",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "replicates (of 300) whose whole 95% interval lies above U"
+ },
+ "c9.int12.lo.R3": {
+  "value": "5.3",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end, units of 1e-12"
+ },
+ "c9.int12.hi.R3": {
+  "value": "5.8",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end, units of 1e-12"
+ },
+ "c9.int.lo.R3": {
+  "value": "5.3\\times10^{-12}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end of the recipe's interval"
+ },
+ "c9.int.hi.R3": {
+  "value": "5.8\\times10^{-12}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end"
+ },
+ "c9.miss.R4": {
+  "value": "239",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "replicates (of 300) whose whole 95% interval lies above U"
+ },
+ "c9.int12.lo.R4": {
+  "value": "18.3",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end, units of 1e-12"
+ },
+ "c9.int12.hi.R4": {
+  "value": "34.2",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end, units of 1e-12"
+ },
+ "c9.int.lo.R4": {
+  "value": "1.8\\times10^{-11}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end of the recipe's interval"
+ },
+ "c9.int.hi.R4": {
+  "value": "3.4\\times10^{-11}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end"
+ },
+ "c9.miss.R5": {
+  "value": "208",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "replicates (of 300) whose whole 95% interval lies above U"
+ },
+ "c9.int12.lo.R5": {
+  "value": "26.1",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end, units of 1e-12"
+ },
+ "c9.int12.hi.R5": {
+  "value": "794",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end, units of 1e-12"
+ },
+ "c9.int.lo.R5": {
+  "value": "2.6\\times10^{-11}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end of the recipe's interval"
+ },
+ "c9.int.hi.R5": {
+  "value": "7.9\\times10^{-10}",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median upper end"
+ },
+ "c9.miss.R5.pct": {
+  "value": "69",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "percent"
+ },
+ "c9.miss.R4.pct": {
+  "value": "80",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "percent"
+ },
+ "c9.R1.lo.overU": {
+  "value": "4.0",
+  "source": "results/cert_d9_vs_recipes.json (code/cert_d9_vs_recipes.py)",
+  "how": "median lower end of R1's interval / U"
+ },
+ "c9.pred.overU.R1": {
+  "value": "6.3",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified upper bound U (smallest over-prediction consistent with the interval)"
+ },
+ "c9.pred.overL.R1": {
+  "value": "155",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified lower bound L (largest)"
+ },
+ "c9.pred.inside.R1": {
+  "value": "0",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "replicate point predictions inside [L,U], of 300"
+ },
+ "c9.pred.overU.R2": {
+  "value": "0.3",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified upper bound U (smallest over-prediction consistent with the interval)"
+ },
+ "c9.pred.overL.R2": {
+  "value": "8.3",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified lower bound L (largest)"
+ },
+ "c9.pred.inside.R2": {
+  "value": "300",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "replicate point predictions inside [L,U], of 300"
+ },
+ "c9.pred.overU.R3": {
+  "value": "0.3",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified upper bound U (smallest over-prediction consistent with the interval)"
+ },
+ "c9.pred.overL.R3": {
+  "value": "8.5",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified lower bound L (largest)"
+ },
+ "c9.pred.inside.R3": {
+  "value": "300",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "replicate point predictions inside [L,U], of 300"
+ },
+ "c9.pred.overU.R4": {
+  "value": "1.6",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified upper bound U (smallest over-prediction consistent with the interval)"
+ },
+ "c9.pred.overL.R4": {
+  "value": "38",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified lower bound L (largest)"
+ },
+ "c9.pred.inside.R4": {
+  "value": "1",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "replicate point predictions inside [L,U], of 300"
+ },
+ "c9.pred.overU.R5": {
+  "value": "9.0",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified upper bound U (smallest over-prediction consistent with the interval)"
+ },
+ "c9.pred.overL.R5": {
+  "value": "221",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "median prediction / certified lower bound L (largest)"
+ },
+ "c9.pred.inside.R5": {
+  "value": "6",
+  "source": "results/fit_d357.json, fit_d9.json (code/coverage.py) and results/cert_d9_result.json",
+  "how": "replicate point predictions inside [L,U], of 300"
+ },
+ "c9.hold.overL": {
+  "value": "0.84",
+  "source": "results/holdout_truth_d9_p1e-4_s*.json + cert_d9_result.json",
+  "how": "old holdout point estimate / certified lower bound"
+ },
+ "c9.hold.below": {
+  "value": "5",
+  "source": "same",
+  "how": "holdout runs (of 6) whose estimate is below the certified lower bound"
+ },
+ "c9.est.overhold": {
+  "value": "6.9",
+  "source": "same",
+  "how": "plug-in estimate of the new measurement / old holdout point estimate"
+ },
+ "r4b.cov.d3.t3": {
+  "value": "96.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d3.t3": {
+  "value": "1.00",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d3.t4": {
+  "value": "97.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d3.t4": {
+  "value": "1.03",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d3.t5": {
+  "value": "98.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d3.t5": {
+  "value": "1.01",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d3.t6": {
+  "value": "98.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d3.t6": {
+  "value": "1.02",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d5.t3": {
+  "value": "94.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d5.t3": {
+  "value": "1.02",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d5.t4": {
+  "value": "96.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d5.t4": {
+  "value": "0.97",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d5.t5": {
+  "value": "96.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d5.t5": {
+  "value": "0.98",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d5.t6": {
+  "value": "96.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d5.t6": {
+  "value": "1.01",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.cov.d7.t3": {
+  "value": "93.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d7.t3": {
+  "value": "0.94",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.hitmin.d7.t3": {
+  "value": "82",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r4b.hitmax.d7.t3": {
+  "value": "95",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r4b.cov.d7.t4": {
+  "value": "94.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d7.t4": {
+  "value": "1.08",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.hitmin.d7.t4": {
+  "value": "84",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r4b.hitmax.d7.t4": {
+  "value": "96",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r4b.cov.d7.t5": {
+  "value": "94.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d7.t5": {
+  "value": "1.09",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.hitmin.d7.t5": {
+  "value": "83",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r4b.hitmax.d7.t5": {
+  "value": "96",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r4b.cov.d7.t6": {
+  "value": "95.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r4b.ratio.d7.t6": {
+  "value": "0.96",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r4b.hitmin.d7.t6": {
+  "value": "92",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r4b.hitmax.d7.t6": {
+  "value": "96",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r2b.cov.d3.t3": {
+  "value": "92.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d3.t3": {
+  "value": "0.99",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d3.t4": {
+  "value": "93.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d3.t4": {
+  "value": "1.02",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d3.t5": {
+  "value": "92.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d3.t5": {
+  "value": "0.99",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d3.t6": {
+  "value": "94.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d3.t6": {
+  "value": "1.01",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d5.t3": {
+  "value": "93.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d5.t3": {
+  "value": "1.02",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d5.t4": {
+  "value": "94.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d5.t4": {
+  "value": "0.98",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d5.t5": {
+  "value": "94.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d5.t5": {
+  "value": "0.98",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d5.t6": {
+  "value": "95.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d5.t6": {
+  "value": "1.01",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.cov.d7.t3": {
+  "value": "89.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d7.t3": {
+  "value": "0.96",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.hitmin.d7.t3": {
+  "value": "49",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r2b.hitmax.d7.t3": {
+  "value": "95",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r2b.cov.d7.t4": {
+  "value": "70.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d7.t4": {
+  "value": "1.13",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.hitmin.d7.t4": {
+  "value": "12",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r2b.hitmax.d7.t4": {
+  "value": "95",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r2b.cov.d7.t5": {
+  "value": "68.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d7.t5": {
+  "value": "1.15",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.hitmin.d7.t5": {
+  "value": "9",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r2b.hitmax.d7.t5": {
+  "value": "95",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r2b.cov.d7.t6": {
+  "value": "93.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "coverage, percent of 300 (primary)"
+ },
+ "r2b.ratio.d7.t6": {
+  "value": "1.01",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "median prediction / reference"
+ },
+ "r2b.hitmin.d7.t6": {
+  "value": "55",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "smallest hit fraction over reference +-1.96 se"
+ },
+ "r2b.hitmax.d7.t6": {
+  "value": "94",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "largest"
+ },
+ "r4b.inband": {
+  "value": "5",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "R4' d=3,5 cells in 93-97%"
+ },
+ "r4b.cells": {
+  "value": "8",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.bar": {
+  "value": "6",
+  "source": "PLAN.md (amendment R4P-BW)",
+  "how": "registered bar"
+ },
+ "r4b.above": {
+  "value": "3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "cells above 97%"
+ },
+ "r4b.above.covmin": {
+  "value": "97.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.above.covmax": {
+  "value": "98.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.lowd.covmin": {
+  "value": "94.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.lowd.covmax": {
+  "value": "98.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d5.covmin": {
+  "value": "94.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d5.covmax": {
+  "value": "96.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.lowd.ratmin": {
+  "value": "0.97",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.lowd.ratmax": {
+  "value": "1.03",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.sca.inband": {
+  "value": "4",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "scaled sensitivity: cells in band"
+ },
+ "r4b.sca.above": {
+  "value": "4",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.inband": {
+  "value": "4",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "d=7 cells in band at the point reference"
+ },
+ "r4b.d7.undecided": {
+  "value": "4",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "d=7 cells whose class changes within reference +-1.96 se"
+ },
+ "r4b.d7.covmin": {
+  "value": "93.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.covmax": {
+  "value": "95.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.ratmin": {
+  "value": "0.94",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.ratmax": {
+  "value": "1.09",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.hitmin": {
+  "value": "82",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.relse.min": {
+  "value": "3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r4b.d7.relse.max": {
+  "value": "8",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r2b.inband": {
+  "value": "6",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": "R2-lin d=3,5 cells in band"
+ },
+ "r2b.lowd.covmin": {
+  "value": "92.7",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r2b.lowd.covmax": {
+  "value": "95.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r2b.d7.inband": {
+  "value": "1",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r2b.d7.below90": {
+  "value": "3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r2b.d7.covmin": {
+  "value": "68.0",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "r2b.d7.covmax": {
+  "value": "93.3",
+  "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
+  "how": ""
+ },
+ "inf.bw.R2.inband": {
+  "value": "4",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "cells of 12 in 93-97% after inflation"
+ },
+ "inf.bw.R2.below90": {
+  "value": "5",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.bw.R2.above97": {
+  "value": "1",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.bw.R2.medcov": {
+  "value": "92",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "median coverage after inflation, percent"
+ },
+ "inf.bw.R2.medcov0": {
+  "value": "66",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "before"
+ },
+ "inf.bw.R2.width": {
+  "value": "2.2",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": "median ratio of inflated to original interval width (log scale)"
+ },
+ "inf.bw.R3.inband": {
+  "value": "1",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "cells of 12 in 93-97% after inflation"
+ },
+ "inf.bw.R3.below90": {
+  "value": "7",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.bw.R3.above97": {
+  "value": "4",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.bw.R3.medcov": {
+  "value": "66",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "median coverage after inflation, percent"
+ },
+ "inf.bw.R3.medcov0": {
+  "value": "6",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "before"
+ },
+ "inf.bw.R3.width": {
+  "value": "2.8",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": "median ratio of inflated to original interval width (log scale)"
+ },
+ "inf.bw.R1.inband": {
+  "value": "7",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "cells of 12 in 93-97% after inflation"
+ },
+ "inf.bw.R1.below90": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.bw.R1.above97": {
+  "value": "1",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.bw.R1.medcov": {
+  "value": "94",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "median coverage after inflation, percent"
+ },
+ "inf.bw.R1.medcov0": {
+  "value": "92",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "before"
+ },
+ "inf.bw.R1.width": {
+  "value": "1.0",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": "median ratio of inflated to original interval width (log scale)"
+ },
+ "inf.bw.inband": {
+  "value": "5",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "R2+R3 cells of 24 in band"
+ },
+ "inf.st.R2.inband": {
+  "value": "3",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "cells of 12 in 93-97% after inflation"
+ },
+ "inf.st.R2.below90": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.st.R2.above97": {
+  "value": "8",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.st.R2.medcov": {
+  "value": "100",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "median coverage after inflation, percent"
+ },
+ "inf.st.R2.medcov0": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "before"
+ },
+ "inf.st.R2.width": {
+  "value": "15",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": "median ratio of inflated to original interval width (log scale)"
+ },
+ "inf.st.R3.inband": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "cells of 12 in 93-97% after inflation"
+ },
+ "inf.st.R3.below90": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.st.R3.above97": {
+  "value": "12",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.st.R3.medcov": {
+  "value": "100",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "median coverage after inflation, percent"
+ },
+ "inf.st.R3.medcov0": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "before"
+ },
+ "inf.st.R3.width": {
+  "value": "22",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": "median ratio of inflated to original interval width (log scale)"
+ },
+ "inf.st.R1.inband": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "cells of 12 in 93-97% after inflation"
+ },
+ "inf.st.R1.below90": {
+  "value": "12",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.st.R1.above97": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": ""
+ },
+ "inf.st.R1.medcov": {
+  "value": "7",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "median coverage after inflation, percent"
+ },
+ "inf.st.R1.medcov0": {
+  "value": "0",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "before"
+ },
+ "inf.st.R1.width": {
+  "value": "1.2",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": "median ratio of inflated to original interval width (log scale)"
+ },
+ "inf.st.inband": {
+  "value": "3",
+  "source": "results/L_inflate_coverage.csv, results/L_inflate_verdicts.txt (code/inflate_rolling.py)",
+  "how": "R2+R3 cells of 24 in band"
+ },
+ "inf.bar": {
+  "value": "18",
+  "source": "PLAN.md (Amendment 2)",
+  "how": "registered bar, cells of 24, in each window"
+ },
+ "inf.cells": {
+  "value": "24",
+  "source": "",
+  "how": ""
+ },
+ "inf.bw.far.inband": {
+  "value": "3",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": ""
+ },
+ "inf.bw.far.below90": {
+  "value": "11",
+  "source": "results/L_inflate_verdicts.txt",
+  "how": ""
+ },
+ "inf.bw.far.cells": {
+  "value": "18",
+  "source": "",
+  "how": ""
+ }
+}

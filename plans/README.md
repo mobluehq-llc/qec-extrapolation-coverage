@@ -1,0 +1,35 @@
+# Pre-registration plans of paper L
+
+Each file `NN_PLAN_<date>_<commit>.md` is `PLAN.md` as committed at that commit in the author's private archive (every commit that touched it, in order); the last file is the frozen claims ledger at the first commit (`d1ea518`). Each amendment was committed before the runs it governs, as its heading states. The hash in the name is the commit. Apart from the redactions below, the files are the committed texts, so they still contain working notes; one edit of names only: the two driver script names `run_cov` and `run_bw` had a host-name suffix, which was dropped.
+
+Redactions: each span replaced by "[internal operations note redacted]" is an operational note (machine names, launch commands, remote-access and monitoring instructions, screening remarks, local paths, internal process remarks). The redactions are operational only, and the originals (with their commit hashes) are available to referees on request. The SHA-256 list below is that of the redacted copies in this folder.
+
+```
+b0c2b947500a7cd855955379888cf01ca2196d456eed422f15b5216212f6ea4c  01_PLAN_20261121_2023_d1ea518.md
+3330e6b6f3f9aa25742e74f4ba4a33114a358c556b6012d5bc0ab384457fab77  02_PLAN_20261122_1609_ae55b0f.md
+c6b1cc076b7613482882a048524dad7846ba14e3b3dedd5925af99f50f223afa  03_PLAN_20261122_1611_44d8735.md
+9b3a7c828a611c856f784e16a32f65b834da024e051b2b9d63687278c1d58081  04_PLAN_20261123_0906_d3dc840.md
+166bb96541896a3b8556c94f8c3c8584eabbc8ba73032047a7d5fbd514273963  05_PLAN_20261123_1655_e316565.md
+d9217fe2b08e02c3817e663432589f2ef4ca40e40a381e17495a8ca83f529863  06_PLAN_20261123_1655_2259ddb.md
+37b128e0d547c1301c56ea05a79e83d04265a6867fc293e37a7df063b65e1d7a  07_PLAN_20261123_2116_2238b01.md
+1cc5ac22428bde6235020700ed031db99dc30c5d5937de6188f0e49940e24007  08_PLAN_20261123_2126_7283410.md
+6de76498a822cb275d0b64412f47168f284efc6b6e996c7811933b42d93e64f4  09_PLAN_20261123_2137_897f9c6.md
+c56dc72e4dc3bf67cf7bb3969e509b5f8cf2ea78530c004b08cbfa466b4e5a0d  10_PLAN_20261123_2138_8111a09.md
+7691bbcab52cd45706f22bff3d55520913033c4993d57f49c8cf3ec901f8cbda  11_PLAN_20261123_2157_bab8c70.md
+1dec73c0230f02a46d9c0b95b38ae75e7f00ed48550a1021d9b51be4e6de9f83  12_PLAN_20261123_2312_36679e0.md
+979493b52860847f4440ee87ad39582e3184ca2e2d309b7152d21c92b0312f94  13_PLAN_20261123_2313_70a18c5.md
+2ca9497f3112504c6505b78e6c07ef6790fe24076597afba52fdc77611545e91  14_PLAN_20261124_0022_1b865c2.md
+0f4fdba1e13bf6ef717d7b353fb3cf27d70c5ce1a301c4b18b32e913000853c4  15_PLAN_20261124_0024_18c2333.md
+f5dd2731c2da19df59b8d9afeea7888af813de1142e48a5cf5002f0b0f132d34  16_PLAN_20261124_0232_370f225.md
+8cfa63e030cc67d1181e92dca7574846fcf1e84ca266290c8aab76f122e1ca0e  17_PLAN_20261124_0233_b9e484a.md
+65d494bf94337d212e6727fc2af202982655466c873006cfd13237de231abc95  18_PLAN_20261124_0238_16205ef.md
+9e84a70dc26fc34abe84bb870df74e4632b25cf1d17c2599a04730c855e479fc  19_PLAN_20261124_0909_5183530.md
+3f4121d4b5b9e2a8e3b9f32f7f2adb2a94ab431c666401cc4c258cf30b863e43  20_PLAN_20261124_0919_71dab71.md
+c1f46d269dcdfdc0862737b0ac381eefb5605faa9d4ec1885b1003ba08805118  21_PLAN_20261124_0944_d300eff.md
+1aed1a88668d27f04c5c2144965c15679bc1b9c4e89f59b3248ff02a412c38d4  22_PLAN_20261124_1401_091aec7.md
+77680bc5a1272d0da7e425f1a430cdb3ba2b6a45eb1de17932363a70824b8399  23_PLAN_20261124_1404_dedb4bb.md
+eef9825520e8e9f96bd4465e6d257c9256db4f1c20777915f3db67b01fb7d766  24_PLAN_20261124_1530_68d8c92.md
+132de79435ae54820542cd9e273d31341c382c4c4e51bbc5738c892c7922626f  25_PLAN_20261124_1531_fbcfd3a.md
+b9c82d52619191b9d30a275a2e0b1818c5c9c22923a449295dbfcd0173131d15  26_PLAN_20261124_1937_947b4ea.md
+2a947a29fe1b8f1110c151200d6e14ad66579370396c69dcd22371e6e91c2bd7  27_CLAIMS_frozen_d1ea518.md
+```

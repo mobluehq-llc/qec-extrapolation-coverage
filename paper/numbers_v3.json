@@ -1,0 +1,242 @@
+{
+ "m.N.d3": {
+  "value": "219",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "fault mechanisms of the circuit detector error model (field N)"
+ },
+ "m.totM.d3.min": {
+  "value": "0.73",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "samples per run, millions (totM)"
+ },
+ "m.totM.d3.max": {
+  "value": "0.73",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "samples per run, millions (totM)"
+ },
+ "m.runrelse.d3.min": {
+  "value": "1.8",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "single-run se/estimate, percent"
+ },
+ "m.runrelse.d3.max": {
+  "value": "1.9",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": ""
+ },
+ "m.secs.d3.max": {
+  "value": "24",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "run time, s"
+ },
+ "m.secs.d3.min": {
+  "value": "7",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": ""
+ },
+ "m.N.d5": {
+  "value": "1677",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "fault mechanisms of the circuit detector error model (field N)"
+ },
+ "m.totM.d5.min": {
+  "value": "3.6",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "samples per run, millions (totM)"
+ },
+ "m.totM.d5.max": {
+  "value": "4.6",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "samples per run, millions (totM)"
+ },
+ "m.runrelse.d5.min": {
+  "value": "1.8",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "single-run se/estimate, percent"
+ },
+ "m.runrelse.d5.max": {
+  "value": "2.0",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": ""
+ },
+ "m.secs.d5.max": {
+  "value": "188",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "run time, s"
+ },
+ "m.secs.d5.min": {
+  "value": "68",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": ""
+ },
+ "m.N.d7": {
+  "value": "6023",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "fault mechanisms of the circuit detector error model (field N)"
+ },
+ "m.totM.d7.min": {
+  "value": "25.4",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "samples per run, millions (totM)"
+ },
+ "m.totM.d7.max": {
+  "value": "33.2",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "samples per run, millions (totM)"
+ },
+ "m.runrelse.d7.min": {
+  "value": "4.5",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "single-run se/estimate, percent"
+ },
+ "m.runrelse.d7.max": {
+  "value": "11.7",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": ""
+ },
+ "m.secs.d7.max": {
+  "value": "2588",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "run time, s"
+ },
+ "m.secs.d7.min": {
+  "value": "2403",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": ""
+ },
+ "m.d7.timelimited": {
+  "value": "8",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "d=7 runs that ended at the 2400 s limit with se > 2% (all of them)"
+ },
+ "m.lowd.runs": {
+  "value": "16",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "d=3,5 runs, all stopped by the 2% rule"
+ },
+ "m.lam.max": {
+  "value": "2.1",
+  "source": "results/truth_d*_p*.json + truthextra_d*_p*.json (24 runs: 12 cells x 2)",
+  "how": "largest mean number of faults sum q_i over the 12 cells (d=7, p=1e-3)"
+ },
+ "m.N.d9": {
+  "value": "13937",
+  "source": "results/holdout_truth_d9_p1e-4_s*.json",
+  "how": "fault mechanisms, d=9"
+ },
+ "m.h.secs.min": {
+  "value": "3008",
+  "source": "results/holdout_truth_d9_p1e-4_s*.json",
+  "how": "holdout run time, s"
+ },
+ "m.h.totM.min": {
+  "value": "14.2",
+  "source": "results/holdout_truth_d9_p1e-4_s*.json",
+  "how": "holdout samples per run, millions"
+ },
+ "m.h.totM.max": {
+  "value": "14.6",
+  "source": "results/holdout_truth_d9_p1e-4_s*.json",
+  "how": ""
+ },
+ "c.d3.t3.inside": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "replicates with exact value inside [L,U]"
+ },
+ "c.d3.t3.n": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.d3.t3.width": {
+  "value": "2.0",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "median (U-L)/exact, percent"
+ },
+ "c.d3.t4.inside": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "replicates with exact value inside [L,U]"
+ },
+ "c.d3.t4.n": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.d3.t4.width": {
+  "value": "1.5",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "median (U-L)/exact, percent"
+ },
+ "c.d5.t3.inside": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "replicates with exact value inside [L,U]"
+ },
+ "c.d5.t3.n": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.d5.t3.width": {
+  "value": "14.1",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "median (U-L)/exact, percent"
+ },
+ "c.d5.t4.inside": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "replicates with exact value inside [L,U]"
+ },
+ "c.d5.t4.n": {
+  "value": "24",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.d5.t4.width": {
+  "value": "11.0",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": "median (U-L)/exact, percent"
+ },
+ "c.inside.all": {
+  "value": "96",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.n.all": {
+  "value": "96",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.width.min": {
+  "value": "1.5",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.width.max": {
+  "value": "14.1",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json",
+  "how": ""
+ },
+ "c.b.min": {
+  "value": "3.33",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json + results/cert_d9_alloc.json",
+  "how": "smallest rigorous weight bound b_w over all strata used"
+ },
+ "c.b.max": {
+  "value": "3.67",
+  "source": "results/cert_validation/*/cert_exact_*.json vs exact/d{3,5}_manifest.json + results/cert_d9_alloc.json",
+  "how": "largest"
+ },
+ "c.d9.wmax": {
+  "value": "12",
+  "source": "results/cert_d9_alloc.json",
+  "how": "largest stratum bounded at d=9"
+ },
+ "c.d9.ntot": {
+  "value": "10^{9}",
+  "source": "results/cert_d9_alloc.json",
+  "how": "registered sample budget"
+ }
+}

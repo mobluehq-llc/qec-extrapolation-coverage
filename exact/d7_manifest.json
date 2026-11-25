@@ -1,0 +1,146 @@
+{
+ "kind": "TRUTH GENERATION (exact enumeration), not a confirmatory test",
+ "d": 7,
+ "rounds": 7,
+ "n_mechanisms": 6602,
+ "n_detectors": 336,
+ "model": "independent DEM mechanisms q_i=m_i*p (m_i=q_i(1e-9)/1e-9, merged by stim, decompose_errors=True)",
+ "noise": "after_clifford=before_measure_flip=after_reset_flip=p",
+ "decoder": "pymatching, weights fixed from DEM at p=0.001",
+ "dem_sha256": "be3a85cce1b83e0a31ebb1d2282887e687f1748ae082f1d0b11ff4d34bcc98f1",
+ "m_multiplicity_hist": {
+  "0.066667": 2635,
+  "0.133333": 1430,
+  "0.2": 1009,
+  "0.266667": 473,
+  "0.333333": 71,
+  "0.4": 199,
+  "0.466667": 23,
+  "0.533333": 126,
+  "0.6": 31,
+  "0.733333": 11,
+  "0.8": 2,
+  "0.866667": 4,
+  "0.933333": 17,
+  "1.0": 145,
+  "1.066667": 1,
+  "1.133333": 9,
+  "1.2": 18,
+  "1.266667": 56,
+  "1.4": 36,
+  "1.533333": 30,
+  "2.133333": 6,
+  "2.2": 12,
+  "2.266667": 20,
+  "2.333333": 4,
+  "2.4": 26,
+  "2.466667": 6,
+  "2.533333": 22,
+  "2.6": 32,
+  "2.666667": 4,
+  "2.733333": 42,
+  "2.8": 2,
+  "2.866667": 4,
+  "3.466667": 4,
+  "3.533333": 12,
+  "3.6": 12,
+  "3.733333": 25,
+  "4.066667": 1,
+  "4.266667": 9,
+  "4.4": 21,
+  "4.533334": 4,
+  "4.666667": 2,
+  "4.733334": 1,
+  "4.8": 1,
+  "4.933334": 2,
+  "5.2": 2
+ },
+ "shells": {
+  "1": {
+   "units_done": 6602,
+   "units_total": 6602,
+   "sets_done": 6602,
+   "sets_total": 6602,
+   "complete": true,
+   "n_fail": 0,
+   "T": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "unit_files_sha256": "612df0104f1972a315b99085907976983eef42a70c89393e670e21cbbfe3b72d",
+   "status": "COMPLETE"
+  },
+  "2": {
+   "units_done": 6601,
+   "units_total": 6601,
+   "sets_done": 21789901,
+   "sets_total": 21789901,
+   "complete": true,
+   "n_fail": 0,
+   "T": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "unit_files_sha256": "0d2b8d7523c508d49325ef47b0dfdd7065f9a93d8a26aff01cb531b31e75db61",
+   "status": "COMPLETE"
+  },
+  "3": {
+   "units_done": 6600,
+   "units_total": 6600,
+   "sets_done": 47937782200,
+   "sets_total": 47937782200,
+   "complete": true,
+   "n_fail": 0,
+   "T": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+   ],
+   "unit_files_sha256": "8c0270b383adb98afd926fdc61b429f73dba6a25b854380fc8b103ba9c3db001",
+   "status": "COMPLETE"
+  }
+ },
+ "coverage": {
+  "1": {
+   "units_present": 6602,
+   "units_total": 6602,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  },
+  "2": {
+   "units_present": 6601,
+   "units_total": 6601,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  },
+  "3": {
+   "units_present": 6600,
+   "units_total": 6600,
+   "duplicates_ignored": [],
+   "missing": 0,
+   "first_missing": []
+  }
+ },
+ "coefficients_p_L=sum c_k p^k": {
+  "1": {
+   "coef": 0.0,
+   "status": "EXACT"
+  },
+  "2": {
+   "coef": 0.0,
+   "status": "EXACT"
+  },
+  "3": {
+   "coef": 0.0,
+   "status": "EXACT"
+  }
+ },
+ "note": "c_k exact up to float64 summation; polynomial valid only where truncated tail is small (n_mech*p << 1)."
+}

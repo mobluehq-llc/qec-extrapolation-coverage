@@ -1,0 +1,4 @@
+numpy==2.5.5
+scipy==1.18.1
+matplotlib==3.11.2
+# stim==1.16.0 and pymatching==2.4.0 are needed only to re-run the simulations (code/truth.py), not for `make verify`
