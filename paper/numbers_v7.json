@@ -1130,7 +1130,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w2.R1.d7.t3": {
-  "value": "70.3--94.7",
+  "value": "70.3--95.0",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -1630,7 +1630,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w1.R2.d7.t4": {
-  "value": "0.0--94.0",
+  "value": "0.0--94.3",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -1670,7 +1670,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w1.R2.d7.t5": {
-  "value": "0.0--94.0",
+  "value": "0.0--94.3",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -1730,7 +1730,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w2.R2.d7.t6": {
-  "value": "0.0--95.7",
+  "value": "0.0--96.3",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -1890,7 +1890,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w2.R3.d3.t6": {
-  "value": "70.3--96.0",
+  "value": "70.3--96.3",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -2110,7 +2110,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w1.R3.d7.t4": {
-  "value": "0.0--95.7",
+  "value": "0.0--96.0",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -2150,7 +2150,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w1.R3.d7.t5": {
-  "value": "0.0--95.7",
+  "value": "0.0--96.0",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },
@@ -2730,7 +2730,7 @@
   "how": "coverage at the reference point estimate, percent, one decimal"
  },
  "v7.rg.w2.R5.d7.t3": {
-  "value": "56.0--81.0",
+  "value": "56.0--81.3",
   "source": "results/L_final_checks_v7.json",
   "how": "hit-fraction range, one decimal, from integer counts"
  },

@@ -68,7 +68,7 @@ Evidence paths are relative to this file; checks use the verify.py grammar. A ch
 | 61 | Stored-result integrity: results/fit_bw.json | results/fit_bw.json | `sha256:4db811282c8030a80b10978a22a34efcebe02d9dc7315aea20f4625fd4c733f0` | verified |
 | 62 | Stored-result integrity: results/cert_d9_result.json | results/cert_d9_result.json | `sha256:6aae12c2bc79d0884fdcffdb4c2f466e4b6e0d8dcf130ad0a6448c3c6be57cb2` | verified |
 | 63 | Stored-result integrity: results/cert_d9_vs_recipes.json | results/cert_d9_vs_recipes.json | `sha256:16fcfbd8243f024730a81fc0d6cb511d98c6f4e572ab987bbcf6e2fef2787cce` | verified |
-| 64 | Stored-result integrity: results/L_amend_gemini.json | results/L_amend_gemini.json | `sha256:17fdc8cfa0cbb7c9705c7d1324b29c53c5f70ecb7bd4666bd07ddb8ad5d976a3` | verified |
+| 64 | Stored-result integrity: results/L_amend_gemini.json | results/L_amend_gemini.json | `sha256:4a199ab05b22588ef2dd7f4a082f890f094265e9f789a254e519061d2ff9f56f` | verified |
 | 65 | Stored-result integrity: results/L_coverage.csv | results/L_coverage.csv | `sha256:662da1cb501ad0a01f54dcf2294577bc1bc966d942d6c19b70945e14891a4715` | verified |
 | 66 | Stored-result integrity: results/L_bw_coverage.csv | results/L_bw_coverage.csv | `sha256:f53c6e8e5ec1ad2473dd2a7008ee83a6cf4497616aaa9806c4909dc9f9df9644` | verified |
 | 67 | Stored-result integrity: results/truth_d7_p1e-3.json | results/truth_d7_p1e-3.json | `sha256:37d518a19568910b10e2f1c78012389a227b7350cb22161681e42d0024c667c4` | verified |

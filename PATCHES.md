@@ -4,7 +4,7 @@ Only absolute local paths, host names in comments and run instructions were chan
 Some files were pinned by SHA-256 prefix in `plans/` before their runs; those pins name the *original* files, so the original and bundle hashes are listed.
 
 - `paper/make_numbers_v4.py`: a stale guard (`assert not exists(cert_d9_result.json)`, written while the d=9 run was in progress) was replaced by a comment, and the figure-only matplotlib import was made optional; its numbers and tables are unaffected.
-- `paper/tab_truth.tex` in the arXiv v7 source carries a hand-added z-score column (keys `v8.z.*` from `make_numbers_v8.py`) that `make_numbers.py` does not write; `verify.py --full` compares it after removing that column.
+- (v1.1) the z-score column of `paper/tab_truth.tex` is now written by `make_numbers_v8.py`; `verify.py --full` no longer needs to strip it.
 
 | file | sha256 original | sha256 in this bundle |
 |---|---|---|

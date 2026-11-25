@@ -86,7 +86,7 @@ def main():
     def cls(f): return 'miscal' if f < 0.90 else ('calibrated' if 0.93 <= f <= 0.97 else 'other')
     ru = {}
     for (rc, d, tp, scaled), L in sorted(pred.items()):
-        A = np.array(L); t0 = truth[(d, tp)]; se = T[(d, tp)]['se']; grid = np.linspace(t0 - 1.96 * se, t0 + 1.96 * se, 81)
+        A = np.array(L); t0 = truth[(d, tp)]; se = T[(d, tp)]['se']; lo_, hi_ = t0 - 1.96 * se, t0 + 1.96 * se; br = np.unique(np.r_[lo_, hi_, A[:, 1:3].ravel()[(A[:, 1:3].ravel() >= lo_) & (A[:, 1:3].ravel() <= hi_)]]); grid = np.r_[br, (br[:-1] + br[1:]) / 2]  # exact extrema (2026-11-26): every breakpoint and every gap midpoint; was an 81-point grid
         fr = np.array([((A[:, 1] <= t) & (t <= A[:, 2])).mean() for t in grid]); c = {cls(f) for f in fr}
         ru[f'{rc}|{d}|{tp}|{"scaled" if scaled else "primary"}'] = dict(hit_at_point=float(((A[:, 1] <= t0) & (t0 <= A[:, 2])).mean()), hit_min=float(fr.min()), hit_max=float(fr.max()),
                                                                           verdict_classes=sorted(c), can_flip=len(c) > 1, truth_rel_se=se / t0)

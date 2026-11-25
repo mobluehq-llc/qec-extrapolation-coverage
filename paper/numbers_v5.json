@@ -680,7 +680,7 @@
   "how": "smallest hit fraction over reference +-1.96 se"
  },
  "r2b.hitmax.d7.t6": {
-  "value": "94",
+  "value": "95",
   "source": "results/L_r4p_bw.json (code/r4p_bw.py)",
   "how": "largest"
  },

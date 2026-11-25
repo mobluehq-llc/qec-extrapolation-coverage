@@ -36,7 +36,7 @@ def main():
     for (rc, d, tp, scaled), L in sorted(pred.items()):
         A = np.array(L); t = truth[(d, tp)]; hit = ((A[:, 1] <= t) & (t <= A[:, 2])); k = int(hit.sum()); lo, hi = cp(k, len(L))
         if not scaled and rc in ('R1', 'R2', 'R3', 'R4', 'R5') and ref[(rc, d, tp)] != k: bad.append((rc, d, tp, k, ref[(rc, d, tp)]))
-        se = T[(d, tp)]['se']; grid = np.linspace(t - 1.96 * se, t + 1.96 * se, 81)
+        se = T[(d, tp)]['se']; lo_, hi_ = t - 1.96 * se, t + 1.96 * se; br = np.unique(np.r_[lo_, hi_, A[:, 1:3].ravel()[(A[:, 1:3].ravel() >= lo_) & (A[:, 1:3].ravel() <= hi_)]]); grid = np.r_[br, (br[:-1] + br[1:]) / 2]  # exact extrema (2026-11-26): every breakpoint and every gap midpoint; was an 81-point grid
         fr = np.array([((A[:, 1] <= g) & (g <= A[:, 2])).mean() for g in grid]); cl = sorted({band(f) for f in fr})
         res[f'{rc}|{d}|{tp}|{"scaled" if scaled else "primary"}'] = dict(hits=k, reps=len(L), cov=k / len(L), cp_lo=lo, cp_hi=hi, band=band(k / len(L)),
             med_ratio=float(np.median(A[:, 0] / t)), hit_min=float(fr.min()), hit_max=float(fr.max()), classes=cl, truth_rel_se=se / t)

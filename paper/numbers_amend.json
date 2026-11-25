@@ -820,7 +820,7 @@
   "how": "smallest upper bound of hit fraction among the undecided registered cells"
  },
  "am.ru.flip.hitmax.max": {
-  "value": "95.7",
+  "value": "96.0",
   "source": "results/L_amend_gemini.json",
   "how": ""
  },
@@ -865,7 +865,7 @@
   "how": ""
  },
  "am.ru.R2.d7.t4.max": {
-  "value": "94.0",
+  "value": "94.3",
   "source": "results/L_amend_gemini.json",
   "how": ""
  },
@@ -885,7 +885,7 @@
   "how": ""
  },
  "am.ru.R2.d7.t5.max": {
-  "value": "94.0",
+  "value": "94.3",
   "source": "results/L_amend_gemini.json",
   "how": ""
  },
@@ -945,7 +945,7 @@
   "how": ""
  },
  "am.ru.R3.d7.t4.max": {
-  "value": "95.7",
+  "value": "96.0",
   "source": "results/L_amend_gemini.json",
   "how": ""
  },
@@ -965,7 +965,7 @@
   "how": ""
  },
  "am.ru.R3.d7.t5.max": {
-  "value": "95.7",
+  "value": "96.0",
   "source": "results/L_amend_gemini.json",
   "how": ""
  },
